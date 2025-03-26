@@ -83,6 +83,50 @@
   💡 **Example:** A cloud service provider experiences a network failure, causing users to lose access to critical applications.  
   ✅ **Solution:** Use **multi-cloud providers**, implement **failover systems**, and ensure **service level agreements (SLAs)** are in place with providers.
 
+# Identification, Authentication, and Authorization
+
+In the context of cybersecurity, **Identification**, **Authentication**, and **Authorization** are crucial concepts to ensure secure access to systems and data. Below is the explanation of each concept, along with both physical world and tech world scenarios for better understanding.
+
+## 1. Identification 🆔
+
+Identification is the process of claiming an identity. It is the first step in an access control system, where a user presents a credential (e.g., username, ID number) to prove who they are.
+
+### 💡 Example in the Physical World:
+
+Imagine you're going to a bank. The first thing the bank teller asks is for your **ID card**. You present your ID to **identify** yourself as a customer of the bank.
+
+### 🤖 Example in the Tech World:
+
+When you log into a website or an application, you are asked to provide your **username** or **email address**. This is the **identification** process where the system is trying to identify you as a user in its database. This could also be the case when you use **biometric scanners** on your phone to identify yourself by face or fingerprint.
+
+---
+
+## 2. Authentication 🔑
+
+Authentication is the process of verifying that the identity claimed during the identification process is valid. This can involve something the user knows (password), something they have (token, smartphone), or something they are (biometric data).
+
+### 💡 Example in the Physical World:
+
+After presenting your **ID card** (identification), the bank teller asks you to **enter your PIN** or **provide a signature**. This is the **authentication** process where the bank ensures that you are the rightful owner of the account.
+
+### 🤖 Example in the Tech World:
+
+In the tech world, after providing your **username**, the system will prompt you for your **password**. This process ensures that the person trying to log in is the legitimate user. If two-factor authentication (2FA) is enabled, you may be required to enter a **one-time code** sent to your phone or email, adding an extra layer of **authentication**.
+
+---
+
+## 3. Authorization 🛂
+
+Authorization is the process of granting or denying access to a system or resource based on the authenticated identity. It determines what actions a user can perform on the system, such as read, write, or delete data.
+
+### 💡 Example in the Physical World:
+
+After you are authenticated (with your **PIN** or **signature** at the bank), the bank teller will check your **account type** and grant you the appropriate access. For example, if you have a **savings account**, you might be authorized to withdraw money, but if you have a **checking account**, you might also be able to write checks. This is where the bank determines your **authorization** to perform specific actions based on your account type.
+
+### 🤖 Example in the Tech World:
+
+In a web application, once you’ve successfully logged in (authenticated), your account type (admin, user, guest, etc.) is checked to determine what actions you're allowed to perform. For example, a **regular user** may only be able to view data, while an **admin user** has permission to update or delete records. Access control lists (ACLs) or role-based access control (RBAC) are used to manage **authorization** in systems.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
