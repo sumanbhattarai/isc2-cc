@@ -330,7 +330,7 @@ Privacy refers to the protection of **personal information** collected, stored, 
 ### 🔍 **Types of Private Information**
 
 📌 **Personally Identifiable Information (PII)** – Data that can be tied to a specific person (e.g., name, address, Social Security number).  
-📌 **Protected Health Information (PHI)** – Healthcare records regulated under **HIPAA** (e.g., medical history, prescriptions).
+📌 **Protected Health Information (PHI)** – Healthcare records regulated under Health Insurance Portability and Accountability Act (**HIPAA**) (e.g., medical history, prescriptions).
 
 ---
 
