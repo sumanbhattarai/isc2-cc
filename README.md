@@ -113,8 +113,6 @@ Imagine you're going to a bank. The first thing the bank teller asks is for your
 
 When you log into a website or an application, you are asked to provide your **username** or **email address**. This is the **identification** process where the system is trying to identify you as a user in its database. This could also be the case when you use **biometric scanners** on your phone to identify yourself by face or fingerprint.
 
----
-
 ## 2. Authentication 🔑
 
 Authentication is the process of verifying that the identity claimed during the identification process is valid. This can involve something the user knows (password), something they have (token, smartphone), or something they are (biometric data).
@@ -126,8 +124,6 @@ After presenting your **ID card** (identification), the bank teller asks you to 
 ### 🤖 Example in the Tech World:
 
 In the tech world, after providing your **username**, the system will prompt you for your **password**. This process ensures that the person trying to log in is the legitimate user. If two-factor authentication (2FA) is enabled, you may be required to enter a **one-time code** sent to your phone or email, adding an extra layer of **authentication**.
-
----
 
 ## 3. Authorization 🛂
 
@@ -175,8 +171,6 @@ When setting a password policy for your organization, consider the following tec
 - Ensure a **quick and secure password change process** for users.
 - Avoid weak reset mechanisms that could allow unauthorized access.
 
----
-
 ### 🔐 **Password Management Best Practices**
 
 #### 6. **Avoid Password Reuse** 🔄
@@ -189,8 +183,6 @@ When setting a password policy for your organization, consider the following tec
 - **Password managers** securely store and create **unique passwords** for each site.
 - Protect password managers with **biometric security** mechanisms (e.g., fingerprint or facial recognition).
 - Allow users to store passwords securely without needing to memorize them.
-
----
 
 ### 📌 **Summary of Key Points**
 
@@ -229,8 +221,6 @@ Computer systems use different authentication techniques to verify user identiti
   - **Security key fobs**
   - **Smart cards**
 
----
-
 ### 🔑 **Why MFA is Important?**
 
 Each authentication factor has vulnerabilities:
@@ -241,8 +231,6 @@ Each authentication factor has vulnerabilities:
 
 By combining at least **two different factors**, MFA significantly improves security.
 
----
-
 ### 🛡️ **Multifactor Authentication (MFA) in Action**
 
 - Using a **password + security key** 🔐 (Something You Know + Something You Have)
@@ -250,8 +238,6 @@ By combining at least **two different factors**, MFA significantly improves secu
 - **Smart card + facial recognition** 🏦 (Something You Have + Something You Are)
 
 **🚫 Not MFA:** Combining **two knowledge-based factors** (e.g., password + security question) does not count as MFA.
-
----
 
 ### 🔄 **Single Sign-On (SSO) Explained**
 
@@ -261,8 +247,6 @@ By combining at least **two different factors**, MFA significantly improves secu
 - ✅ **Improves user experience** and efficiency.
 - ✅ **Can be integrated with MFA** for added security.
 - ❌ **If compromised, can give attackers broad access** to systems.
-
----
 
 ### 📌 **Key Takeaways**
 
@@ -282,15 +266,11 @@ By combining at least **two different factors**, MFA significantly improves secu
 - **Repudiation** = Denying an action was taken.
 - **Non-Repudiation** = Preventing false denials with proof.
 
----
-
 ### 🎭 **Real-World Example**
 
 Imagine **buying a car** for **$10,000** with just a handshake. Later, the seller might claim you only agreed to pay **$5,000**, or you could deny agreeing at all.
 
 ✅ **Solution:** A **signed contract** acts as proof, preventing either party from backing out of the agreement dishonestly.
-
----
 
 ### 💻 **Tech Example: Digital Signatures**
 
@@ -298,16 +278,12 @@ A company sends a **confidential contract** via email. Later, the sender denies 
 
 ✅ **Solution:** A **digital signature** confirms the sender’s identity and ensures the document wasn’t altered.
 
----
-
 ### 🛡️ **Non-Repudiation Techniques**
 
 🔏 **Digital Signatures** – Uses **encryption** to verify sender authenticity and prevent document tampering.  
 🛂 **Biometric Authentication** – Fingerprints, facial recognition, or retinal scans provide undeniable proof of identity.  
 📹 **Video Surveillance** – Captures **physical presence** at a location to prove access or actions.  
 📄 **Audit Logs** – Records **timestamped activities** on a system to track user actions.
-
----
 
 ### 📌 **Key Takeaways**
 
@@ -325,14 +301,10 @@ Privacy refers to the protection of **personal information** collected, stored, 
 2️⃣ Educating users about privacy risks.  
 3️⃣ Assisting **privacy officers** in securing data.
 
----
-
 ### 🔍 **Types of Private Information**
 
 📌 **Personally Identifiable Information (PII)** – Data that can be tied to a specific person (e.g., name, address, Social Security number).  
-📌 **Protected Health Information (PHI)** – Healthcare records regulated under Health Insurance Portability and Accountability Act (**HIPAA**) (e.g., medical history, prescriptions).
-
----
+📌 **Protected Health Information (PHI)** – Healthcare records regulated under **HIPAA** (e.g., medical history, prescriptions).
 
 ### ⚖️ **Reasonable Expectation of Privacy**
 
@@ -344,23 +316,17 @@ Privacy is based on the legal principle of **reasonable expectation of privacy**
 - **Private Messages (Some Privacy):** Emails and DMs have **some** expectation of privacy, but they can be intercepted.
 - **Government/Health Records (High Privacy):** Personal data given to **tax agencies, banks, and healthcare providers** should be **strictly protected**.
 
----
-
 ### 🌍 **Real-World Example**
 
 An employee **uses a company computer** to send a personal email, assuming it’s private. However, the employer **monitors network activity**, revealing the email.
 
 ✅ **Solution:** Employees should be informed that **company-owned systems** generally do **not** provide privacy protection.
 
----
-
 ### 💻 **Tech Example: Data Breaches**
 
 A **hospital leaks patient records** due to a cyberattack, violating **HIPAA** and patient privacy rights.
 
 ✅ **Solution:** Implement **encryption, access controls, and regular audits** to protect sensitive information.
-
----
 
 ### 🔐 **Best Practices for Privacy Protection**
 
@@ -370,14 +336,17 @@ A **hospital leaks patient records** due to a cyberattack, violating **HIPAA** a
 ✅ **Use strong authentication** to prevent unauthorized access.  
 ✅ **Regularly audit systems** for compliance with privacy laws.
 
----
-
 ### 📌 **Key Takeaways**
 
 - **Privacy laws like GDPR and HIPAA** set strict rules for handling personal data.
 - **Organizations must protect PII and PHI** from unauthorized access.
 - **Company-owned devices and networks are not private**—employers can monitor activity.
 - **Encryption and access controls** are essential for privacy protection.
+
+### 📌 **Terms**
+
+- **GDPR (General Data Protection Regulation):** A regulation in the European Union that mandates strict guidelines for data protection and privacy for all individuals within the EU.
+- **HIPAA (Health Insurance Portability and Accountability Act):** A U.S. law that ensures the privacy and security of individuals' medical information and sets standards for electronic health transactions.
 
 ---
 
