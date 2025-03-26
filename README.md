@@ -4,16 +4,12 @@
 
 (ISC)² (**International Information System Security Certification Consortium**) is a non-profit organization that provides cybersecurity certifications and professional development resources. It is best known for its **Certified Information Systems Security Professional (CISSP)** certification, along with other certifications like **CC, SSCP, CCSP, CSSLP, CISSP-ISSAP, CISSP-ISSEP, and CISSP-ISSMP**. (ISC)² focuses on improving cybersecurity standards and promoting ethical practices in the field.
 
----
-
 ## ⚖️ Code of Ethics Canons (Priority Order)
 
 1️⃣ **Protect society**, the common good, necessary public trust, and confidence.  
 2️⃣ **Act honorably**, honestly, justly, responsibly, and legally.  
 3️⃣ **Provide diligent and competent service** to principals (clients, employers, or organizations).  
 4️⃣ **Advance and protect the profession**.
-
----
 
 ## 🔐 CIA Triad: The Three Pillars of Cybersecurity
 
@@ -24,8 +20,6 @@
 - **🔏 Confidentiality** – Ensures that data is accessible only to authorized users and protects it from unauthorized access.
 - **🛡️ Integrity** – Ensures the accuracy and reliability of data by preventing unauthorized modifications.
 - **⚡ Availability** – Ensures that systems, networks, and data are accessible and operational when needed.
-
----
 
 ## 🚨 Confidentiality Threats & Solutions
 
@@ -49,8 +43,6 @@
   💡 **Example:** A hacker impersonates an IT technician and tricks an employee into revealing their password via email.  
   ✅ **Solution:** Conduct **security awareness training** to educate employees on recognizing and resisting manipulation tactics.
 
----
-
 ## 🔐 Integrity Concerns & Solutions
 
 - **❌ Unauthorized Modification** – Illegitimate changes to data that compromise its accuracy and reliability.  
@@ -68,6 +60,28 @@
 - **🔁 Replay Attack** – An attacker captures and reuses valid data transmission (e.g., login requests) to gain unauthorized access.  
   💡 **Example:** An attacker captures a user’s login session and replays it later to access the user’s account without their permission.  
   ✅ **Solution:** Implement **timestamps**, use **one-time tokens (OTPs)**, and enforce **session expiration policies**.
+
+## 🚨 Availability Threats & Solutions
+
+- **💻 DOS (Denial of Service)** – An attack that prevents legitimate users from accessing a system or service by overwhelming it with traffic.  
+  💡 **Example:** A DDoS attack floods a website with traffic, causing it to crash and making it unavailable for users.  
+  ✅ **Solution:** Use **rate limiting**, implement **firewalls**, and set up **intrusion detection systems (IDS)** to detect and block malicious traffic.
+
+- **🖥️ Hardware Failure** – Physical failure of a device or component, such as a hard drive, server, or network equipment, causing downtime.  
+  💡 **Example:** A hard drive failure causes a database to become inaccessible, disrupting services.  
+  ✅ **Solution:** Implement **regular backups**, use **redundant hardware** (e.g., RAID configurations), and ensure **disaster recovery** plans are in place.
+
+- **⚡ Power Outage** – Loss of electrical power, leading to system shutdowns and service interruptions.  
+  💡 **Example:** A power outage at a data center causes servers to go offline, making critical systems unavailable.  
+  ✅ **Solution:** Use **uninterruptible power supplies (UPS)**, set up **backup generators**, and have **regular power failure drills** for contingency planning.
+
+- **💥 Destruction** – Physical damage to infrastructure, such as fire, floods, or earthquakes, leading to data loss or service disruption.  
+  💡 **Example:** A fire at a data center destroys servers, causing a total loss of critical data and services.  
+  ✅ **Solution:** Implement **offsite backups**, use **cloud storage**, and ensure **disaster recovery plans** are in place to minimize impact.
+
+- **🌐 Service Outages** – Interruption of service due to issues with the service provider or internal system failures.  
+  💡 **Example:** A cloud service provider experiences a network failure, causing users to lose access to critical applications.  
+  ✅ **Solution:** Use **multi-cloud providers**, implement **failover systems**, and ensure **service level agreements (SLAs)** are in place with providers.
 
 ---
 
