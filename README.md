@@ -127,6 +127,136 @@ After you are authenticated (with your **PIN** or **signature** at the bank), th
 
 In a web application, once you’ve successfully logged in (authenticated), your account type (admin, user, guest, etc.) is checked to determine what actions you're allowed to perform. For example, a **regular user** may only be able to view data, while an **admin user** has permission to update or delete records. Access control lists (ACLs) or role-based access control (RBAC) are used to manage **authorization** in systems.
 
+## 🛡️ Password Security
+
+### 🔑 **Password Policy Controls**
+
+When setting a password policy for your organization, consider the following technical controls to enhance security:
+
+#### 1. **Password Length** 📏
+
+- **Minimum character length** (recommended: at least **8 characters**).
+- Longer passwords are more secure and harder to guess.
+
+#### 2. **Password Complexity** 🔠
+
+- Require different **character types**:
+  - **Uppercase** and **lowercase letters**
+  - **Digits**
+  - **Special characters** (e.g., @, #, $, etc.)
+- More character types = stronger password
+
+#### 3. **Password Expiration** ⏳
+
+- Force users to change passwords periodically (e.g., every **180 days**).
+- Some organizations no longer enforce expiration and allow passwords to stay unless compromised.
+
+#### 4. **Password History** 🕒
+
+- Prevent users from **reusing old passwords**.
+- Configure systems to remember previous passwords and block reuse.
+
+#### 5. **Password Reset Process** 🔄
+
+- Ensure a **quick and secure password change process** for users.
+- Avoid weak reset mechanisms that could allow unauthorized access.
+
+---
+
+### 🔐 **Password Management Best Practices**
+
+#### 6. **Avoid Password Reuse** 🔄
+
+- **Discourage password reuse** across multiple sites.
+- If a site is compromised, reused passwords could allow attackers to access other accounts.
+
+#### 7. **Use Password Managers** 🧳
+
+- **Password managers** securely store and create **unique passwords** for each site.
+- Protect password managers with **biometric security** mechanisms (e.g., fingerprint or facial recognition).
+- Allow users to store passwords securely without needing to memorize them.
+
+---
+
+### 📌 **Summary of Key Points**
+
+- **Longer and more complex passwords** are harder to guess.
+- **Periodic password changes** (or on suspicion of compromise) help enhance security.
+- **Password managers** help manage unique passwords without the need to remember each one.
+- **Avoid password reuse** to prevent attackers from exploiting compromises.
+
+## 🔐 Multifactor Authentication (MFA)
+
+### 🎭 **Understanding Authentication Factors**
+
+Computer systems use different authentication techniques to verify user identities. These techniques fall into three categories:
+
+#### 1️⃣ **Something You Know** 🧠
+
+- A **knowledge-based factor** that relies on information the user remembers.
+- Examples:
+  - **Passwords** (most common)
+  - **PINs (Personal Identification Numbers)**
+  - **Security Questions**
+
+#### 2️⃣ **Something You Are** 🧬
+
+- A **biometric factor** that uses physical or behavioral characteristics.
+- Examples:
+  - **Fingerprint** scanning
+  - **Facial recognition**
+  - **Voice recognition**
+
+#### 3️⃣ **Something You Have** 📱
+
+- A **possession-based factor** requiring a physical device.
+- Examples:
+  - **Smartphones** running authentication apps
+  - **Security key fobs**
+  - **Smart cards**
+
+---
+
+### 🔑 **Why MFA is Important?**
+
+Each authentication factor has vulnerabilities:
+
+- **Passwords can be stolen** via phishing or brute-force attacks.
+- **Biometric data can be spoofed** or fail under certain conditions.
+- **Physical devices can be lost** or stolen.
+
+By combining at least **two different factors**, MFA significantly improves security.
+
+---
+
+### 🛡️ **Multifactor Authentication (MFA) in Action**
+
+- Using a **password + security key** 🔐 (Something You Know + Something You Have)
+- **Fingerprint scan + PIN** 🔏 (Something You Are + Something You Know)
+- **Smart card + facial recognition** 🏦 (Something You Have + Something You Are)
+
+**🚫 Not MFA:** Combining **two knowledge-based factors** (e.g., password + security question) does not count as MFA.
+
+---
+
+### 🔄 **Single Sign-On (SSO) Explained**
+
+**SSO (Single Sign-On)** allows users to log in once and gain access to multiple systems without repeated authentication.
+
+- ✅ **Reduces login fatigue** for users.
+- ✅ **Improves user experience** and efficiency.
+- ✅ **Can be integrated with MFA** for added security.
+- ❌ **If compromised, can give attackers broad access** to systems.
+
+---
+
+### 📌 **Key Takeaways**
+
+- MFA **requires at least two different factors** (e.g., something you know & something you have).
+- **Passwords + security questions = NOT MFA** (both are knowledge-based).
+- **SSO simplifies authentication** but should be paired with **MFA for security**.
+- When evaluating MFA on the exam, **ensure the techniques belong to separate factor categories**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
