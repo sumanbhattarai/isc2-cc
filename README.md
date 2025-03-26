@@ -9,20 +9,10 @@
 - [🔐 Integrity Concerns & Solutions](#-integrity-concerns--solutions)
 - [🚨 Availability Threats & Solutions](#-availability-threats--solutions)
 - [🆔 Identification, Authentication, and Authorization](#-identification-authentication-and-authorization)
-  - [Identification 🆔](#1-identification-)
-  - [Authentication 🔑](#2-authentication-)
-  - [Authorization 🛂](#3-authorization-)
 - [🛡️ Password Security](#-password-security)
-  - [🔑 Password Policy Controls](#-password-policy-controls)
-  - [🔐 Password Management Best Practices](#-password-management-best-practices)
 - [🔐 Multifactor Authentication (MFA)](#-multifactor-authentication-mfa)
-  - [🎭 Understanding Authentication Factors](#-understanding-authentication-factors)
-  - [🔄 Single Sign-On (SSO) Explained](#-single-sign-on-sso-explained)
 - [📝 Non-Repudiation](#-non-repudiation)
-  - [🔍 What is Non-Repudiation?](#-what-is-non-repudiation)
-  - [🎭 Real-World Example](#-real-world-example)
-  - [💻 Tech Example: Digital Signatures](#-tech-example-digital-signatures)
-  - [🛡️ Non-Repudiation Techniques](#-non-repudiation-techniques)
+- [🔒 Privacy](#-privacy)
 
 ## 🔍 What is (ISC)²?
 
@@ -326,7 +316,7 @@ A company sends a **confidential contract** via email. Later, the sender denies 
 - **Audit logs, biometrics, and surveillance add extra layers of proof.**
 - **Non-repudiation supports legal and compliance requirements** in security policies.
 
-## 🔒 Privacy Cheatsheet
+## 🔒 Privacy
 
 ### 🧐 **What is Privacy?**
 
