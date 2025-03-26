@@ -302,6 +302,69 @@ A company sends a **confidential contract** via email. Later, the sender denies 
 - **Audit logs, biometrics, and surveillance add extra layers of proof.**
 - **Non-repudiation supports legal and compliance requirements** in security policies.
 
+## 🔒 Privacy Cheatsheet
+
+### 🧐 **What is Privacy?**
+
+Privacy refers to the protection of **personal information** collected, stored, and processed by organizations. IT professionals play a key role in safeguarding privacy by:  
+1️⃣ Protecting **their own private data**.  
+2️⃣ Educating users about privacy risks.  
+3️⃣ Assisting **privacy officers** in securing data.
+
+---
+
+### 🔍 **Types of Private Information**
+
+📌 **Personally Identifiable Information (PII)** – Data that can be tied to a specific person (e.g., name, address, Social Security number).  
+📌 **Protected Health Information (PHI)** – Healthcare records regulated under **HIPAA** (e.g., medical history, prescriptions).
+
+---
+
+### ⚖️ **Reasonable Expectation of Privacy**
+
+Privacy is based on the legal principle of **reasonable expectation of privacy**—whether a person **expects** their information to remain private.
+
+📖 **Examples:**
+
+- **Public Posts (No Privacy):** Social media posts are **public** and have **no expectation of privacy**.
+- **Private Messages (Some Privacy):** Emails and DMs have **some** expectation of privacy, but they can be intercepted.
+- **Government/Health Records (High Privacy):** Personal data given to **tax agencies, banks, and healthcare providers** should be **strictly protected**.
+
+---
+
+### 🌍 **Real-World Example**
+
+An employee **uses a company computer** to send a personal email, assuming it’s private. However, the employer **monitors network activity**, revealing the email.
+
+✅ **Solution:** Employees should be informed that **company-owned systems** generally do **not** provide privacy protection.
+
+---
+
+### 💻 **Tech Example: Data Breaches**
+
+A **hospital leaks patient records** due to a cyberattack, violating **HIPAA** and patient privacy rights.
+
+✅ **Solution:** Implement **encryption, access controls, and regular audits** to protect sensitive information.
+
+---
+
+### 🔐 **Best Practices for Privacy Protection**
+
+✅ **Encrypt sensitive communications** (emails, file transfers).  
+✅ **Limit access to private data** (only authorized personnel).  
+✅ **Educate users about privacy policies** and risks.  
+✅ **Use strong authentication** to prevent unauthorized access.  
+✅ **Regularly audit systems** for compliance with privacy laws.
+
+---
+
+### 📌 **Key Takeaways for ISC2-CC Exam**
+
+- **Privacy laws like GDPR and HIPAA** set strict rules for handling personal data.
+- **Organizations must protect PII and PHI** from unauthorized access.
+- **Company-owned devices and networks are not private**—employers can monitor activity.
+- **Encryption and access controls** are essential for privacy protection.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
