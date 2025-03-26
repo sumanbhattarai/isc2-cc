@@ -257,6 +257,51 @@ By combining at least **two different factors**, MFA significantly improves secu
 - **SSO simplifies authentication** but should be paired with **MFA for security**.
 - When evaluating MFA on the exam, **ensure the techniques belong to separate factor categories**.
 
+## 📝 Non-Repudiation
+
+### 🔍 **What is Non-Repudiation?**
+
+**Non-repudiation** ensures that an individual **cannot deny** performing a specific action. It provides **verifiable proof** that an action took place.
+
+📌 **Key Concept:**
+
+- **Repudiation** = Denying an action was taken.
+- **Non-Repudiation** = Preventing false denials with proof.
+
+---
+
+### 🎭 **Real-World Example**
+
+Imagine **buying a car** for **$10,000** with just a handshake. Later, the seller might claim you only agreed to pay **$5,000**, or you could deny agreeing at all.
+
+✅ **Solution:** A **signed contract** acts as proof, preventing either party from backing out of the agreement dishonestly.
+
+---
+
+### 💻 **Tech Example: Digital Signatures**
+
+A company sends a **confidential contract** via email. Later, the sender denies having sent it.
+
+✅ **Solution:** A **digital signature** confirms the sender’s identity and ensures the document wasn’t altered.
+
+---
+
+### 🛡️ **Non-Repudiation Techniques**
+
+🔏 **Digital Signatures** – Uses **encryption** to verify sender authenticity and prevent document tampering.  
+🛂 **Biometric Authentication** – Fingerprints, facial recognition, or retinal scans provide undeniable proof of identity.  
+📹 **Video Surveillance** – Captures **physical presence** at a location to prove access or actions.  
+📄 **Audit Logs** – Records **timestamped activities** on a system to track user actions.
+
+---
+
+### 📌 **Key Takeaways**
+
+- **Non-repudiation ensures accountability** and prevents false denials.
+- **Digital signatures provide cryptographic proof** of authenticity.
+- **Audit logs, biometrics, and surveillance add extra layers of proof.**
+- **Non-repudiation supports legal and compliance requirements** in security policies.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
