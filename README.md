@@ -1,5 +1,29 @@
 # 🎯 Cheatsheet to Success: (ISC)² CC Exam
 
+## 📖 Table of Contents
+
+- [🔍 What is (ISC)²?](#-what-is-isc²)
+- [⚖️ Code of Ethics Canons](#-code-of-ethics-canons-priority-order)
+- [🔐 CIA Triad: The Three Pillars of Cybersecurity](#-cia-triad-the-three-pillars-of-cybersecurity)
+- [🚨 Confidentiality Threats & Solutions](#-confidentiality-threats--solutions)
+- [🔐 Integrity Concerns & Solutions](#-integrity-concerns--solutions)
+- [🚨 Availability Threats & Solutions](#-availability-threats--solutions)
+- [🆔 Identification, Authentication, and Authorization](#-identification-authentication-and-authorization)
+  - [Identification 🆔](#1-identification-)
+  - [Authentication 🔑](#2-authentication-)
+  - [Authorization 🛂](#3-authorization-)
+- [🛡️ Password Security](#-password-security)
+  - [🔑 Password Policy Controls](#-password-policy-controls)
+  - [🔐 Password Management Best Practices](#-password-management-best-practices)
+- [🔐 Multifactor Authentication (MFA)](#-multifactor-authentication-mfa)
+  - [🎭 Understanding Authentication Factors](#-understanding-authentication-factors)
+  - [🔄 Single Sign-On (SSO) Explained](#-single-sign-on-sso-explained)
+- [📝 Non-Repudiation](#-non-repudiation)
+  - [🔍 What is Non-Repudiation?](#-what-is-non-repudiation)
+  - [🎭 Real-World Example](#-real-world-example)
+  - [💻 Tech Example: Digital Signatures](#-tech-example-digital-signatures)
+  - [🛡️ Non-Repudiation Techniques](#-non-repudiation-techniques)
+
 ## 🔍 What is (ISC)²?
 
 (ISC)² (**International Information System Security Certification Consortium**) is a non-profit organization that provides cybersecurity certifications and professional development resources. It is best known for its **Certified Information Systems Security Professional (CISSP)** certification, along with other certifications like **CC, SSCP, CCSP, CSSLP, CISSP-ISSAP, CISSP-ISSEP, and CISSP-ISSMP**. (ISC)² focuses on improving cybersecurity standards and promoting ethical practices in the field.
@@ -358,7 +382,7 @@ A **hospital leaks patient records** due to a cyberattack, violating **HIPAA** a
 
 ---
 
-### 📌 **Key Takeaways for ISC2-CC Exam**
+### 📌 **Key Takeaways**
 
 - **Privacy laws like GDPR and HIPAA** set strict rules for handling personal data.
 - **Organizations must protect PII and PHI** from unauthorized access.
