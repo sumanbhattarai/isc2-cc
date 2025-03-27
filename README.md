@@ -3,8 +3,8 @@
 # 📖 Table of Contents
 
 - [🔐 (ISC)²: Overview & Ethical Code in Cybersecurity](#-isc-overview--ethical-code-in-cybersecurity)
-- [⚖️ CIA Triad: The Three Pillars of Cybersecurity](#-cia-triad-the-three-pillars-of-cybersecurity)
-- [🛡️ Security Fundamentals: Access Control, Authentication, Privacy, and Password Management](#-security-fundamentals-access-control-authentication-privacy-and-password-management)
+- [⚖️ CIA Triad: The Three Pillars of Cybersecurity](#️-cia-triad-the-three-pillars-of-cybersecurity)
+- [🛡️ Security Fundamentals: Access Control, Authentication, Privacy, and Password Management](#️-security-fundamentals-access-control-authentication-privacy-and-password-management)
 
 # 🔐 (ISC)²: Overview & Ethical Code in Cybersecurity
 
