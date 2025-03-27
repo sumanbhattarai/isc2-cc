@@ -567,6 +567,49 @@ Security controls are categorized based on **purpose** and **mechanism of action
 - **Defense-in-depth** applies **multiple layers of security** to ensure protection.
 - Security teams must **balance different types of controls** to **create a robust security framework**.
 
+## ⚙️ Configuration Management
+
+Configuration management ensures that **device settings, operating systems, and software inventories** are **properly tracked and managed**.
+
+---
+
+### 📌 **Key Components of Configuration Management**
+
+#### 🔍 **1. Baselining**
+
+- A **baseline** is a **snapshot** of a system or application at a specific point in time.
+- **Purpose**:
+  - Identifies **unauthorized changes** by comparing the current system state to the baseline.
+  - Helps ensure changes follow the **approved change management process**.
+
+#### 🔢 **2. Versioning and Version Control**
+
+- Assigns **incrementing version numbers** to software updates.
+- Common format: **Major.Minor.Patch**
+  - **Major** (e.g., iOS 14) – Significant updates.
+  - **Minor** (e.g., iOS 14.1) – Feature enhancements.
+  - **Patch** (e.g., iOS 14.1.2) – Bug fixes and security updates.
+
+#### 🖼️ **3. Configuration Artifacts**
+
+- **Diagrams** help security professionals **visualize system design and configurations**.
+- Useful for **troubleshooting and incident response**.
+
+#### 🏷️ **4. Standardization**
+
+- **Naming conventions** for systems and devices **improve clarity**.
+- **IP address schemas** help quickly identify system locations on a network.
+
+### 🔑 **The Role of Change & Configuration Management**
+
+Change and configuration management work together to:
+
+- **Track hardware, software, and firmware** status.
+- **Ensure controlled changes** to minimize security risks.
+- **Support compliance and security investigations**.
+
+By maintaining **structured and well-documented configurations**, organizations **enhance security, improve troubleshooting, and reduce risks**. 🚀
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
