@@ -478,6 +478,44 @@ Cybersecurity professionals use **two methods** to assess risks:
 - **Use qualitative** (subjective) **or quantitative** (numerical) **techniques**.
 - **High likelihood + high impact** = **highest priority**!
 
+## 🔄 Risk Treatment
+
+Once an organization completes a **risk assessment**, it must decide how to handle each identified risk. **Risk treatment** involves selecting and implementing strategies to control risks effectively.
+
+### 🎯 **Four Risk Treatment Strategies**
+
+Organizations have **four primary options** for managing risks:
+
+| Strategy                 | Description                                                      | Example                                                                                   |
+| ------------------------ | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Risk Avoidance** 🚫    | Eliminating the risk by **changing business practices**.         | Moving a **data center** to a location **without flood risk**.                            |
+| **Risk Transference** 🔄 | Shifting the financial impact of the risk to **another entity**. | Purchasing **cyber insurance** to cover financial losses from security breaches.          |
+| **Risk Mitigation** 🔧   | Taking **measures to reduce** risk likelihood or impact.         | Installing **flood barriers** to protect a data center.                                   |
+| **Risk Acceptance** ✅   | Accepting the risk when **mitigation costs outweigh benefits**.  | Choosing to **keep operations in a flood-prone area** and handling damages if they occur. |
+
+📌 **Note:**
+
+- **Risk transference** (e.g., insurance) does not eliminate reputational damage.
+- **Risk acceptance** should only be done after a **thoughtful cost-benefit analysis**.
+
+### 📊 **Understanding Organizational Risk Profiles**
+
+Each organization faces a **unique combination of risks**, known as its **risk profile**. Organizations implement **risk management strategies** to handle these risks.
+
+| Risk Type            | Description                                                                                              |
+| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Inherent Risk** 🎭 | The risk level **before any security controls** are in place.                                            |
+| **Residual Risk** 🏗️ | The remaining risk **after applying security controls**.                                                 |
+| **Control Risk** ⚠️  | The **new risks introduced by security controls**. _(e.g., a firewall reduces risk but may fail itself)_ |
+
+✅ **The goal of risk management** is to ensure that the **combination of residual risk and control risk** remains **below the organization's risk tolerance**.
+
+### 🎯 **Key Takeaways**
+
+- **Four main risk treatments**: **Avoidance, Transference, Mitigation, and Acceptance**.
+- **Risk management is ongoing** and must align with the organization's **risk profile**.
+- **Risk controls can introduce new risks**, so organizations must continuously **evaluate and adjust** their risk treatment strategies.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
