@@ -413,6 +413,71 @@ Non-compliance with **software license agreements** can expose organizations to 
 - Organizations should actively **audit legacy systems**, implement **strong security controls**, and ensure **IP protection**.
 - **Software license compliance** is crucial for avoiding penalties.
 
+## 📊 Risk Assessment
+
+### 🔎 **Understanding Risk Assessment**
+
+Risk assessment helps cybersecurity professionals **identify, prioritize, and manage risks** based on **likelihood** and **impact**. The goal is to **allocate resources efficiently** to maximize security benefits.
+
+### ⚠️ **Key Risk Concepts**
+
+To assess risks effectively, it's essential to distinguish between **threats, vulnerabilities, and risks**:
+
+| Term                 | Definition                                                 | Example                                                                        |
+| -------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Threat** ⚠️        | An external force that can harm systems.                   | Hackers, hurricanes, malware.                                                  |
+| **Threat Vector** 🛠️ | The method an attacker uses to exploit a system.           | Phishing, malware, social engineering.                                         |
+| **Vulnerability** 🔓 | A weakness in security controls that a threat can exploit. | Unpatched software, weak passwords.                                            |
+| **Risk** 🚨          | The **combination** of a threat and a vulnerability.       | If a new virus is released and your antivirus is outdated, there’s a **risk**. |
+
+**No Risk Exists If Either a Threat or a Vulnerability Is Missing**  
+✅ If your building is far from the coast, a **hurricane threat doesn’t apply**.  
+✅ If you store backup tapes in a **fireproof safe**, fire isn’t a risk to the data.
+
+### 📌 **Risk Assessment Process**
+
+1️⃣ **Identify Risks** → List out **all** threats, vulnerabilities, and potential risks.  
+2️⃣ **Analyze Risks** → Rank risks based on **likelihood** and **impact**.  
+3️⃣ **Prioritize Risks** → Focus on risks with the **highest likelihood and impact**.
+
+**🔢 Likelihood vs. Impact Example**
+
+- **Likelihood**: Probability of the risk occurring.
+  - Earthquakes are more likely in **California** than in **Wisconsin**.
+- **Impact**: Potential damage if the risk occurs.
+  - An **earthquake** can destroy a **data center**, while a **rainstorm** might not cause any harm.
+
+### 📈 **Risk Assessment Techniques**
+
+Cybersecurity professionals use **two methods** to assess risks:
+
+| Method              | Description                                                                 | Example                                                                           |
+| ------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **Qualitative** 📝  | Uses **subjective** judgment to classify risks as **low, medium, or high**. | A company ranks **cyberattacks** as **high impact, high probability**.            |
+| **Quantitative** 📊 | Uses **numerical** values to measure risk (often in financial terms).       | An **insurance company** calculates the **monetary loss** from a security breach. |
+
+#### 🎯 **Qualitative Risk Assessment Chart**
+
+| Impact            | Low Likelihood | Medium Likelihood | High Likelihood |
+| ----------------- | -------------- | ----------------- | --------------- |
+| **Low Impact**    | Low Risk       | Low Risk          | Medium Risk     |
+| **Medium Impact** | Low Risk       | Medium Risk       | High Risk       |
+| **High Impact**   | Medium Risk    | High Risk         | High Risk       |
+
+📌 A **High Likelihood + High Impact** risk is a **priority**! 🚨
+
+📢 **Note:**
+
+- **CC Exam Focus:** Understand risk concepts & assessment methods.
+- **Advanced Certifications (CISSP, etc.):** Cover detailed **quantitative risk calculations**.
+
+### ✅ **Key Takeaways**
+
+- **Risk = Threat + Vulnerability**
+- **Prioritize risks** by analyzing **likelihood & impact**.
+- **Use qualitative** (subjective) **or quantitative** (numerical) **techniques**.
+- **High likelihood + high impact** = **highest priority**!
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
