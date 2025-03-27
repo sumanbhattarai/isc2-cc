@@ -6,6 +6,7 @@
 - [🔐 (ISC)²: Overview & Ethical Code in Cybersecurity](#-isc-overview--ethical-code-in-cybersecurity)
 - [⚖️ CIA Triad: The Three Pillars of Cybersecurity](#️-cia-triad-the-three-pillars-of-cybersecurity)
 - [🛡️ Security Fundamentals: Access Control, Authentication, Privacy, and Password Management](#️-security-fundamentals-access-control-authentication-privacy-and-password-management)
+- [⚠️ Risk Analysis and Management](#️-risk-analysis-and-management)
 
 # 🔐 (ISC)²: Overview & Ethical Code in Cybersecurity
 
@@ -345,7 +346,7 @@ A **hospital leaks patient records** due to a cyberattack, violating **HIPAA** a
 - **GDPR (General Data Protection Regulation):** A regulation in the European Union that mandates strict guidelines for data protection and privacy for all individuals within the EU.
 - **HIPAA (Health Insurance Portability and Accountability Act):** A U.S. law that ensures the privacy and security of individuals' medical information and sets standards for electronic health transactions.
 
-# ⚠️ Risk Management
+# ⚠️ Risk Analysis and Management
 
 ## ℹ️ Understanding Risks
 
