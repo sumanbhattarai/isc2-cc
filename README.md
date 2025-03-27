@@ -516,6 +516,57 @@ Each organization faces a **unique combination of risks**, known as its **risk p
 - **Risk management is ongoing** and must align with the organization's **risk profile**.
 - **Risk controls can introduce new risks**, so organizations must continuously **evaluate and adjust** their risk treatment strategies.
 
+## 🛡️ Selecting Security Controls
+
+Security professionals implement **security controls** to counteract risks identified in **risk assessments**. These controls aim to:
+
+- **Reduce** the likelihood of a security breach.
+- **Minimize** the impact if a breach occurs.
+- **Detect** security incidents when they happen.
+
+A **real-world analogy** is **home security**, where **locks, alarms, security cameras, and lighting** work together to protect a home.
+
+### 🔁 **Defense-in-Depth Strategy**
+
+Organizations **layer multiple security controls** to **reduce single points of failure**.  
+Example:
+
+- If an **alarm system fails**, **security cameras** still provide evidence.
+
+### 🔍 **Categories of Security Controls**
+
+Security controls are categorized based on **purpose** and **mechanism of action**.
+
+### 📌 **1. Purpose-Based Categories**
+
+| Control Type      | Description                                   | Example                                                   |
+| ----------------- | --------------------------------------------- | --------------------------------------------------------- |
+| **Preventive** 🚧 | Stops security issues **before they happen**. | Firewalls blocking **unwanted traffic**.                  |
+| **Detective** 🔍  | Identifies potential **security breaches**.   | **Intrusion Detection System (IDS)** detecting anomalies. |
+| **Recovery** 🔄   | Fixes security issues **after they occur**.   | Restoring **backups** after a ransomware attack.          |
+
+📌 **Ransomware Example:**
+
+- **Preventive Control**: **System hardening** to block ransomware infections.
+- **Detective Control**: **Antivirus scans** to detect ransomware activity.
+- **Recovery Control**: **Backups** to restore lost data.
+
+### 🖥️ **2. Mechanism-Based Categories**
+
+| Control Type               | Description                                  | Example                                                     |
+| -------------------------- | -------------------------------------------- | ----------------------------------------------------------- |
+| **Technical (Logical)** 🔐 | Uses **technology** to enforce security.     | **Firewalls, encryption, IDS, antivirus**.                  |
+| **Administrative** 📜      | Uses **policies, training, and procedures**. | **User access reviews, log monitoring, security training**. |
+| **Physical** 🚪            | Uses **physical barriers** for security.     | **Locks, security guards, cameras**.                        |
+
+📌 **Exam Tip:** **Technical controls** are sometimes called **Logical controls**.
+
+### 🔑 **Key Takeaways**
+
+- Security controls are categorized by **purpose (Preventive, Detective, Recovery)** and **mechanism (Technical, Administrative, Physical)**.
+- **Defense-in-depth** applies **multiple layers of security** to ensure protection.
+- Security teams must **balance different types of controls** to **create a robust security framework**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
