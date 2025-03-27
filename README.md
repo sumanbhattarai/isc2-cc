@@ -345,6 +345,74 @@ A **hospital leaks patient records** due to a cyberattack, violating **HIPAA** a
 - **GDPR (General Data Protection Regulation):** A regulation in the European Union that mandates strict guidelines for data protection and privacy for all individuals within the EU.
 - **HIPAA (Health Insurance Portability and Accountability Act):** A U.S. law that ensures the privacy and security of individuals' medical information and sets standards for electronic health transactions.
 
+# ⚠️ Risk Management
+
+## ℹ️ Understanding Risks
+
+### 🔎 **Types of Risks**
+
+Cybersecurity professionals must **manage various types of risks** to protect organizational information and assets. Let's break down the **different categories** of risks:
+
+### 🏢 **Internal Risks**
+
+Internal risks arise **within** the organization, often from weaknesses in processes or procedures.  
+**Example:** If the process for issuing checks is susceptible to fraud, it’s an internal risk.
+
+**Mitigation Strategy:**
+
+- Implement **internal controls** (e.g., requiring two-person approval for checks).
+
+### 🌐 **External Risks**
+
+External risks come from **outside** the organization, such as threats from hackers or cybercriminals.  
+**Example:** A **ransomware attack** targeting the organization is an external risk.
+
+**Mitigation Strategy:**
+
+- Use **multifactor authentication**.
+- Educate employees on **social engineering** threats.
+
+### 🤝 **Multi-Party Risks**
+
+These risks impact **multiple organizations** simultaneously.  
+**Example:** A **Software as a Service (SaaS)** provider gets compromised, affecting all its customers.
+
+**Mitigation Strategy:**
+
+- Ensure proper **third-party risk management** and **SaaS provider security assessments**.
+
+### 🕰️ **Legacy System Risks**
+
+Older systems, especially those no longer supported by the manufacturer, present unique risks.
+
+**Mitigation Strategy:**
+
+- Replace outdated systems with modern solutions.
+- Implement **security controls** to minimize risks associated with legacy systems.
+
+### 🧠 **Intellectual Property (IP) Risks**
+
+Intellectual property theft, alteration, or destruction can cause significant damage to organizations that depend on **IP** for business value.
+
+**Mitigation Strategy:**
+
+- Protect IP with **encryption, access controls**, and **regular audits**.
+
+### 📜 **Software License Compliance Risks**
+
+Non-compliance with **software license agreements** can expose organizations to legal and financial penalties.
+
+**Mitigation Strategy:**
+
+- Use **license monitoring software** to track and ensure compliance with software licenses.
+
+### 📌 **Key Takeaways**
+
+- **Internal and external risks** need distinct management strategies.
+- **Multi-party risks** require monitoring of **third-party vendor relationships**.
+- Organizations should actively **audit legacy systems**, implement **strong security controls**, and ensure **IP protection**.
+- **Software license compliance** is crucial for avoiding penalties.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
