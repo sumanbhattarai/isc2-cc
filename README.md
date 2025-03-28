@@ -611,6 +611,44 @@ Change and configuration management work together to:
 
 By maintaining **structured and well-documented configurations**, organizations **enhance security, improve troubleshooting, and reduce risks**. 🚀
 
+# Security Governance
+
+## ⚖️ Regulations and Laws
+
+Organizations handling **sensitive information** must comply with various **laws and regulations** governing how data is **stored, processed, and transmitted**. However, determining which laws apply can be **complex** and **impact an organization's risk posture**.
+
+### 🌎 **Jurisdictional Challenges in Data Compliance**
+
+- **Multiple jurisdictions may have authority over the same data.**
+- **Example Scenario:**
+  - A company operates in **California** → Must comply with **California state law** and **U.S. federal law**.
+  - If they have a **customer in New York**, does **New York law** apply?
+  - If they use a **cloud provider in Texas**, does **Texas law** govern their data?
+  - If the cloud provider outsources storage to **Florida**, then what?
+  - **International concerns**: The **European Union’s GDPR** applies to **all EU residents' data**, no matter where the company is located.
+
+#### 🏛️ **Types of Regulations**
+
+##### 📜 **1. Government-Imposed Laws**
+
+- **General Data Protection Regulation (GDPR)** → Protects personal data of **EU residents**.
+- **U.S. Federal & State Laws** → Example: **California Consumer Privacy Act (CCPA)** for data privacy.
+- **Other national and territory-specific laws** may also apply.
+
+##### 💳 **2. Industry Regulations**
+
+- **Payment Card Industry Data Security Standard (PCI DSS)**
+  - A **self-regulatory** standard governing **credit card transactions** worldwide.
+  - **Enforced by banks** that provide payment processing services.
+
+### 🔎 **Navigating Legal Risks**
+
+- **Organizations must identify all relevant laws & regulations** that apply to their business.
+- **Jurisdictional conflicts require legal expertise** → Consult with **attorneys** to develop a **compliance strategy**.
+- **Failure to comply** with data regulations can lead to **legal penalties, financial losses, and reputational damage**.
+
+By proactively managing **regulatory compliance**, businesses can **reduce risk, protect customer data, and maintain trust**. ✅
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
