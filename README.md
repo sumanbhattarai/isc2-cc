@@ -759,8 +759,6 @@ Organizations need **security policies** to **govern the use, protection, and ma
 
 - _Employees using personal devices for work must enable device encryption and install security software._
 
----
-
 ### 🛡️ 5. Privacy Policy
 
 - Communicates how **personal data is collected, stored, and processed**.
@@ -780,8 +778,6 @@ Organizations need **security policies** to **govern the use, protection, and ma
 #### ✅ Example:
 
 - _All software updates must be tested in a staging environment before deployment._
-
----
 
 ### 🎯 **Key Takeaways:**
 
