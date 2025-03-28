@@ -956,6 +956,7 @@ Fault Tolerance is designed to **prevent individual system failures** by making 
    - Servers often have **dual power supplies**.
    - **Uninterruptible Power Supplies (UPS)** provide battery backup.
    - **Generators** support long-term power loss.
+   - Managed power distribution units, or PDUs, work to manage the power within a rack of servers, ensuring that the power delivered to devices is clean and conditioned
 
 2. **Storage Redundancy (RAID)**
 
