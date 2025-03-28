@@ -986,7 +986,7 @@ Fault Tolerance is designed to **prevent individual system failures** by making 
 
 By combining **HA and FT**, organizations **maximize uptime and minimize the risk of catastrophic failures**. ✅
 
-# Incident Response
+# 🏹 Incident Response
 
 ## 🚨 Build an Incident Response Program
 
@@ -1042,6 +1042,50 @@ Instead of **reinventing the wheel**, organizations can reference **existing** I
 | **Senior Management Approval** | Authorizes critical security decisions.              |
 
 🚀 **A well-prepared incident response plan is the foundation of an effective cybersecurity defense.** Plan ahead—don’t wait for an attack to find out you're unprepared! 🔐
+
+## 🛡️ Create an Incident Response Team
+
+A **well-structured Incident Response (IR) team** is crucial for managing cybersecurity incidents effectively. The team should be available **24/7**, with **primary and backup personnel** to ensure continuous coverage.
+
+### 👥 **Key Roles in the IR Team**
+
+An effective IR team consists of members from **various departments**, each bringing specialized expertise:
+
+| **Role**                       | **Responsibilities**                                                                            |
+| ------------------------------ | ----------------------------------------------------------------------------------------------- |
+| **Management**                 | Provides leadership and decision-making authority.                                              |
+| **Information Security**       | Leads technical response efforts and forensic analysis.                                         |
+| **Technical Experts**          | Includes database administrators, system engineers, developers, and virtualization specialists. |
+| **Legal Counsel**              | Ensures compliance with laws and regulations.                                                   |
+| **Public Affairs & Marketing** | Manages external communication and reputation.                                                  |
+| **Human Resources (HR)**       | Addresses employee-related incidents, including insider threats.                                |
+| **Physical Security**          | Handles facility security breaches.                                                             |
+
+🔹 **Not all team members will be involved in every incident**, but they should be **trained and ready** to participate when needed.
+
+### 🏋️ **Training & Readiness**
+
+- **Distribute** the **Incident Response Plan** to all team members.
+- **Conduct regular training** to simulate real-world incidents.
+- **Perform periodic testing** to ensure the team can react **quickly and efficiently**.
+
+### 🔍 **External Support & Third-Party Providers**
+
+If the organization lacks certain **forensic or incident response capabilities**, consider **pre-arranging contracts** with **external providers**.
+
+🚨 **Key Tip:**  
+❌ **Don’t wait until an incident occurs** to find and negotiate with an external response team.  
+✅ **Plan ahead** to ensure **immediate access** to external expertise.
+
+### 🔑 **Key Takeaways**
+
+| **Action**                       | **Purpose**                                 |
+| -------------------------------- | ------------------------------------------- |
+| **Assemble a diverse team**      | Ensures comprehensive incident handling.    |
+| **Train regularly**              | Prepares the team for real-world incidents. |
+| **Pre-arrange external support** | Avoids delays in getting expert assistance. |
+
+🚀 **A well-prepared Incident Response Team is your organization's first line of defense against cyber threats!** 🔐
 
 ---
 
