@@ -1087,6 +1087,79 @@ If the organization lacks certain **forensic or incident response capabilities**
 
 🚀 **A well-prepared Incident Response Team is your organization's first line of defense against cyber threats!** 🔐
 
+## 📢 Incident Communications Plan
+
+A **well-defined communications plan** is a critical component of incident response, ensuring **timely and secure communication** both **internally** and **externally** while protecting sensitive information.
+
+### 🔄 **Internal Communication & Escalation**
+
+An **incident notification and escalation procedure** ensures that **the right people** receive **the right information at the right time**.
+
+✅ **Key Considerations:**
+
+- Clearly define **who** needs to be notified at each stage.
+- Establish **secure** communication channels to prevent leaks.
+- Maintain **incident confidentiality** to avoid tipping off attackers.
+
+### 🌍 **External Communication & Media Management**
+
+External communication is **tricky** and must be **carefully controlled** to protect the organization’s reputation and security.
+
+⚠️ **Risks of Uncontrolled Information Release:**
+
+- The incident may become public **before PR teams** can respond.
+- Attackers may be alerted that the breach has been detected.
+- Investigation integrity may be **compromised**.
+
+✅ **Mitigation Strategies:**
+
+- **Limit sensitive details** to **trusted** third parties.
+- Involve **public relations (PR) teams** for media statements.
+- **Pre-approve** spokespersons who can handle external inquiries.
+
+### 🚔 **Law Enforcement & Legal Considerations**
+
+In **most cases, organizations are not legally required** to report security incidents to law enforcement. However, reporting has **implications:**
+
+| **Factor**                  | **Impact**                                                       |
+| --------------------------- | ---------------------------------------------------------------- |
+| **Public Exposure**         | Law enforcement reports **may become public**.                   |
+| **Investigation Standards** | Officials must **follow strict evidence collection** procedures. |
+| **Legal Obligations**       | Some incidents **must** be reported under privacy laws.          |
+
+**🚨 Contact Law Enforcement If:**
+
+- **There is a threat to safety.**
+- **You are legally required** to report the incident.
+
+💼 **Consult your legal team** for guidance on laws and regulations that require notifications to:
+
+- Government agencies
+- Private regulatory bodies
+- Customers
+- The public
+
+### 🔐 **Secure Communication Channels**
+
+It's essential to **set up secure communication paths** before an incident occurs to protect confidential information.
+
+✅ **Best Practices:**
+
+- Use **encrypted messaging platforms** for sensitive discussions.
+- Ensure incident response **teams have pre-established secure channels**.
+- Regularly **review and test** communication security protocols.
+
+### 📌 **Key Takeaways**
+
+| **Action**                            | **Purpose**                                                         |
+| ------------------------------------- | ------------------------------------------------------------------- |
+| **Define escalation procedures**      | Ensures timely notification of key personnel.                       |
+| **Control external messaging**        | Protects the organization's reputation and investigation integrity. |
+| **Consult legal teams**               | Ensures compliance with regulatory requirements.                    |
+| **Use secure communication channels** | Prevents leaks and unauthorized access to incident details.         |
+
+🚀 **A well-planned communications strategy is vital for incident response success!** 🔐
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
