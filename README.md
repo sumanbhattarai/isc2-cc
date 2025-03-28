@@ -649,6 +649,70 @@ Organizations handling **sensitive information** must comply with various **laws
 
 By proactively managing **regulatory compliance**, businesses can **reduce risk, protect customer data, and maintain trust**. ✅
 
+## 🛡️ Security Policy Framework
+
+Security professionals rely on **written documents** to **communicate security expectations and responsibilities**. These documents fall under the **Security Policy Framework**, which consists of four types:
+
+### 📜 Policies (Mandatory)
+
+- **Foundation of an organization's security program**.
+- Define **high-level security expectations**.
+- Approved at the **highest levels** of the organization.
+- **Must stand the test of time** → Avoid overly specific details.
+
+#### ✅ **Good Policy Statement:**
+
+- _Sensitive information must be encrypted, both at rest and in transit, using technology approved by the IT department._
+
+#### ❌ **Bad Policy Statement:**
+
+- _All sensitive information must be encrypted with AES-256 encryption._
+  - **Why?** If encryption technology changes, the policy must be updated.
+
+### 🏗️ Standards (Mandatory)
+
+- **Specific security controls** that organizations must follow.
+- Derived from **policies** and enforced by IT/security teams.
+- Define **approved encryption algorithms, storage locations, and configuration parameters**.
+- Can **change over time** but must be **followed**.
+
+#### 🔧 **Example:**
+
+- _Encryption must use AES-256 or an equivalent method approved by IT._
+
+### 📖 Guidelines (Optional)
+
+- **Best practices and recommendations**.
+- **Not mandatory**, but **strongly encouraged**.
+- Helps employees make **security-conscious decisions**.
+
+#### 💡 **Example:**
+
+- _Employees should use encrypted wireless networks whenever available._
+
+### 🛠️ Procedures (Mandatory or Optional)
+
+- **Step-by-step instructions** for specific tasks.
+- Can be **mandatory or optional**, depending on the organization.
+
+#### 🔄 **Example:**
+
+- _Incident response procedure:_
+  1. **Send urgent text alerts** to the response team.
+  2. **Activate a video conference** for coordination.
+  3. **Inform senior management** immediately.
+
+### 🎯 **Key Takeaways for Compliance:**
+
+| Document Type  | Compliance    | Purpose                                 |
+| -------------- | ------------- | --------------------------------------- |
+| **Policies**   | **Mandatory** | Define high-level security expectations |
+| **Standards**  | **Mandatory** | Define specific technical controls      |
+| **Guidelines** | **Optional**  | Provide security best practices         |
+| **Procedures** | **Varies**    | Step-by-step instructions for tasks     |
+
+Understanding these **four document types** is essential for **security governance** and **compliance management**. ✅
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
