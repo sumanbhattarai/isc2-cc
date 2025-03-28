@@ -871,6 +871,63 @@ In **cloud-based infrastructures**, business continuity involves collaboration b
 
 A **well-structured BCP** ensures organizations remain **resilient** and can recover quickly from any disruption. ✅
 
+## 🛡️ Business Continuity Controls
+
+**Business Continuity Controls** help organizations **maintain availability** by preventing system failures and ensuring operations continue despite disruptions. One of the key strategies is **redundancy**, which eliminates **single points of failure (SPOF)** that could bring down critical systems.
+
+### 🔍 **Identifying & Eliminating Single Points of Failure (SPOF)**
+
+A **Single Point of Failure (SPOF)** is a **critical component** that, if it fails, disrupts the entire system. Security professionals use **SPOF analysis** to identify and mitigate these risks.
+
+#### 🖥️ **Example: Web Application Infrastructure**
+
+| **Component**     | **SPOF Risk**                              | **Redundancy Solution**                          |
+| ----------------- | ------------------------------------------ | ------------------------------------------------ |
+| **Web Server**    | Failure stops the web service              | Use **server clustering** (multiple web servers) |
+| **Firewall**      | Firewall failure blocks internet access    | Deploy **high-availability (HA) firewalls**      |
+| **Network Links** | Internet disconnection due to link failure | Implement **dual network connections**           |
+
+👉 **Solution:** Implementing **failover mechanisms** ensures uninterrupted service when failures occur.
+
+### 🛠️ **Key Business Continuity Controls**
+
+#### ✅ **Redundancy & High Availability (HA)**
+
+- **Server Clustering** – Multiple servers handle the same task, preventing downtime.
+- **Load Balancers** – Distribute traffic across multiple servers to prevent overload.
+- **High-Availability Firewalls** – Backup firewall takes over if the primary one fails.
+- **Dual Network Links** – Ensures uninterrupted connectivity in case one connection fails.
+
+#### ✅ **IT Contingency Planning**
+
+Organizations should consider **all risks** that might **jeopardize business continuity**, beyond just IT failures.
+
+| **Risk**                  | **Mitigation Strategy**                            |
+| ------------------------- | -------------------------------------------------- |
+| Vendor bankruptcy         | Multi-vendor strategy, alternate suppliers         |
+| Storage capacity shortage | Cloud-based auto-scaling storage                   |
+| Utility service failures  | Backup power generators, redundant ISPs            |
+| Cyberattacks              | Web application firewalls, incident response plans |
+
+#### ✅ **Personnel Succession Planning**
+
+- **IT teams rely on skilled professionals** for system maintenance and security.
+- Organizations must identify **key personnel** and train **backup employees**.
+- **Collaboration with HR** ensures smooth transitions when essential employees leave.
+
+👉 **Example:** If the **lead cybersecurity engineer** resigns, their replacement should already be trained to take over seamlessly.
+
+### 🎯 **Key Takeaways**
+
+| **Control**              | **Purpose**                                           |
+| ------------------------ | ----------------------------------------------------- |
+| **SPOF Analysis**        | Identifies and removes single points of failure       |
+| **Redundancy & HA**      | Ensures backup systems take over if primary ones fail |
+| **Contingency Planning** | Addresses various risks beyond IT failures            |
+| **Succession Planning**  | Prepares backup personnel for critical roles          |
+
+By implementing **strong business continuity controls**, organizations **reduce downtime, minimize risks, and ensure operational resilience**. ✅
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
