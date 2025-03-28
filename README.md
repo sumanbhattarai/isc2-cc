@@ -7,6 +7,7 @@
 - [⚖️ CIA Triad: The Three Pillars of Cybersecurity](#️-cia-triad-the-three-pillars-of-cybersecurity)
 - [🛡️ Security Fundamentals: Access Control, Authentication, Privacy, and Password Management](#️-security-fundamentals-access-control-authentication-privacy-and-password-management)
 - [⚠️ Risk Analysis and Management](#️-risk-analysis-and-management)
+- [📜 Security Governance and Legal Regulations](#️-security-governance-and-legal-regulations)
 
 # 🔐 (ISC)²: Overview & Ethical Code in Cybersecurity
 
@@ -611,7 +612,7 @@ Change and configuration management work together to:
 
 By maintaining **structured and well-documented configurations**, organizations **enhance security, improve troubleshooting, and reduce risks**. 🚀
 
-# Security Governance
+# 📜 Security Governance and Legal Regulations
 
 ## ⚖️ Regulations and Laws
 
