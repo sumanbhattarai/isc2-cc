@@ -928,6 +928,63 @@ Organizations should consider **all risks** that might **jeopardize business con
 
 By implementing **strong business continuity controls**, organizations **reduce downtime, minimize risks, and ensure operational resilience**. ✅
 
+## 🏗️ High Availability and Fault Tolerance
+
+High Availability (**HA**) and Fault Tolerance (**FT**) are two key strategies used to improve **system availability** and **prevent failures**.
+
+### 🔄 High Availability (HA)
+
+**HA ensures that systems remain operational even when individual components fail.** It achieves this by using multiple, **redundant** systems that can take over if one fails.
+
+#### 🔹 **Examples of High Availability Techniques**
+
+- **Server Clustering** – Multiple web servers handle requests to prevent downtime.
+- **Failover Firewalls** – Secondary firewall takes over if the primary one fails.
+- **Geographic Redundancy** – Deploying systems across different locations to protect against site failures.
+
+👉 **HA vs. Load Balancing:**  
+While HA ensures **backup systems** take over during failure, **load balancing** distributes traffic across multiple systems to optimize performance. Most modern **clustering solutions** integrate both HA and load balancing.
+
+### ⚙️ Fault Tolerance (FT)
+
+Fault Tolerance is designed to **prevent individual system failures** by making **critical components resilient**. Instead of relying on redundancy at the system level (like HA), FT strengthens **core system components**.
+
+#### 🔹 **Key Fault Tolerance Mechanisms**
+
+1. **Power Supply Redundancy**
+
+   - Servers often have **dual power supplies**.
+   - **Uninterruptible Power Supplies (UPS)** provide battery backup.
+   - **Generators** support long-term power loss.
+
+2. **Storage Redundancy (RAID)**
+
+   - **RAID 1 (Mirroring):** Writes identical data to two disks; if one fails, the other continues operation.
+   - **RAID 5 (Striping with Parity):** Spreads data and parity blocks across multiple disks; if one fails, the system reconstructs lost data.
+   - ⚠️ **RAID is not a backup strategy!** It prevents single-disk failures but doesn't protect against total system loss.
+
+3. **Network Redundancy**
+
+   - **NIC Teaming:** Uses multiple **network interface cards (NICs)** to ensure connectivity.
+   - **Multipath Networking:** Provides redundant paths between servers and storage.
+   - **Multiple ISPs:** Ensures connectivity even if one service provider fails.
+
+4. **Technology & Vendor Diversity**
+   - Using **different hardware/software vendors** prevents a single flaw from affecting the entire infrastructure.
+   - **Diverse cryptographic algorithms** enhance security resilience.
+
+### 🎯 **Key Takeaways**
+
+| **Strategy**               | **Purpose**                                                        |
+| -------------------------- | ------------------------------------------------------------------ |
+| **High Availability (HA)** | Keeps operations running through system-level redundancy.          |
+| **Fault Tolerance (FT)**   | Strengthens critical system components to prevent failures.        |
+| **RAID**                   | Protects against disk failures but is **not a backup**.            |
+| **Network Redundancy**     | Ensures continuous connectivity.                                   |
+| **Technology Diversity**   | Prevents a single vendor failure from impacting the entire system. |
+
+By combining **HA and FT**, organizations **maximize uptime and minimize the risk of catastrophic failures**. ✅
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
