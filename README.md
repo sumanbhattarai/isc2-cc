@@ -986,6 +986,63 @@ Fault Tolerance is designed to **prevent individual system failures** by making 
 
 By combining **HA and FT**, organizations **maximize uptime and minimize the risk of catastrophic failures**. ✅
 
+# Incident Response
+
+## 🚨 Build an Incident Response Program
+
+While organizations strive to protect their systems from cybersecurity threats, **incidents are still inevitable**. A well-structured **Incident Response (IR) plan** ensures that an organization can respond effectively when a security breach occurs.
+
+### 📜 **NIST Incident Response Framework**
+
+A widely recognized standard for incident response is **NIST Special Publication 800-61**, the **Computer Security Incident Handling Guide**. This guide outlines a structured approach to incident response and is used across the cybersecurity industry.
+
+### 🏗️ **Key Components of an Incident Response Plan**
+
+A **formalized IR plan** provides structure and ensures **good decision-making** under pressure. It should include:
+
+1. **📌 Statement of Purpose & Scope**
+
+   - Defines **why** the organization is developing the plan.
+   - Specifies the **types of incidents covered** (e.g., cybersecurity incidents, data breaches, insider threats).
+
+2. **🎯 Strategies & Goals**
+
+   - Prioritizes response actions (e.g., **containment vs. evidence preservation**).
+   - Aligns **business objectives** with security response.
+
+3. **👥 Roles & Responsibilities**
+
+   - Identifies **who** handles incidents and what **authority** they have.
+   - Ensures a **clear chain of command**.
+
+4. **📢 Communication Plan**
+
+   - Outlines **internal and external** communication strategies.
+   - Defines **escalation procedures** and **third-party notifications**.
+
+5. **✅ Senior Management Approval**
+   - Provides **executive buy-in** for critical response actions.
+   - Helps enforce security measures even when they are **unpopular** (e.g., disconnecting critical systems).
+
+### 📖 **Leveraging Existing IR Plans**
+
+Instead of **reinventing the wheel**, organizations can reference **existing** IR plans:
+
+- **Carnegie Mellon University** provides a detailed cybersecurity IR plan.
+- **State of Oregon’s IR plan template** offers a customizable framework.
+
+### 🔑 **Key Takeaways**
+
+| **Component**                  | **Purpose**                                          |
+| ------------------------------ | ---------------------------------------------------- |
+| **NIST SP 800-61**             | Provides a standard framework for incident response. |
+| **IR Plan Scope**              | Defines which incidents are covered.                 |
+| **Clear Roles**                | Assigns responsibilities to response teams.          |
+| **Communication Strategy**     | Ensures smooth coordination and escalation.          |
+| **Senior Management Approval** | Authorizes critical security decisions.              |
+
+🚀 **A well-prepared incident response plan is the foundation of an effective cybersecurity defense.** Plan ahead—don’t wait for an attack to find out you're unprepared! 🔐
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
