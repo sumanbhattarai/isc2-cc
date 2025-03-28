@@ -573,8 +573,6 @@ Security controls are categorized based on **purpose** and **mechanism of action
 
 Configuration management ensures that **device settings, operating systems, and software inventories** are **properly tracked and managed**.
 
----
-
 ### 📌 **Key Components of Configuration Management**
 
 #### 🔍 **1. Baselining**
@@ -792,6 +790,86 @@ Organizations need **security policies** to **govern the use, protection, and ma
 | **Change Management** | Regulates IT system modifications                     |
 
 A **well-crafted security policy framework** helps organizations **protect assets, ensure compliance, and minimize risks**. ✅
+
+# Business Continuity
+
+## 🔄 Business Continuity Planning
+
+**Business Continuity Planning (BCP)** ensures that an organization can continue operations during and after a disruptive event. These events can range from **minor system failures** to **major disasters** (e.g., earthquakes, cyberattacks, or power outages). The goal is to **maintain availability**, a core principle of cybersecurity alongside **confidentiality** and **integrity**.
+
+### 🏢 **What is Business Continuity Planning?**
+
+- A set of **activities and strategies** to keep a business operational despite disruptions.
+- Sometimes called **Continuity of Operations Planning (COOP)**.
+- Directly supports the **availability** aspect of information security.
+- Requires **cross-functional collaboration** between IT, security, and operational teams.
+
+### 📝 **Defining the Scope of BCP**
+
+Before developing a **BCP strategy**, organizations must define:
+
+- **Which business activities are covered?**
+- **Which IT systems are included?**
+- **What types of disruptions are considered?** (e.g., hardware failure, cyberattacks, natural disasters)
+
+#### ✅ Example:
+
+- A financial institution may prioritize **payment processing systems** over **internal email servers** in its BCP.
+
+### 📊 **Business Impact Assessment (BIA)**
+
+A **BIA** helps organizations identify **critical business functions** and assess the **risks that threaten them**.
+
+#### 🔍 **Key Steps in BIA:**
+
+1. **Identify mission-essential functions** (e.g., order processing, payroll).
+2. **Determine dependencies** (e.g., IT systems, cloud services).
+3. **Assess risks and their financial impact**.
+4. **Prioritize risks based on expected losses**.
+5. **Select appropriate controls**.
+
+#### 📉 **Example Risk Assessment Table**
+
+| **Risk**                               | **Expected Loss ($)** | **Mitigation Strategy**                   |
+| -------------------------------------- | --------------------- | ----------------------------------------- |
+| Hurricane damage to data center        | $200,000              | Flood prevention system ($50,000)         |
+| Cyberattack disrupting customer portal | $150,000              | Web application firewall, DDoS protection |
+| Hardware failure of payment system     | $100,000              | Redundant servers, failover systems       |
+
+### 🔧 **Business Continuity Controls**
+
+After identifying risks, organizations implement **controls** to minimize disruptions.
+
+#### 🚀 **Key BCP Controls:**
+
+- **Disaster Recovery Plans (DRP)** – Steps to restore IT systems after failure.
+- **Data Backups & Redundancy** – Cloud replication, offsite backups.
+- **High Availability (HA) Systems** – Load balancing, failover strategies.
+- **Alternate Work Locations** – Remote work capabilities for employees.
+- **Communication Plans** – Emergency contacts and escalation procedures.
+
+### ☁️ **BCP in Cloud Environments**
+
+In **cloud-based infrastructures**, business continuity involves collaboration between:
+
+- **Cloud Service Providers (CSPs)** – Offer built-in redundancy and disaster recovery.
+- **Customers** – Choose multi-region replication and fault-tolerant architectures.
+
+#### ✅ Example:
+
+- A SaaS company may **replicate services** across multiple **AWS availability zones** to ensure uptime during regional outages.
+
+### 🎯 **Key Takeaways**
+
+| **Concept**                            | **Description**                                         |
+| -------------------------------------- | ------------------------------------------------------- |
+| **Business Continuity Planning (BCP)** | Ensures business operations continue during disruptions |
+| **Business Impact Assessment (BIA)**   | Identifies critical processes and risks                 |
+| **Risk Prioritization**                | Focuses mitigation efforts on the highest-impact risks  |
+| **Disaster Recovery (DR)**             | Strategies to restore systems after failures            |
+| **Cloud BCP**                          | Uses redundancy, replication, and failover strategies   |
+
+A **well-structured BCP** ensures organizations remain **resilient** and can recover quickly from any disruption. ✅
 
 ---
 
