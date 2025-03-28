@@ -653,6 +653,8 @@ By proactively managing **regulatory compliance**, businesses can **reduce risk,
 
 Security professionals rely on **written documents** to **communicate security expectations and responsibilities**. These documents fall under the **Security Policy Framework**, which consists of four types:
 
+![Security Policy Framework](./security-policy-framework.png)
+
 ### 📜 Policies (Mandatory)
 
 - **Foundation of an organization's security program**.
