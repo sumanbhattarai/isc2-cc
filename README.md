@@ -1212,7 +1212,7 @@ Instead, isolate it from the network to prevent attackers from detecting the res
 📌 **Key Takeaway:**  
 The **highest priority** of an incident first responder is **damage containment** to protect the organization. 🚀
 
-# Disaster Recovery
+# 💥 Disaster Recovery
 
 ## 🌪️ Disaster Recovery Planning
 
@@ -1278,5 +1278,87 @@ These metrics **guide DR planners** to balance recovery speed and operational im
 🔹 **Frequent Awareness Programs:** Keep DR readiness **top of mind**.
 
 ✅ **A well-prepared team ensures a swift and efficient recovery!** 🚀
+
+## 💾 Backups
+
+Backups are **the most important** part of a **disaster recovery plan** because they provide a fail-safe way to recover **critical business data** after:
+
+- **Technology failures** (e.g., server crashes)
+- **Human errors** (e.g., accidental deletions)
+- **Natural disasters** (e.g., floods, fires)
+- **Cyberattacks** (e.g., ransomware, data breaches)
+
+📌 **Without backups, data loss could be catastrophic!** 🚨
+
+### 🔄 **Backup Storage Methods**
+
+Organizations use various backup storage techniques:
+
+📂 **Manual Copying** – Basic but error-prone  
+📼 **Tape Backups** – Reliable but difficult to manage  
+💽 **Disk-to-Disk Backups** – Faster restores, often stored off-site  
+🌐 **Network Storage (SAN/NAS)** – Centralized backup storage  
+☁️ **Cloud Backups (AWS, Azure, GCP)** – Geographically distributed, highly redundant
+
+📌 **Modern organizations prefer cloud-based backups** for **scalability, redundancy, and security**.
+
+### 📸 **Types of Backups**
+
+1️⃣ **Full Backup** – Copies **everything** from the source.  
+ ✔️ **Pros:** Complete recovery from a single backup.  
+ ❌ **Cons:** Requires **more storage & time**.
+
+2️⃣ **Differential Backup** – Backs up **all changes** since the last **full backup**.  
+ ✔️ **Pros:** Faster restore than incremental backups.  
+ ❌ **Cons:** Grows larger over time.
+
+3️⃣ **Incremental Backup** – Backs up **only changes** since the last **full or incremental backup**.  
+ ✔️ **Pros:** Saves storage space.  
+ ❌ **Cons:** **Slower restore** since multiple backups must be applied sequentially.
+
+### 📊 **Backup Strategy Example**
+
+Joe, a **storage administrator**, follows this backup schedule:
+
+- **Sunday:** Full backup 🗂️
+- **Monday–Thursday:** Differential or Incremental backups
+
+#### 🔁 **Scenario 1: Using Differential Backups**
+
+🛠️ **System failure on Friday morning**  
+🔹 Restore **Sunday’s full backup**  
+🔹 Restore **Thursday’s differential backup** (contains all changes since Sunday)
+
+✅ **Faster restore process!**
+
+#### 🔁 **Scenario 2: Using Incremental Backups**
+
+🛠️ **System failure on Friday morning**  
+🔹 Restore **Sunday’s full backup**  
+🔹 Apply **Monday → Tuesday → Wednesday → Thursday incremental backups** sequentially
+
+✅ **Saves storage space but takes longer to restore!**
+
+### 🎯 **Choosing the Right Backup Strategy**
+
+📌 **For faster restores:** Use **Differential Backups**  
+📌 **For lower storage usage:** Use **Incremental Backups**  
+📌 **For complete protection:** Combine **Full + Differential + Cloud Backups**
+
+### 🔐 **Best Practices for Data Backups**
+
+✔️ **Follow the 3-2-1 Rule**
+
+- **3 copies** of data
+- **2 different storage types**
+- **1 copy offsite (cloud or remote location)**
+
+✔️ **Automate backups** to prevent human error  
+✔️ **Encrypt** backups to protect sensitive data  
+✔️ **Test restores regularly** to ensure backups are functional
+
+🚀 **A well-planned backup strategy ensures quick recovery and business continuity!**
+
+---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
