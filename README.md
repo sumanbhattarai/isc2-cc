@@ -1557,6 +1557,38 @@ Proper **visitor management** ensures security in **restricted facilities** by c
 
 **A well-structured visitor management process is crucial for maintaining a secure facility!** 🔐
 
+## 🔐 Physical Security Personnel
+
+While **technology enhances physical security**, **human guards** play a **critical role** in securing facilities. Their **judgment, presence, and decision-making** provide security that **automated systems alone cannot match**.
+
+### 👮 **Roles of Security Personnel**
+
+✔ **Access Control** – Guards verify **visitor requests** and grant access to **authorized individuals**.  
+✔ **Public Relations** – Security staff can appear as **receptionists** while secretly **monitoring threats**.  
+✔ **Visible Deterrence** – **Uniformed guards** project **authority and security awareness**.
+
+📌 **Robot Sentries**:
+
+- **AI-powered patrols** detect abnormal activity.
+- **May alert human security** or even **engage intruders**.
+
+### 🔑 **The Two-Person Rule**
+
+A security principle that ensures **no single individual** has **unchecked access** to sensitive areas.
+
+| Rule                     | Purpose                                                      | Example                                             |
+| ------------------------ | ------------------------------------------------------------ | --------------------------------------------------- |
+| **Two-Person Integrity** | Two people **must be present** when accessing a secure area. | Prevents **theft or unauthorized activity**.        |
+| **Two-Person Control**   | Two people **must agree** to execute a critical action.      | **E.g., nuclear missile launch requires two keys.** |
+
+### 🚀 **Key Takeaways**
+
+🔹 **Security guards provide human judgment that technology lacks.**  
+🔹 **Visible security (uniformed guards) deters potential threats.**  
+🔹 **The Two-Person Rule prevents unauthorized access and illicit actions.**
+
+🔐 **A strong security program balances technology, human oversight, and strategic policies!**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
