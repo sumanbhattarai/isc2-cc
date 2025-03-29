@@ -1589,6 +1589,36 @@ A security principle that ensures **no single individual** has **unchecked acces
 
 🔐 **A strong security program balances technology, human oversight, and strategic policies!**
 
+# Logical Access Control
+
+## 🔐 Account and Privilege Management
+
+One of the **key responsibilities** of information security professionals is **managing user accounts and privileges** to **prevent fraud and unauthorized access**.
+
+### 🔄 **Job Rotation & Mandatory Vacations**
+
+✔ **Job Rotation** – Employees are periodically **moved between roles**, reducing fraud risk.  
+✔ **Mandatory Vacation** – Key staff **must take consecutive days off**, preventing continuous access.  
+✔ **Security Benefit** – Fraud is harder to sustain when **someone else reviews the work**.
+
+📌 **Bonus Perk?** You get to **disconnect from work in the name of security!** 😎
+
+### 🏷 **Account Naming & Standardization**
+
+🔹 Organizations use **consistent naming conventions** for **user accounts**, making it easy to **identify** and manage accounts.  
+🔹 Example: `FirstInitial + LastName` (e.g., `mchapple`). If duplicated, add a number (e.g., `mchapple2`).
+
+### 🔄 **Account Lifecycle Management**
+
+**Security professionals** must ensure proper account handling **from creation to deletion**:
+
+1️⃣ **Provisioning** – **Grant new users** access based on role.  
+2️⃣ **Modification** – Adjust access **when roles change**.  
+3️⃣ **Review** – Conduct **periodic access audits** (re-certification).  
+4️⃣ **Deprovisioning** – **Remove access immediately** upon termination.
+
+📌 **Key Takeaway**: Proper **account and privilege management** ensures **only authorized users have access** and prevents **insider threats**!
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
