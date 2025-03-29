@@ -1441,6 +1441,46 @@ In addition to **technical solutions**, businesses may adopt **alternative workf
 
 🔐 **A well-tested DR plan ensures business survival during real disasters!**
 
+# Physical Access Controls
+
+## 🔐 Control Physical Access
+
+Cybersecurity professionals must **protect physical facilities** to prevent **unauthorized access** and **potential data breaches**. This includes:
+
+✔️ **Limiting access** to authorized personnel.  
+✔️ **Authenticating employees** before entry.  
+✔️ **Tracking contractors & visitors** accessing sensitive areas.
+
+### 🏢 **Key Facilities Requiring Protection**
+
+| Facility                        | Security Concern                                    | Risk if Compromised                                                 |
+| ------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------- |
+| **Data Centers** 🏢             | Store critical servers & computing resources.       | Theft, sabotage, or disruption of business operations.              |
+| **Server Rooms** 💾             | Smaller-scale computing hubs within businesses.     | Often lack strong security controls, posing risks.                  |
+| **Media Storage Facilities** 📀 | Store **backups & disaster recovery data**.         | Data breaches, unauthorized duplication, or theft.                  |
+| **Evidence Storage Rooms** 🕵️‍♂️   | Hold **digital forensic evidence**.                 | Chain of custody breaches may **invalidate evidence**.              |
+| **Wiring Closets** 🔌           | Contain **network infrastructure**.                 | Unsecured access may allow **network eavesdropping**.               |
+| **Cable Distribution Runs** 📡  | Deliver **network connectivity** across facilities. | Physical access could lead to **man-in-the-middle (MITM) attacks**. |
+| **Restricted Work Areas** 🚷    | Includes **operation centers & secure zones**.      | Leakage of **confidential information**.                            |
+
+### 🔍 **Physical Security Best Practices**
+
+🔒 **Access Controls** – Use keycards, biometrics, or PINs to limit entry.  
+🎥 **Surveillance** – Install **CCTV cameras** to monitor sensitive locations.  
+🛡 **Security Guards** – Deploy guards at high-risk areas.  
+🚪 **Locked Enclosures** – Secure servers, wiring closets, and evidence rooms.  
+📜 **Access Logs** – Maintain **entry logs** for tracking.  
+🔔 **Intrusion Detection** – Deploy **motion sensors & alarms** in critical areas.  
+📍 **Site Assessments** – Conduct **regular security audits** of all facilities.
+
+### 🚀 **Key Takeaways**
+
+✔️ **Physical security is a crucial part of cybersecurity.**  
+✔️ **Unsecured areas can lead to data breaches or system compromise.**  
+✔️ **A layered approach (controls, monitoring, and audits) ensures facility security.**
+
+🔐 **Protecting physical access is the first step to securing digital assets!**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
