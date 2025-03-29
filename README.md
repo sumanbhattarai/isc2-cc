@@ -1160,6 +1160,58 @@ It's essential to **set up secure communication paths** before an incident occur
 
 🚀 **A well-planned communications strategy is vital for incident response success!** 🔐
 
+## 🚨 Incident Identification
+
+Once an **incident response plan** is in place, **continuous monitoring** is crucial to detect potential security threats **before** they cause significant damage.
+
+### 🔍 **Sources of Incident Detection**
+
+Organizations rely on multiple security data sources to identify incidents:
+
+✅ **Automated Security Monitoring:**
+
+- **Intrusion Detection & Prevention Systems (IDS/IPS)**
+- **Firewalls & Network Security Tools**
+- **Authentication & Access Control Logs**
+- **System & File Integrity Monitoring**
+- **Vulnerability Scanners**
+- **Antimalware & Endpoint Protection**
+- **System Event Logs & NetFlow Data**
+
+📊 **SIEM Systems (Security Information & Event Management)** play a key role by:
+
+- **Collecting & Correlating Security Logs**
+- **Detecting Incidents with Rules & AI Algorithms**
+- **Providing Centralized Investigation Data**
+
+### 🚨 **External Incident Reports**
+
+While automated systems **should** detect threats, sometimes incidents are first reported by **employees, customers, or external organizations.**
+
+⚠️ Examples of External Incident Indicators:
+
+- A **customer finds personal data** leaked online.
+- A **corporate system is caught attacking** external sites (e.g., botnet infection).
+- An **employee notices unauthorized account access**.
+
+✅ **Incident Response Teams** must have a **structured process** to receive, log, and analyze external reports effectively.
+
+### 🚑 **First Responder Responsibilities**
+
+The **first person to detect an incident** plays a **crucial role** in minimizing damage.
+
+🛑 **Immediate Action: Contain the Threat**
+
+1. **Identify compromised systems**
+2. **Isolate affected devices** to prevent further spread
+3. **Maintain system integrity** (if needed for forensic analysis)
+
+⛔ **Best Practice:** **Do not shut down a compromised system immediately!**  
+Instead, isolate it from the network to prevent attackers from detecting the response.
+
+📌 **Key Takeaway:**  
+The **highest priority** of an incident first responder is **damage containment** to protect the organization. 🚀
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
