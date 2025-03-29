@@ -1212,6 +1212,71 @@ Instead, isolate it from the network to prevent attackers from detecting the res
 📌 **Key Takeaway:**  
 The **highest priority** of an incident first responder is **damage containment** to protect the organization. 🚀
 
----
+# Disaster Recovery
+
+## 🌪️ Disaster Recovery Planning
+
+Disaster recovery (DR) is a **critical subset** of business continuity planning (BCP) focused on **restoring normal operations** after a disaster.
+
+### 🔥 **What Triggers a Disaster Recovery Plan?**
+
+A **disaster** can be caused by various **internal or external** events:
+
+🔹 **Natural Disasters** – Hurricanes, earthquakes, floods  
+🔹 **Manmade Disasters** – Cyberattacks, data breaches, power outages  
+🔹 **Internal Failures** – Server crashes, database corruption
+
+📌 **Key Goal:** **Recognize the disaster quickly** and **activate** the DR plan.
+
+### 🚑 **Initial Response & Containment**
+
+When a disaster strikes, the first step is to:
+
+✔️ **Minimize damage** to systems and data  
+✔️ **Restore temporary operations** (e.g., using a backup data center)  
+✔️ **Engage third-party recovery services** if needed
+
+⏳ **During a disaster, employees may take on temporary roles.**  
+**Flexibility and rapid adaptation** are crucial.
+
+### 📡 **Communication During Disaster Recovery**
+
+💬 **Reliable communication channels** must be in place to:
+
+- Activate the **disaster recovery** process (even after hours)
+- Provide **regular status updates** to teams & leadership
+- Enable **ad hoc tactical coordination**
+
+Secure messaging tools should be **pre-planned** to ensure connectivity even if primary networks fail.
+
+### 📊 **Key Disaster Recovery Metrics**
+
+Three critical metrics help **define recovery objectives**:
+
+📌 **Recovery Time Objective (RTO):**  
+🕒 Maximum **time allowed** to restore a system/service.
+
+📌 **Recovery Point Objective (RPO):**  
+📅 **Maximum data loss** acceptable (e.g., last 4 hours of transactions).
+
+📌 **Recovery Service Level (RSL):**  
+📈 **Minimum service level** required (e.g., 50% of website capacity).
+
+These metrics **guide DR planners** to balance recovery speed and operational impact.
+
+### 🔄 **Execution & Full Recovery**
+
+1️⃣ **Assess the Damage** 🛠️  
+2️⃣ **Implement Temporary Solutions** 🚧  
+3️⃣ **Execute Full Restoration** 🚀
+
+📌 **The DR effort is only complete when the organization returns to its primary environment.**
+
+### 🎯 **Training & Awareness**
+
+🔹 **Periodic Training:** Staff should know their DR responsibilities.  
+🔹 **Frequent Awareness Programs:** Keep DR readiness **top of mind**.
+
+✅ **A well-prepared team ensures a swift and efficient recovery!** 🚀
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
