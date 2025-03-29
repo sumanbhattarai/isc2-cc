@@ -1359,6 +1359,52 @@ Joe, a **storage administrator**, follows this backup schedule:
 
 🚀 **A well-planned backup strategy ensures quick recovery and business continuity!**
 
+## 🏢 Disaster Recovery Sites
+
+Organizations use **Disaster Recovery (DR) Sites** to shift computing functions when their **primary data center** becomes unavailable due to a disaster. These sites serve as alternate processing facilities to **minimize downtime and ensure business continuity**.
+
+### 🔥 **Types of Disaster Recovery Sites**
+
+| Site Type        | Setup                                                       | Cost             | Recovery Time        | Key Features                                                         |
+| ---------------- | ----------------------------------------------------------- | ---------------- | -------------------- | -------------------------------------------------------------------- |
+| **Hot Site** 🔴  | Fully operational with **all data & hardware**              | $$$$ (Very High) | **Minutes to Hours** | Runs in parallel to the primary site, **can activate automatically** |
+| **Warm Site** 🟠 | **Hardware & software available**, but not actively running | $$ (Moderate)    | **Hours to Days**    | Needs some configuration before going live                           |
+| **Cold Site** 🔵 | **Basic infrastructure only** (no servers, no data)         | $ (Low)          | **Weeks to Months**  | Requires setup & hardware installation before use                    |
+
+📌 **Hot Sites** provide the fastest recovery but are the most expensive.  
+📌 **Cold Sites** are cost-effective but require extensive setup time.  
+📌 **Warm Sites** balance cost and recovery time.
+
+### 📦 **Backup Storage at DR Sites**
+
+Disaster Recovery Sites also serve as **offsite storage** locations for **business data backups**. To enhance **site resiliency**, organizations use **strategic backup placement**:
+
+- **Offline Backups** 💤 – Stored physically, require manual retrieval, cost-effective.
+- **Online Backups** ⚡ – Available instantly, but require higher financial investment.
+- **Site Replication** 🔄 – Data is transferred **digitally** to the DR site via **SANs** or **Virtual Machines (VMs)**.
+
+📌 **Geographically distant sites** ensure that the same disaster **doesn’t affect both primary & backup facilities**.
+
+### 📝 **Alternate Business Processes**
+
+In addition to **technical solutions**, businesses may adopt **alternative workflows** to maintain operations:
+
+- 📄 **Paper-based ordering** if the **electronic order system** is down.
+- ☎️ **Manual customer service processes** if automated systems fail.
+- 🚚 **Alternative supply chain arrangements** in case of logistics failures.
+
+📌 **Flexibility is key** in disaster response planning!
+
+### 🚀 **Key Takeaways**
+
+✔️ **Hot Sites** offer **instant recovery**, but at a **high cost**.  
+✔️ **Cold Sites** are **cheap**, but require **long setup times**.  
+✔️ **Warm Sites** provide a **cost-effective balance** of speed & investment.  
+✔️ **Offsite backups** (both **physical & digital**) prevent **data loss**.  
+✔️ **Alternate business processes** help maintain **core operations**.
+
+🔐 **A well-planned DR site strategy ensures quick recovery & business resilience!**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
