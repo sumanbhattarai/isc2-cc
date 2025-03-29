@@ -1481,6 +1481,44 @@ Cybersecurity professionals must **protect physical facilities** to prevent **un
 
 🔐 **Protecting physical access is the first step to securing digital assets!**
 
+## 🔐 Design for Physical Security
+
+**Physical security** is not just an IT concern—it affects **facility design, placement, and access control**. A well-designed facility **deters intrusions** and enhances security through strategic **environmental planning**.
+
+### 🏢 **Key Facility Design Principles for Security**
+
+✔️ **Location Matters** – Placing facilities in **high-traffic areas** discourages intrusions.  
+✔️ **Warning Signage** – Signs indicating **monitoring & restricted areas** deter attackers.  
+✔️ **Controlled Entry Points** – Gates & checkpoints **limit unauthorized access**.  
+✔️ **Physical Barriers** – **Bollards & fences** prevent vehicle-based intrusions.
+
+### 🔍 **Crime Prevention Through Environmental Design (CPTED)**
+
+CPTED is a security strategy that **integrates physical design with crime prevention**. It focuses on **three main goals**:
+
+| CPTED Principle                          | Purpose                                                 | Implementation                                                            |
+| ---------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **🔭 Natural Surveillance**              | Ensure intruders are **easily observable**.             | Use **windows, open areas, and adequate lighting** to improve visibility. |
+| **🚧 Natural Access Control**            | Funnel people into a **single, monitored entry point**. | Use **gates, fencing, & security checkpoints**.                           |
+| **📢 Natural Territorial Reinforcement** | Make it **clear where public access ends**.             | Use **signage, landscaping, and lighting** to reinforce boundaries.       |
+
+### 🔐 **Security Enhancements for Facility Protection**
+
+✔ **Security Guards & Patrols** – **Deter and respond** to unauthorized entry.  
+✔ **Alarm Systems** – Detect **intrusions & trigger alerts**.  
+✔ **CCTV Cameras** – Provide **real-time monitoring & recorded evidence**.  
+✔ **Motion-Activated Lighting** – Enhances visibility & prevents **blind spots**.  
+✔ **Retractable Bollards** – Allow access only to **authorized vehicles**.  
+✔ **Landscaping Design** – Prevents **concealment areas for attackers**.
+
+### 🚀 **Key Takeaways**
+
+✔ **Physical security starts with smart facility design.**  
+✔ **CPTED principles help prevent unauthorized access.**  
+✔ **A layered security approach (barriers, lighting, surveillance) enhances safety.**
+
+🔐 **A well-secured facility is the first step to preventing cyber and physical threats!**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
