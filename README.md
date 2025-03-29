@@ -1405,6 +1405,42 @@ In addition to **technical solutions**, businesses may adopt **alternative workf
 
 🔐 **A well-planned DR site strategy ensures quick recovery & business resilience!**
 
+## 🔍 Test BC/DR Plans
+
+**Disaster Recovery (DR) plans** must be tested regularly to ensure they work as intended and are updated for new **technologies & business processes**. Testing achieves two key goals:
+
+1️⃣ **Validate the DR plan** – Ensure the plan functions correctly & the technology works.  
+2️⃣ **Identify updates** – Adjust for changes in **business processes or IT infrastructure**.
+
+### 🏆 **Types of Disaster Recovery Testing**
+
+| Test Type                               | Involves                                               | Complexity | Disruption Risk | Key Benefit                                             |
+| --------------------------------------- | ------------------------------------------------------ | ---------- | --------------- | ------------------------------------------------------- |
+| **Read-Through (Checklist Review)** 📜  | Team members **review** the plan individually.         | 🟢 Low     | 🟢 None         | Identifies outdated steps & missing elements.           |
+| **Walk-Through (Tabletop Exercise)** 🤝 | Group **discussion** of the plan.                      | 🟢 Low     | 🟢 None         | Improves team coordination & shared understanding.      |
+| **Simulation Test** 🎭                  | Team responds to a **hypothetical disaster scenario**. | 🟡 Medium  | 🟢 None         | Evaluates decision-making & team response.              |
+| **Parallel Test** ⚙️                    | **DR site activated** without switching operations.    | 🟡 Medium  | 🟡 Low          | Ensures DR infrastructure works **without disruption**. |
+| **Full Interruption Test** 🔴           | **Primary system shutdown & failover to DR site**.     | 🔴 High    | 🔴 High         | Best real-world test, but **can disrupt operations**.   |
+
+📌 **Theoretical Tests**: Read-Throughs, Walk-Throughs, and Simulations **don't use DR technology**.  
+📌 **Practical Tests**: Parallel & Full Interruption Tests **actively engage DR systems**.
+
+### 📅 **Effective DR Testing Strategy**
+
+🔄 **Regularly conduct** Read-Throughs & Walk-Throughs to keep plans updated.  
+🎭 **Use Simulations** to test team response without disrupting operations.  
+⚙️ **Perform Parallel Tests** periodically to ensure DR infrastructure readiness.  
+🚨 **Limit Full Interruption Tests** due to their high operational risk.
+
+### 🚀 **Key Takeaways**
+
+✔️ **Testing ensures the DR plan is functional & up to date.**  
+✔️ **A mix of test types helps balance accuracy & business continuity.**  
+✔️ **Full Interruption Tests are the most effective but also the riskiest.**  
+✔️ **Regular testing builds a resilient disaster recovery strategy.**
+
+🔐 **A well-tested DR plan ensures business survival during real disasters!**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
