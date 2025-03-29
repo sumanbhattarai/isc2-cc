@@ -1619,6 +1619,32 @@ One of the **key responsibilities** of information security professionals is **m
 
 📌 **Key Takeaway**: Proper **account and privilege management** ensures **only authorized users have access** and prevents **insider threats**!
 
+## 🔐 Account Monitoring
+
+Security administrators must **monitor user accounts** to **detect unauthorized access and privilege misuses**.
+
+### ⚠️ **Privilege Creep & Inaccurate Permissions**
+
+✔ **Privilege Creep** – Users **accumulate unnecessary permissions** over time when switching roles.  
+✔ **Regular Account Audits** – Admins should **review user access** with managers and **revoke unnecessary privileges**.  
+✔ **Formal Attestation** – Auditors verify that **managers have approved all access permissions**.
+
+### 🛡 **Unauthorized Access & Anomaly Detection**
+
+🔹 **Continuous Monitoring** – Detects suspicious activity based on user behavior.  
+🔹 **Risky Logins** – Unusual login patterns **trigger alerts** (e.g., logins from different continents at the same time).  
+🔹 **Impossible Travel Time** – **Two logins from distant locations** in an unrealistically short time.  
+🔹 **Network Location Changes** – A user **switching from HR to a guest network** unexpectedly.  
+🔹 **Odd Login Times** – Employees **accessing systems at unusual hours** (e.g., a mail clerk logging in at 2 AM).  
+🔹 **Unusual File Access** – Sudden access to **restricted files** or **large data downloads** may indicate a breach.
+
+### 🌍 **Geotagging & Geofencing**
+
+📍 **Geotagging** – Logs **geographic location** for each login attempt.  
+🛑 **Geofencing** – Defines **virtual boundaries**, triggering alerts when a device **leaves a permitted area**.
+
+📌 **Key Takeaway**: Continuous monitoring **prevents unauthorized access** and ensures users have **only the permissions they need**!
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
