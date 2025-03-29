@@ -1441,7 +1441,7 @@ In addition to **technical solutions**, businesses may adopt **alternative workf
 
 🔐 **A well-tested DR plan ensures business survival during real disasters!**
 
-# Physical Access Controls
+# 🏢 Physical Access Controls
 
 ## 🔐 Control Physical Access
 
@@ -1518,6 +1518,44 @@ CPTED is a security strategy that **integrates physical design with crime preven
 ✔ **A layered security approach (barriers, lighting, surveillance) enhances safety.**
 
 🔐 **A well-secured facility is the first step to preventing cyber and physical threats!**
+
+## 🔐 Visitor Management
+
+Proper **visitor management** ensures security in **restricted facilities** by controlling **who enters, their access level, and their activities**.
+
+### 🚪 **Visitor Access Procedures**
+
+✔ **Define Authorized Visitors** – Clearly state **who can grant access** and for what **valid reasons**.  
+✔ **Approval Requirements** – Set different **approval levels** for various visitor types (e.g., contractors, clients, VIPs).  
+✔ **Escort Policies** – Specify **who requires an escort** and **who can serve as an escort**.
+
+### 📋 **Visitor Logging & Tracking**
+
+🔹 **Maintain a Visitor Log** – Record entry & exit details, either **on paper or electronically**.  
+🔹 **Use Identification Badges** – Visitors must **wear a distinct badge** that indicates their access level:
+
+| Badge Type              | Purpose                               | Escort Required?   |
+| ----------------------- | ------------------------------------- | ------------------ |
+| **🔵 Employee Badge**   | Identifies authorized staff           | ❌ No              |
+| **🟡 Visitor Badge**    | Identifies **escorted** visitors      | ✅ Yes             |
+| **🔴 Contractor Badge** | Identifies **authorized contractors** | 🚦 Depends on role |
+
+🔹 **CCTV Monitoring** – Cameras should monitor visitor activity, and their presence **must be disclosed**.
+
+### 🔐 **Security Best Practices for Visitor Management**
+
+✔ **Quickly Identify Visitors** – **Distinctive badges** help employees differentiate visitors from staff.  
+✔ **Monitor & Log Access** – Use **sign-in sheets or electronic logs** to track visitor movements.  
+✔ **Escort Unauthorized Visitors** – Never leave an unauthorized visitor **unattended in a secure area**.  
+✔ **Review Camera Footage** – If an incident occurs, **CCTV records can provide crucial evidence**.
+
+### 🚀 **Key Takeaways**
+
+🔹 **Controlled visitor access** enhances security and prevents unauthorized entry.  
+🔹 **Visitor badges & escort policies** ensure only approved individuals can access secure areas.  
+🔹 **Cameras & logs** provide an audit trail for investigations and security compliance.
+
+**A well-structured visitor management process is crucial for maintaining a secure facility!** 🔐
 
 ---
 
