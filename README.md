@@ -1589,7 +1589,7 @@ A security principle that ensures **no single individual** has **unchecked acces
 
 🔐 **A strong security program balances technology, human oversight, and strategic policies!**
 
-# Logical Access Control
+# 🖥️ Logical Access Control
 
 ## 🔐 Account and Privilege Management
 
@@ -1674,6 +1674,32 @@ Account administrators manage **user onboarding and offboarding** to control sys
 ✔ **Monitor Disabled Accounts** – Ensure they’re eventually removed to **free up resources**.
 
 📌 **Key Takeaway**: Timely **provisioning and deprovisioning** strengthens security by preventing **unauthorized access** and ensuring **only active employees have system privileges**. 🚀
+
+## 🔐 Authorization
+
+Authorization is the **final step** in the access control process, determining what resources a user can access **after authentication**.
+
+### 🔑 **Principle of Least Privilege (PoLP)**
+
+🚨 **Users should only have the minimum permissions necessary** to perform their job duties.
+
+✔ **Limits Insider Threats** – Prevents employees from **causing major damage** if they turn malicious.  
+✔ **Reduces Attack Surface** – Minimizes an **attacker's access** if they compromise a non-admin account.
+
+### 🔄 **Types of Access Control Systems**
+
+| **Model**                                 | **Description**                                                                    | **Use Case**                                |
+| ----------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------- |
+| 🔒 **Mandatory Access Control (MAC)**     | **Most strict**; OS enforces permissions, users **cannot modify** access settings. | Military, Government, Highly Secure Systems |
+| 📂 **Discretionary Access Control (DAC)** | **Flexible**; users **can assign** access rights to others.                        | Corporate IT, File Sharing                  |
+| 🏢 **Role-Based Access Control (RBAC)**   | **Permissions assigned to roles, not individuals**.                                | Enterprises, Large Organizations            |
+
+### ⚖ **Balancing Security & Business Needs**
+
+✔ **Too Strict?** Users struggle to complete tasks, affecting productivity.  
+✔ **Too Loose?** Risk of **data breaches** and **unauthorized access**.
+
+📌 **Best Practice**: Implement **RBAC** with **Least Privilege** to maintain **security and efficiency**. 🚀
 
 ---
 
