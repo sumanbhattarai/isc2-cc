@@ -2022,6 +2022,37 @@ Network administrators use **ping** and **traceroute** for troubleshooting and a
 - **Some networks block ICMP**, so lack of response doesn’t always mean a system is down.
 - **Pathping (Windows)** provides additional insights into network issues.
 
+# 🛑 Network Threats
+
+## 🔐 Viruses, Worms, and Trojans
+
+**Malware** (short for **malicious software**) is a major cybersecurity threat that infects computer systems to **steal data, damage files, or disrupt operations**. Every piece of malware has two key components:
+
+1. **Propagation Mechanism** – How it spreads between systems.
+2. **Payload** – The malicious action it performs.
+
+### 🦠 **Types of Malware**
+
+| Malware Type     | Propagation Mechanism                                                                                               | Attack Method                                   | Prevention Strategy                                                      |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------ |
+| **Virus**        | Requires **user action** to spread (e.g., opening an email attachment, clicking a link, inserting an infected USB). | Infects files and spreads when executed.        | **User education**, email security, antivirus software.                  |
+| **Worm**         | Spreads **automatically** by exploiting system vulnerabilities. No user action required.                            | Infects systems and uses them to attack others. | **System updates**, firewalls, intrusion detection systems.              |
+| **Trojan Horse** | Disguises itself as **legitimate software** to trick users into installing it.                                      | Executes malicious code once installed.         | **Application control**, downloading software only from trusted sources. |
+
+### ⚠️ **Key Differences**
+
+- **Viruses require user action** to spread.
+- **Worms spread automatically** without user intervention.
+- **Trojan horses deceive users** by posing as legitimate software.
+
+### 🛡️ **Best Practices for Malware Defense**
+
+✔️ Keep software and operating systems **up to date**.  
+✔️ **Avoid suspicious email links and attachments**.  
+✔️ Use **trusted antivirus and anti-malware software**.  
+✔️ Implement **application control** to restrict unauthorized software.  
+✔️ Enable **firewalls and intrusion detection systems**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
