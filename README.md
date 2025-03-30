@@ -2283,6 +2283,41 @@ After finding port 80 open, you can verify the web server by typing the IP addre
 
 For attackers, open ports like **3389** (RDP) and **80** (web server) represent potential targets. For security professionals, these results can guide decisions on whether these services should be exposed or if they need to be secured further.
 
+## 🔐 Vulnerability Scanners
+
+**Vulnerability scanners** go beyond simple port scans by delving into the details of services running on open ports and identifying known vulnerabilities associated with those services. These tools help in finding potential security weaknesses in a system, providing valuable **remediation information** for system administrators to patch vulnerabilities. However, in the wrong hands, this information can also serve as a roadmap for attackers.
+
+### 🛠️ **Nessus: A Popular Vulnerability Scanner**
+
+**Nessus** is a web-based vulnerability scanner that identifies potential vulnerabilities in a server. Here's a breakdown of how it works:
+
+- **Scanning Process**  
+   Nessus scans servers for known vulnerabilities by using a database of vulnerability exploits and testing services that run on open ports. The scan results help administrators know where to focus their remediation efforts.
+
+- **Scanning Example**  
+   When scanning a Windows server, Nessus typically reports:
+
+  - **Medium vulnerabilities** (those that require immediate attention)
+  - **Informational vulnerabilities** (less critical)
+
+  In this scenario, Nessus identified vulnerabilities related to SSL/TLS, including:
+
+  - An untrusted SSL certificate (self-signed).
+  - Medium-strength cipher suites.
+
+  These findings help administrators know exactly which areas to focus on to enhance security.
+
+- **Vulnerability Details**  
+   Nessus not only reports the vulnerabilities but also provides detailed information on:
+  - **Detected cipher suites** that may be problematic.
+  - **Steps** to fix the issues, such as improving SSL/TLS configurations.
+
+By using a tool like Nessus, organizations can actively monitor their systems for vulnerabilities and take actionable steps to secure their infrastructure.
+
+### 🔒 **The Importance of Regular Scanning**
+
+Regularly running vulnerability scans with tools like Nessus ensures that potential risks are identified early and mitigated before they can be exploited.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
