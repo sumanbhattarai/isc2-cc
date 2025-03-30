@@ -2249,6 +2249,40 @@ EDR systems also provide **sandboxing** capabilities:
 
 Many other antimalware tools are available across various operating systems, providing comprehensive protection against evolving threats.
 
+## 🔐 Port Scanners
+
+Testing systems for security vulnerabilities is a critical task for security professionals, but it can be time-consuming. Vulnerability assessment tools automate this process. These tools fall into three categories:
+
+1. **Port scanners** – Check for open network ports on a system.
+2. **Vulnerability scanners** – Check open ports for known vulnerabilities.
+3. **Application scanners** – Probe deep into web applications to detect flaws.
+
+### 🧰 **Port Scanners**
+
+Port scanners are tools that check all 65,535 network ports on a server to see which ones are open. This process is like checking the doorknobs of a server to find any unlocked doors. One popular port scanning tool is **nmap**.
+
+### 📡 **Running an nmap Scan**
+
+In this example, the target of the scan is a Windows server. The scan is initiated with the `nmap` command followed by the target IP address. The tool checks the open ports on the system. This can take anywhere from a few seconds to several minutes depending on network distance and the number of ports being checked.
+
+- Example:
+  ```bash
+  nmap <IP_address>
+  ```
+
+Once the scan is complete, the results show which ports are open. In this case, the server has:
+
+- **Port 80**: Used for a web server.
+- **Port 3389**: Remote Desktop Protocol (RDP) port, commonly associated with Windows systems.
+
+### 🌐 **Verifying the Results**
+
+After finding port 80 open, you can verify the web server by typing the IP address into a browser. If you see the default homepage for **Microsoft Internet Information Services (IIS)**, it's confirmed as a Windows web server.
+
+### 🔐 **Security Implications**
+
+For attackers, open ports like **3389** (RDP) and **80** (web server) represent potential targets. For security professionals, these results can guide decisions on whether these services should be exposed or if they need to be secured further.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
