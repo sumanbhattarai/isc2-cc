@@ -1720,14 +1720,16 @@ LANs connect to WANs to access the **global internet**.
 
 #### 🖥 **Wired Networks**
 
-✔ **Uses Ethernet cables** (RJ-45) for **high-speed**, stable connections.  
+✔ **Uses Ethernet cables** (RJ-45 , also called 8 pin connector) for **high-speed**, stable connections.  
 ✔ Typically used in **offices, data centers, and gaming setups**.
+
+> Note: In traditional telephones, RJ-11(6 pins) connectors were used.
 
 #### 📶 **Wireless Networks**
 
 ✔ **Wi-Fi (WLAN)** – Provides **flexible** access without cables.  
 ✔ **Bluetooth (PAN)** – Short-range (10m) for **peripherals** (headsets, speakers).  
-✔ **Near Field Communication (NFC)** – Very short-range (inches) for **payments & access control**.
+✔ **Near Field Communication (NFC)** – Very short-range (couple of inches) for **payments & access control**.
 
 ### ⚖ **Choosing the Right Network**
 
@@ -1736,6 +1738,62 @@ LANs connect to WANs to access the **global internet**.
 ✔ **Connecting personal devices?** Use **Bluetooth or NFC**.
 
 📌 **Key Takeaway**: Networks enhance **communication, accessibility, and efficiency** in modern computing! 🚀
+
+## 🔗 Introducing TCP/IP
+
+We use networks every day, but **how do they actually work?** The answer lies in a set of protocols called **TCP/IP**.
+
+### 📦 **What is TCP/IP?**
+
+TCP/IP stands for:  
+✔ **Transmission Control Protocol (TCP)** – Ensures **reliable**, ordered, and error-checked delivery of data.  
+✔ **Internet Protocol (IP)** – Handles **addressing** and **routing** of data packets between systems.
+
+🖥 **IP (Network Layer)** – Provides unique **IP addresses** and ensures packets reach the correct destination.  
+📡 **TCP & UDP (Transport Layer)** – Define **how data is sent** between systems.
+
+### 🔄 **TCP vs. UDP**
+
+| **Feature**           | **TCP(Transmission Control Protocol )** | **UDP(User Datagram Protocol)** |
+| --------------------- | --------------------------------------- | ------------------------------- |
+| **Connection Type**   | Connection-oriented                     | Connectionless                  |
+| **Reliability**       | Reliable (guarantees delivery)          | Unreliable (no guarantee)       |
+| **Use Case**          | Email, Web Browsing                     | Streaming, Voice & Video Calls  |
+| **Handshake Process** | 3-way handshake (SYN, SYN-ACK, ACK)     | No handshake                    |
+
+🔹 **TCP is used when accuracy matters**, while **UDP is used when speed is more important**.
+
+### 🤝 **TCP Three-Way Handshake**
+
+1️⃣ **SYN** → The client requests a connection.  
+2️⃣ **SYN-ACK** → The server acknowledges and responds.  
+3️⃣ **ACK** → The client confirms, and communication begins.
+
+### 🏗 **The OSI (Open Systems Interconnection) & TCP/IP Models**
+
+#### **📚 OSI Model (7 Layers)**
+
+| **Layer**           | **Function**                               |
+| ------------------- | ------------------------------------------ |
+| 7️⃣ **Application**  | User interaction (Web browsers, Email)     |
+| 6️⃣ **Presentation** | Encryption & Data Formatting               |
+| 5️⃣ **Session**      | Communication Management                   |
+| 4️⃣ **Transport**    | Ensures data reliability (TCP, UDP)        |
+| 3️⃣ **Network**      | Routing & IP addressing (IP protocol)      |
+| 2️⃣ **Data Link**    | Node-to-node communication (MAC addresses) |
+| 1️⃣ **Physical**     | Hardware transmission (Wires, Wi-Fi)       |
+
+#### **🌐 TCP/IP Model (4 Layers)**
+
+| **Layer**               | **OSI Equivalent**                                  |
+| ----------------------- | --------------------------------------------------- |
+| 📤 **Application**      | OSI's Application, Presentation, and Session layers |
+| 🚚 **Transport**        | OSI's Transport layer (TCP, UDP)                    |
+| 🌍 **Internet**         | OSI's Network layer (IP routing)                    |
+| 🖧 **Network Interface** | OSI's Data Link & Physical layers                   |
+
+📌 **Key Takeaway**:  
+TCP/IP enables modern **network communication**, balancing **reliability (TCP)** and **speed (UDP)** while using **structured models (OSI & TCP/IP)** for understanding networking. 🚀
 
 ---
 
