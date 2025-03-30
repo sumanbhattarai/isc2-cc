@@ -1873,6 +1873,43 @@ IP addresses identify a device on a network, but **network ports** direct traffi
 
 📌 **Well-known ports help standardize network communication, ensuring devices find the correct services easily.**
 
+## 🔐 Securing Wireless Networks
+
+Securing wireless networks is essential to protect against unauthorized access and eavesdropping attacks. Below are best practices for ensuring your wireless network stays secure:
+
+### 📡 **SSID (Service Set Identifier)**
+
+- **What is SSID?**
+  - It's the name of your wireless network, visible when choosing a network on a device.
+- **To enhance security:**
+  - **Disable SSID broadcasting** to make the network invisible to devices unless they already know the SSID.
+
+### 🔑 **Change Default Administrative Passwords**
+
+- **What are default passwords?**
+  - These are factory-set passwords used to manage wireless access points.
+- **Best Practice:**
+  - **Immediately change the default passwords** to strong, unique ones to prevent unauthorized access.
+
+### 🛡️ **Types of Wireless Authentication**
+
+1. **Open Networks**
+   - Available to anyone, no authentication required.
+2. **Preshared Key (PSK)**
+   - Users must enter a shared key to connect to the network.
+   - **Limitations of PSK:**
+     - Difficult to change the key regularly, especially for large networks.
+     - No user identification, making it impossible to restrict access based on user identity (e.g., if a user leaves).
+3. **Enterprise Authentication**
+   - Users authenticate using **individual credentials** (username/password or other methods) via an authentication server.
+   - Provides more control over access and allows easier management of user access.
+4. **Captive Portals**
+   - Common in public places (e.g., hotels, coffee shops).
+   - **How it works:**
+     - When users connect, they are redirected to a webpage requiring authentication (such as accepting terms or entering a password).
+
+By implementing these practices, you can secure your wireless network and limit unauthorized access.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
