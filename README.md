@@ -2175,7 +2175,7 @@ An **IPS** is similar to an IDS but with the added ability to take immediate cor
 
 Two main types of errors can occur with IDS/IPS systems:
 
-- **False positives**: When the system incorrectly flags benign activity as an attack.
+- **False positives**: When the system incorrectly flags benign (normal , harmless) activity as an attack.
 - **False negatives**: When the system fails to detect an actual attack.
 
 ### 🧬 **Detection Methods**
@@ -2208,6 +2208,46 @@ Two main types of errors can occur with IDS/IPS systems:
 ### ⚠️ **Choosing the Right System**
 
 As a security professional, understanding the strengths and weaknesses of both **IDS** and **IPS** and choosing the appropriate deployment model (in-band vs. out-of-band) is critical for optimal network security.
+
+## 🔐 Malware Prevention
+
+Malware is a major threat to computer and mobile device security, but a variety of tools can be used to protect systems from these threats. Modern **antimalware software** defends against viruses, worms, Trojan horses, and spyware.
+
+### 🧬 **Antivirus Software Mechanisms**
+
+1. **Signature Detection**
+
+   - **How it works**: Signature-based antivirus software uses databases of known malware patterns to scan system files and memory for any matches.
+   - **Action**: If a match is found, the software removes or quarantines the malicious content for further analysis.
+   - **Important**: To remain effective, **virus definition files** must be updated regularly to include signatures for newly discovered malware.
+
+2. **Heuristic (Behavior) Detection**
+   - **How it works**: Rather than relying on known malware patterns, heuristic detection models **normal system behavior** and reports anomalies or suspicious activities that deviate from that normal behavior.
+   - **Use**: This method is often found in **endpoint detection and response (EDR)** solutions, which offer advanced protection.
+
+### 🖥️ **Endpoint Detection and Response (EDR)**
+
+EDR solutions provide **advanced, real-time protection** by:
+
+- Analyzing endpoints for signs of malicious activity.
+- Monitoring memory, processor use, registry entries, network traffic, and other system behaviors.
+- Triggering **automated responses** to defend against attacks.
+
+EDR systems also provide **sandboxing** capabilities:
+
+- **Sandboxing** isolates suspicious executables before they run, checking their behavior in a safe environment.
+- If the executable behaves maliciously, it is blocked from running on the protected system.
+
+### 🛡️ **Windows Defender Example**
+
+**Windows Defender** is built into Windows and provides basic antimalware protection:
+
+- It performs scans to identify malicious activity, with options for **quick, full, or custom scans**.
+- Users can **update virus definitions** and review the **history of quarantined items** or past scans.
+
+### 🛠️ **Other Antimalware Packages**
+
+Many other antimalware tools are available across various operating systems, providing comprehensive protection against evolving threats.
 
 ---
 
