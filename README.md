@@ -2053,6 +2053,37 @@ Network administrators use **ping** and **traceroute** for troubleshooting and a
 ✔️ Implement **application control** to restrict unauthorized software.  
 ✔️ Enable **firewalls and intrusion detection systems**.
 
+## 🔐 Botnets
+
+**Botnets** are networks of **infected computers** (also called **zombies**) controlled by hackers for **malicious activities**. These infected systems remain **dormant** until they receive instructions from a **command and control (C2) network**.
+
+### 🦠 **How Botnets Are Created**
+
+1. **Infection** – Hackers use malware (worms, Trojans, viruses) to **infect systems**.
+2. **Recruitment** – Infected systems join the **botnet** and await commands.
+3. **Expansion** – Some bots may spread malware to recruit **more systems**.
+4. **Command & Control (C2)** – The hacker controls the botnet using **hidden communication channels** (IRC, Twitter, P2P networks).
+5. **Execution** – Bots **carry out attacks** as instructed by the hacker.
+
+### ⚠️ **How Hackers Use Botnets**
+
+| Attack Type                              | Purpose                                                        |
+| ---------------------------------------- | -------------------------------------------------------------- |
+| **Spam Delivery**                        | Sends bulk spam emails.                                        |
+| **Distributed Denial of Service (DDoS)** | Overloads websites and services to make them unavailable.      |
+| **Cryptocurrency Mining**                | Uses infected systems’ computing power to mine cryptocurrency. |
+| **Brute Force Attacks**                  | Tries to crack passwords using automated login attempts.       |
+
+### 🛡️ **How to Defend Against Botnets**
+
+✔️ **Use up-to-date antivirus and anti-malware software** to detect infections.  
+✔️ **Monitor network traffic** for unusual outbound connections.  
+✔️ **Implement firewalls and intrusion detection/prevention systems (IDS/IPS)**.  
+✔️ **Restrict unauthorized software** to prevent malware execution.  
+✔️ **Educate users** on phishing attacks and malware threats.
+
+By understanding botnets and their **command-and-control structures**, security professionals can detect **compromised systems** and shut down **botnet activity** before it causes damage. 🚀
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
