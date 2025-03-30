@@ -9,7 +9,7 @@
 - [🛡️ Security Fundamentals: Access Control, Authentication, Privacy, and Password Management](#️-security-fundamentals-access-control-authentication-privacy-and-password-management)
 - [⚠️ Risk Analysis and Management](#️-risk-analysis-and-management)
 - [📜 Security Governance and Legal Regulations](#-security-governance-and-legal-regulations)
-- [Business Continuity](#business-continuity)
+- [📈 Business Continuity](#-business-continuity)
 - [🏹 Incident Response](#-incident-response)
 - [💥 Disaster Recovery](#-disaster-recovery)
 - [🏢 Physical Access Controls](#-physical-access-controls)
@@ -798,7 +798,7 @@ Organizations need **security policies** to **govern the use, protection, and ma
 
 A **well-crafted security policy framework** helps organizations **protect assets, ensure compliance, and minimize risks**. ✅
 
-# Business Continuity
+# 📈 Business Continuity
 
 ## 🔄 Business Continuity Planning
 
