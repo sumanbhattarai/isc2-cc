@@ -2150,6 +2150,65 @@ A specific type of side-channel attack where the attacker **measures** how long 
 - Protect cryptographic devices against **physical manipulation** and **faults**.
 - Minimize **leakage of side-channel information** through techniques like constant-time algorithms or shielding.
 
+# 🕵️‍♂️ Threat Indentification and Prevention
+
+## 🔐 Intrusion Detection and Prevention
+
+Intrusion detection and prevention systems (IDPS) play a crucial role in defending networks against attackers and security threats. These systems monitor network traffic and can take action when they detect malicious activity.
+
+### 🕵️‍♂️ **Intrusion Detection Systems (IDS)**
+
+An **IDS** monitors network traffic to detect suspicious activity, such as:
+
+- **SQL injection** attempts.
+- **Malformed packets** causing potential denial of service.
+- **Unusual login attempts** based on time or user behavior.
+- A system attempting to contact a **botnet command and control server**.
+
+Once malicious traffic is detected, the IDS alerts administrators for further investigation.
+
+### 🚫 **Intrusion Prevention Systems (IPS)**
+
+An **IPS** is similar to an IDS but with the added ability to take immediate corrective action. For example, it can **block malicious traffic** from entering the network. This is especially useful when administrators are unavailable or overwhelmed by a high volume of alerts.
+
+### ❌ **Types of Errors in IDS/IPS**
+
+Two main types of errors can occur with IDS/IPS systems:
+
+- **False positives**: When the system incorrectly flags benign activity as an attack.
+- **False negatives**: When the system fails to detect an actual attack.
+
+### 🧬 **Detection Methods**
+
+1. **Signature Detection**  
+   This method works like **antivirus software**, using a database of known malicious patterns (signatures). When the IDS/IPS detects traffic matching a signature, it triggers an alert.
+
+   - **Pros**: High reliability with low false positives.
+   - **Cons**: Cannot detect new, unknown attacks.
+
+2. **Anomaly Detection**  
+   This method establishes a **model of normal network activity** and flags deviations as suspicious.
+
+   - **Pros**: Can detect new and unknown attacks.
+   - **Cons**: Higher false positive rate.
+
+   This method is also known as:
+
+   - **Behavior detection**
+   - **Heuristic detection**
+
+### 🏗️ **Deployment Methods**
+
+- **In-band (Inline) Deployment**  
+  In this setup, the **IPS** sits directly on the network path, meaning all traffic passes through it. It can actively block malicious traffic but also presents a risk since it is a **single point of failure**.
+
+- **Out-of-band (Passive) Deployment**  
+  The **IPS** is not in the network path but is connected to a span port on a switch, receiving copies of the traffic. It can **alert** and block future traffic but cannot stop an attack from entering the network in real-time.
+
+### ⚠️ **Choosing the Right System**
+
+As a security professional, understanding the strengths and weaknesses of both **IDS** and **IPS** and choosing the appropriate deployment model (in-band vs. out-of-band) is critical for optimal network security.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
