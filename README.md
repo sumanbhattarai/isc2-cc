@@ -1701,6 +1701,42 @@ Authorization is the **final step** in the access control process, determining w
 
 📌 **Best Practice**: Implement **RBAC** with **Least Privilege** to maintain **security and efficiency**. 🚀
 
+# 🌐 Computer Networks
+
+## 🌐 Network Types
+
+Computers are powerful alone, but **networks** make them even **more powerful** by allowing communication, file sharing, and remote access.
+
+### 🏢 **Local vs. Wide Area Networks**
+
+| **Network Type**                | **Description**                                | **Example**                  |
+| ------------------------------- | ---------------------------------------------- | ---------------------------- |
+| 📡 **Local Area Network (LAN)** | Connects devices **within the same building**. | Office, Home Wi-Fi           |
+| 🌍 **Wide Area Network (WAN)**  | Connects LANs over **long distances**.         | Internet, Corporate Branches |
+
+LANs connect to WANs to access the **global internet**.
+
+### 🔗 **Wired vs. Wireless Networks**
+
+#### 🖥 **Wired Networks**
+
+✔ **Uses Ethernet cables** (RJ-45) for **high-speed**, stable connections.  
+✔ Typically used in **offices, data centers, and gaming setups**.
+
+#### 📶 **Wireless Networks**
+
+✔ **Wi-Fi (WLAN)** – Provides **flexible** access without cables.  
+✔ **Bluetooth (PAN)** – Short-range (10m) for **peripherals** (headsets, speakers).  
+✔ **Near Field Communication (NFC)** – Very short-range (inches) for **payments & access control**.
+
+### ⚖ **Choosing the Right Network**
+
+✔ **Need high speed & reliability?** Use **wired Ethernet**.  
+✔ **Need convenience & mobility?** Use **Wi-Fi**.  
+✔ **Connecting personal devices?** Use **Bluetooth or NFC**.
+
+📌 **Key Takeaway**: Networks enhance **communication, accessibility, and efficiency** in modern computing! 🚀
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
