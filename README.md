@@ -1795,6 +1795,46 @@ TCP/IP stands for:
 📌 **Key Takeaway**:  
 TCP/IP enables modern **network communication**, balancing **reliability (TCP)** and **speed (UDP)** while using **structured models (OSI & TCP/IP)** for understanding networking. 🚀
 
+## 🌍 IP Addresses and DHCP
+
+For the **Internet Protocol (IP)** to deliver traffic, it needs an **addressing scheme**—just like phone numbers and street addresses.
+
+### 🔢 **Understanding IP Addresses**
+
+✔ **IPv4 Format:** Written in **dotted quad notation** (e.g., `192.168.1.100`).  
+✔ **Range:** Each number ranges from **0 to 255** (because **8 bits = 256 values**).  
+✔ **Two Parts:**
+
+- **Network Address** (e.g., `192.168`) – Identifies the network.
+- **Host Address** (e.g., `1.100`) – Identifies the specific device.
+
+📌 **Private vs. Public IPs**
+
+- **Private IPs** (e.g., `192.168.x.x`, `10.x.x.x`, `172.16.x.x - 172.31.x.x`) can be reused in different networks.
+- **Public IPs** are unique across the entire internet.
+- **Network Address Translation (NAT)** allows private IPs to communicate over the internet by mapping them to public IPs.
+
+### 🔄 **IPv4 vs. IPv6**
+
+| **Feature**       | **IPv4**                    | **IPv6**                                       |
+| ----------------- | --------------------------- | ---------------------------------------------- |
+| **Bit Length**    | 32-bit                      | 128-bit                                        |
+| **Format**        | Dotted quad (`192.168.1.1`) | Hexadecimal (`2001:0db8:85a3::8a2e:0370:7334`) |
+| **Address Limit** | ~4.3 billion                | Virtually unlimited                            |
+| **Need for NAT?** | Yes                         | No                                             |
+
+IPv6 adoption is growing as IPv4 addresses become scarce.
+
+### ⚡ **Static vs. Dynamic IP Assignment**
+
+🔹 **Static IP** – Manually assigned, used for **servers, routers, and network devices**.  
+🔹 **Dynamic IP (DHCP)** – Automatically assigned via **Dynamic Host Configuration Protocol (DHCP)**.
+
+🚀 **DHCP Benefits:**  
+✔ Eliminates manual IP assignment.  
+✔ Prevents conflicts by ensuring unique addresses.  
+✔ Efficiently manages available IPs.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
