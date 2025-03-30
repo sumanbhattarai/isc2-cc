@@ -1939,6 +1939,82 @@ Wireless encryption is essential to protect network traffic from **eavesdropping
 - **Always use WPA2 or WPA3** for secure wireless communication.
 - **Upgrade to WPA3** where possible for the best security.
 
+## 🔍 Ping and Traceroute
+
+Network administrators use **ping** and **traceroute** for troubleshooting and analyzing network connectivity.
+
+### 📡 **Ping Command**
+
+**Ping** checks if a remote system is reachable by sending an **ICMP (Internet Control Message Protocol) echo request** and waiting for an **ICMP echo reply**. It helps diagnose network issues by verifying if a system is accessible and measuring round-trip latency.
+
+#### **How Ping Works:**
+
+1. Sends an **ICMP echo request** packet.
+2. Receives an **ICMP echo reply** if the system is reachable.
+3. Measures **response time** (latency) in milliseconds.
+
+#### **Usage:**
+
+- **Syntax:**
+  ```sh
+  ping <IP_address>  # Example: ping 8.8.8.8
+  ping <domain_name> # Example: ping www.google.com
+  ```
+- **Stopping a ping loop:** Press `Ctrl + C`
+- **Important Note:** Some servers block **ICMP requests**, causing no response.
+
+### 🛤 **Traceroute Command**
+
+**Traceroute** tracks the path packets take from the source to the destination. It helps identify network bottlenecks and unreachable hops.
+
+#### **How Traceroute Works:**
+
+- Sends **ICMP packets** with increasing **TTL (Time-To-Live)** values.
+- Each router along the way **decreases the TTL** and replies when it reaches **0**.
+- Displays the **IP address or hostname** of each hop.
+
+#### **Usage:**
+
+- **Mac/Linux:**
+  ```sh
+  traceroute <domain_name>  # Example: traceroute www.google.com
+  ```
+- **Windows:**
+  ```sh
+  tracert <domain_name>  # Example: tracert www.google.com
+  ```
+
+#### **Interpreting Traceroute Output:**
+
+| Output                  | Meaning                                       |
+| ----------------------- | --------------------------------------------- |
+| `X.X.X.X` or `hostname` | The router's IP/hostname along the path.      |
+| `* * *`                 | The router does not respond to ICMP requests. |
+
+### 🛠 **Additional Tools**
+
+- **Hping**: A more advanced version of ping that allows custom packet manipulation.
+- **Pathping (Windows Only)**: Combines **ping** and **tracert** into one command.
+  ```sh
+  pathping <domain_name>
+  ```
+
+### 🔎 **Best Practices for Troubleshooting**
+
+| **Step**                                               | **Command**           | **Interpretation**                                         |
+| ------------------------------------------------------ | --------------------- | ---------------------------------------------------------- |
+| **1. Check if a website is up.**                       | `ping <domain>`       | If no response, the website may be down or blocking pings. |
+| **2. Check if internet access is working.**            | `ping 8.8.8.8`        | If this fails, there may be an internet issue.             |
+| **3. Diagnose network routing issues.**                | `traceroute <domain>` | Identifies where packets are getting dropped.              |
+| **4. Use Pathping for a detailed analysis (Windows).** | `pathping <domain>`   | Shows latency at each hop.                                 |
+
+### ⚠️ **Key Takeaways**
+
+- **Use ping** to check if a system is online and measure latency.
+- **Use traceroute** to identify network paths and potential bottlenecks.
+- **Some networks block ICMP**, so lack of response doesn’t always mean a system is down.
+- **Pathping (Windows)** provides additional insights into network issues.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
