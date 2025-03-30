@@ -2084,6 +2084,43 @@ Network administrators use **ping** and **traceroute** for troubleshooting and a
 
 By understanding botnets and their **command-and-control structures**, security professionals can detect **compromised systems** and shut down **botnet activity** before it causes damage. 🚀
 
+## 🔐 Eavesdropping Attacks
+
+**Eavesdropping attacks** occur when an attacker gains access to the communication path between a **client** and **server**, potentially viewing confidential information. This can be done through **physical** or **logical** access to a network.
+
+### 🛠️ **Methods of Eavesdropping Attacks**
+
+1. **Physical Tapping** – Direct access to network cables or devices.
+2. **DNS or ARP Poisoning** – Tricks systems into sending traffic to the attacker instead of the intended destination.
+3. **Man-in-the-Middle (MitM) Attacks** – The attacker intercepts and relays communication between two systems, often without the sender or receiver knowing.
+4. **Man-in-the-Browser Attacks** – The attacker compromises the user's browser or a plugin to gain access to web communications.
+5. **Replay Attacks** – The attacker captures previously sent data (e.g., authentication tokens) and replays it to gain unauthorized access.
+
+### 🔒 **MitM Attack Details**
+
+- The attacker intercepts communication between the user and server, acting as a relay.
+- The attacker can read, alter, or replay communication between the client and the server.
+- **Prevention**: Use of **HTTPS**, where encryption protects communications from eavesdropping.
+
+### 🔄 **Replay Attacks**
+
+- The attacker captures encrypted data (e.g., authentication tokens) and resends it to authenticate a connection without the user’s involvement.
+- **Defense**: Use **session tokens** with short expiration times or **timestamps** to prevent replaying old sessions.
+
+### ⚡ **SSL Stripping**
+
+- In this attack, the attacker **downgrades** an encrypted **HTTPS** connection to **HTTP**, stripping away encryption and allowing eavesdropping.
+- **Prevention**: Ensure that **SSL/TLS** is enforced and not downgraded by using strict security policies.
+
+### 🛡️ **Protection Against Eavesdropping**
+
+- **Use encryption** (e.g., HTTPS) to secure communications.
+- **Regularly update** security protocols (e.g., SSL/TLS).
+- **Monitor network traffic** for unusual patterns or unauthorized access.
+- **Educate users** about phishing and risks of insecure connections.
+
+With this knowledge, you can detect and prevent **eavesdropping** attacks to keep sensitive data secure. 🔒
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
