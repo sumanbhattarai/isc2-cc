@@ -2121,6 +2121,35 @@ By understanding botnets and their **command-and-control structures**, security 
 
 With this knowledge, you can detect and prevent **eavesdropping** attacks to keep sensitive data secure. 🔒
 
+## 🔐 Implementation Attacks
+
+Cryptographic systems may have vulnerabilities based on their **design** or how they are **implemented**. These flaws can allow attackers to break the system's security.
+
+### 🛠️ **Fault Injection Attacks**
+
+An attacker tries to compromise a cryptographic device by introducing **external faults**. This might involve high-voltage electricity, temperature changes, or other conditions that cause the system to malfunction. These faults can cause the system to:
+
+- Fail to properly encrypt data.
+- Leak unencrypted data.
+- Experience other security failures.
+
+### 🏃‍♂️ **Side-Channel Attacks**
+
+Attackers can exploit system activity **footprints** (e.g., power consumption, processor utilization, or electromagnetic radiation) to gain insight into the cryptographic process. These signals can sometimes be captured to retrieve information that is being encrypted.
+
+### ⏱️ **Timing Attacks**
+
+A specific type of side-channel attack where the attacker **measures** how long cryptographic operations take. This timing data may be used to:
+
+- Infer details about the cryptographic process.
+- Exploit weaknesses in the system's implementation to gain unauthorized access.
+
+### 🛡️ **Protection Against Implementation Attacks**
+
+- Design cryptographic systems carefully, considering both theoretical and practical security aspects.
+- Protect cryptographic devices against **physical manipulation** and **faults**.
+- Minimize **leakage of side-channel information** through techniques like constant-time algorithms or shielding.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
