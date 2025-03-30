@@ -1835,6 +1835,44 @@ IPv6 adoption is growing as IPv4 addresses become scarce.
 ✔ Prevents conflicts by ensuring unique addresses.  
 ✔ Efficiently manages available IPs.
 
+## 🌐 Network Ports
+
+IP addresses identify a device on a network, but **network ports** direct traffic to specific applications running on that device.
+
+### 🏢 **Analogy: Apartment Building**
+
+- **IP Address** → Street Address (identifies the building).
+- **Port Number** → Apartment Number (guides to the right unit).
+
+📌 **Port numbers are 16-bit values** (range: **0 – 65,535**).
+
+### 🔢 **Port Ranges and Usage**
+
+| **Port Range**      | **Name**         | **Purpose**                                                                             |
+| ------------------- | ---------------- | --------------------------------------------------------------------------------------- |
+| **0 – 1,023**       | Well-Known Ports | Reserved for common protocols (assigned by IANA (Internet Assigned Numbers Authority)). |
+| **1,024 – 49,151**  | Registered Ports | Used by vendors (e.g., databases, applications).                                        |
+| **49,152 – 65,535** | Dynamic Ports    | Temporary, assigned as needed.                                                          |
+
+### 🔑 **Common Network Ports to Memorize**
+
+| **Port**          | **Protocol** | **Usage**                              |
+| ----------------- | ------------ | -------------------------------------- |
+| **21**            | FTP          | File Transfer Protocol                 |
+| **22**            | SSH          | Secure Shell (Encrypted Remote Access) |
+| **25**            | SMTP         | Sending Emails                         |
+| **53**            | DNS          | Domain Name System Lookups             |
+| **80**            | HTTP         | Web Traffic (Unencrypted)              |
+| **110**           | POP3         | Retrieve Emails                        |
+| **143**           | IMAP         | Retrieve Emails (Advanced)             |
+| **443**           | HTTPS        | Secure Web Traffic (TLS/SSL)           |
+| **3389**          | RDP          | Remote Desktop Protocol (Windows)      |
+| **137, 138, 139** | NetBIOS      | Windows Network Communication          |
+| **1433**          | MS SQL       | Microsoft SQL Server                   |
+| **1521**          | Oracle DB    | Oracle Database                        |
+
+📌 **Well-known ports help standardize network communication, ensuring devices find the correct services easily.**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
