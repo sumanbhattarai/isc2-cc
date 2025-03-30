@@ -1645,6 +1645,36 @@ Security administrators must **monitor user accounts** to **detect unauthorized 
 
 📌 **Key Takeaway**: Continuous monitoring **prevents unauthorized access** and ensures users have **only the permissions they need**!
 
+## 🔐 Provisioning and Deprovisioning
+
+Account administrators manage **user onboarding and offboarding** to control system access securely.
+
+### ✅ **Provisioning (Onboarding New Users)**
+
+✔ **Create Authentication Credentials** – Generate usernames, passwords, and multi-factor authentication (MFA) settings.  
+✔ **Assign Authorizations** – Grant access based on **job role** and **least privilege principle**.  
+✔ **Automate Workflows** – Ensure **consistent** and **efficient** account creation.
+
+### ❌ **Deprovisioning (Offboarding Users)**
+
+🛑 **Immediate Account Removal** – Prevents **former employees from accessing systems** after departure.  
+⚡ **Automated Revocation** – Ensures accounts **expire** at the right time, reducing manual errors.
+
+#### 🔄 **Planned vs. Emergency Termination**
+
+| **Scenario**                 | **Action**                                               |
+| ---------------------------- | -------------------------------------------------------- |
+| 📅 **Planned Departure**     | Auto-expire account on the last working day.             |
+| 🚨 **Emergency Termination** | Disable account **immediately** in coordination with HR. |
+
+### 🔄 **Best Practices in Windows (Active Directory)**
+
+✔ **Disable First, Delete Later** – Temporarily suspend accounts before **permanent removal**.  
+✔ **Schedule Account Expiration** – Set automatic expiration for **retiring employees**.  
+✔ **Monitor Disabled Accounts** – Ensure they’re eventually removed to **free up resources**.
+
+📌 **Key Takeaway**: Timely **provisioning and deprovisioning** strengthens security by preventing **unauthorized access** and ensuring **only active employees have system privileges**. 🚀
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
