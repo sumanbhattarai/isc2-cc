@@ -1910,6 +1910,35 @@ Securing wireless networks is essential to protect against unauthorized access a
 
 By implementing these practices, you can secure your wireless network and limit unauthorized access.
 
+## 🔐 Wireless Encryption
+
+Wireless encryption is essential to protect network traffic from **eavesdropping** and unauthorized access. Encryption ensures that only users with the decryption key can interpret the transmitted data.
+
+### 📜 **Evolution of Wireless Encryption Standards**
+
+| Encryption Standard                | Status             | Security Level   | Notes                                                                              |
+| ---------------------------------- | ------------------ | ---------------- | ---------------------------------------------------------------------------------- |
+| **WEP (Wired Equivalent Privacy)** | ❌ **Insecure**    | 🔴 **Weak**      | Contains severe vulnerabilities. **Never use WEP.**                                |
+| **WPA (Wi-Fi Protected Access)**   | ⚠️ **Obsolete**    | 🟠 **Moderate**  | Uses **TKIP (Temporal Key Integrity Protocol)** but still has vulnerabilities.     |
+| **WPA2**                           | ✅ **Secure**      | 🟢 **Strong**    | Uses **AES-based CCMP encryption**. Still widely used.                             |
+| **WPA3**                           | ✅ **Most Secure** | 🟢 **Strongest** | Uses **CCMP + SAE (Simultaneous Authentication of Equals)** for better protection. |
+
+### 🔑 **Key Features of WPA2 and WPA3**
+
+- **WPA2 (2004)**
+  - **Uses AES-based CCMP encryption** for strong security.
+  - Considered **secure and widely used** despite some vulnerabilities.
+- **WPA3 (2020)**
+  - Introduces **Simultaneous Authentication of Equals (SAE)** for improved key exchange security.
+  - Provides **better protection against brute force attacks**.
+  - **Mandatory for new wireless devices** as of 2020.
+
+### ⚠️ **Best Practices**
+
+- **Never use WEP or WPA**—they are outdated and vulnerable.
+- **Always use WPA2 or WPA3** for secure wireless communication.
+- **Upgrade to WPA3** where possible for the best security.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
