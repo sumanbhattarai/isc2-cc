@@ -16,8 +16,7 @@
 - [🖥️ Logical Access Control](#️-logical-access-control)
 - [🌐 Computer Networks](#-computer-networks)
 - [🛑 Network Threats](#-network-threats)
-- [🕵️‍♂️ Threat Indentification and Prevention](#-threat-indentification-and-prevention)
--
+- [🕵️‍♂️ Threat Identification and Prevention](#-threat-identification-and-prevention)
 
 # 🔐 (ISC)²: Overview and Ethical Code in Cybersecurity
 
@@ -2153,7 +2152,7 @@ A specific type of side-channel attack where the attacker **measures** how long 
 - Protect cryptographic devices against **physical manipulation** and **faults**.
 - Minimize **leakage of side-channel information** through techniques like constant-time algorithms or shielding.
 
-# 🕵️‍♂️ Threat Indentification and Prevention
+# 🕵️‍♂️ Threat Identification and Prevention
 
 ## 🔐 Intrusion Detection and Prevention
 
