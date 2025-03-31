@@ -2318,6 +2318,57 @@ By using a tool like Nessus, organizations can actively monitor their systems fo
 
 Regularly running vulnerability scans with tools like Nessus ensures that potential risks are identified early and mitigated before they can be exploited.
 
+# 🏢 Network Security Infrastructure
+
+## 🔐 Data Center Protection
+
+Data centers house sensitive electronic equipment that must operate in a **controlled environment** to prevent damage from environmental threats. Proper **data center environmental controls** help maintain stable conditions that protect servers and networking devices.
+
+### 🌡️ **Temperature Control**
+
+- Electronic equipment generates significant **heat**, and excessive temperatures can reduce the lifespan of servers.
+- Data centers rely on **massive cooling systems** to maintain optimal conditions.
+- The **American Society of Heating, Refrigeration, and Air Conditioning Engineers (ASHRAE)** recommends a **temperature range of 64.4°F to 80.6°F** for data centers.
+
+### 💧 **Humidity Control**
+
+- **High humidity** causes **condensation**, which can lead to short circuits.
+- **Low humidity** increases **static electricity**, which can damage sensitive components.
+- Environmental specialists use **dew point measurements** to monitor humidity.
+- The recommended **dew point range** is **41.9°F to 50°F** to prevent both condensation and static discharge.
+
+### 🔥 **Fire Suppression Systems**
+
+Fire is a major threat to data centers due to the large presence of electrical equipment. Effective **fire suppression** systems must be in place.
+
+#### 🔺 **Fire Triangle**
+
+Fires require **three elements** to burn:
+
+1. **Heat**
+2. **Oxygen**
+3. **Fuel**
+
+Suppressing a fire requires removing one of these elements.
+
+#### 🚒 **Fire Suppression Methods**
+
+- **Water-based systems** (common but risky in data centers)
+  - **Wet pipe systems**: Constantly filled with water (high risk due to possible leaks).
+  - **Dry pipe systems**: Water remains blocked until a fire alarm activates the system (lower risk of accidental flooding).
+- **Chemical suppression systems** (better suited for data centers)
+  - Instead of water, these systems use **chemical agents** to **remove oxygen** and smother the fire.
+  - **Caution:** Removing oxygen from a room can be **dangerous for personnel**.
+
+### 🏢 **Facility Protection Agreements**
+
+Organizations that manage their own data centers must implement **environmental protections**. However, in cases where data centers are outsourced, protection requirements should be formalized in **agreements**:
+
+- **Memorandum of Understanding (MOU):** Internal agreements specifying environmental requirements.
+- **Service Level Agreement (SLA):** Contracts with third-party providers defining acceptable environmental conditions.
+
+Proper environmental controls and risk mitigation strategies help **protect critical data center infrastructure**, ensuring **reliability and uptime**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
