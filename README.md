@@ -17,6 +17,7 @@
 - [🌐 Computer Networks](#-computer-networks)
 - [🛑 Network Threats](#-network-threats)
 - [🕵️‍♂️ Threat Identification and Prevention](#-threat-identification-and-prevention)
+- [🏢 Network Security Infrastructure](#-network-security-infrastructure)
 
 # 🔐 (ISC)²: Overview and Ethical Code in Cybersecurity
 
