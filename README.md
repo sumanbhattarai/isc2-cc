@@ -15,6 +15,9 @@
 - [🏢 Physical Access Controls](#-physical-access-controls)
 - [🖥️ Logical Access Control](#️-logical-access-control)
 - [🌐 Computer Networks](#-computer-networks)
+- [🛑 Network Threats](#-network-threats)
+- [🕵️‍♂️ Threat Indentification and Prevention](#-threat-indentification-and-prevention)
+-
 
 # 🔐 (ISC)²: Overview and Ethical Code in Cybersecurity
 
