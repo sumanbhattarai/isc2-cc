@@ -2283,7 +2283,7 @@ After finding port 80 open, you can verify the web server by typing the IP addre
 
 ### 🔐 **Security Implications**
 
-For attackers, open ports like **3389** (RDP) and **80** (web server) represent potential targets. For security professionals, these results can guide decisions on whether these services should be exposed or if they need to be secured further.
+For attackers, open ports like **3389** (Remote Desktop Protocol) and **80** (web server) represent potential targets. For security professionals, these results can guide decisions on whether these services should be exposed or if they need to be secured further.
 
 ## 🔐 Vulnerability Scanners
 
