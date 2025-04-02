@@ -2371,6 +2371,70 @@ Organizations that manage their own data centers must implement **environmental 
 
 Proper environmental controls and risk mitigation strategies help **protect critical data center infrastructure**, ensuring **reliability and uptime**.
 
+## 🔐 Security Zones
+
+Modern networks use **firewalls** to segment systems based on their **security level**, creating **security zones** to regulate access and reduce risk.
+
+### 🔥 **Border Firewall & Security Zones**
+
+A **border firewall** typically has **three network interfaces**, each connecting to a different security zone:
+
+1. **Internet (Untrusted Network)**
+
+   - This is the interface between the **protected networks** and the **outside world**.
+   - Firewalls allow **outbound** connections but block most **inbound** connections unless explicitly permitted.
+
+2. **Intranet (Internal Network)**
+
+   - Contains **trusted systems**, such as **workstations, databases, and internal services**.
+   - Can be further **subdivided** into:
+     - **Endpoint systems**
+     - **Wireless networks**
+     - **Guest networks**
+     - **Data center networks**
+   - Firewalls regulate traffic between these **internal segments**.
+
+3. **DMZ (Demilitarized Zone)**
+   - A separate zone for systems that must **accept external connections** (e.g., **web and mail servers**).
+   - Firewalls **isolate** the DMZ from the **intranet**, preventing attackers from using **compromised DMZ servers** as entry points.
+
+### 🛡️ **Zero Trust Security Model**
+
+Traditional **network-based trust models** are being replaced by **Zero Trust**, where:
+
+- **Network location does not grant trust.**
+- Every request is **verified, authenticated, and monitored**.
+- Access is based on **identity, behavior, and context** rather than implicit trust.
+
+### 📡 **Special-Purpose Networks**
+
+1. **Extranet**
+
+   - A **restricted intranet** segment that **external partners** (e.g., vendors) can access via **VPN**.
+   - Allows **limited access** to internal systems while maintaining security.
+
+2. **Honeynet**
+
+   - A **decoy network** designed to **lure attackers**.
+   - Helps security teams **monitor attacker behavior** and develop better **defenses**.
+
+3. **Ad Hoc Network**
+   - A **temporary** or **unplanned** wired/wireless network.
+   - Often **lacks security controls**, creating **security risks** (e.g., rogue Wi-Fi access points exposing **internal networks**).
+
+### 🔀 **Network Traffic Directions**
+
+- **East-West Traffic**
+
+  - Movement **within** a data center (e.g., **server-to-server communication**).
+  - Often **not exposed to external threats** but may be **regulated internally**.
+
+- **North-South Traffic**
+  - Movement **between** internal systems and the **internet**.
+  - Typically **monitored and filtered** by **firewalls**.
+
+By properly implementing **security zones**, **firewalls**, and **Zero Trust principles**, organizations can **protect their networks** against **unauthorized access and cyber threats**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
