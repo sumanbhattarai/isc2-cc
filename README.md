@@ -2474,6 +2474,46 @@ Modern networks rely on **routers, switches, and bridges** to efficiently transm
 
 By combining **switches for local networking** and **routers for broader connectivity**, organizations ensure **efficient, secure, and scalable** communication networks.
 
+## 🔐 VLANs and Network Segmentation
+
+### 🏢 **What Are VLANs?**
+
+**Virtual LANs (VLANs)** are a **network security control** that:
+
+- **Logically group** related systems, **regardless of physical location**.
+- **Extend the broadcast domain**, enabling direct communication **within** a VLAN.
+- Operate at **Layer 2 (Data Link Layer)**, meaning **routers/firewalls** are not required for communication within a VLAN.
+
+🔹 **Why Use VLANs?**
+
+- Users from **different departments** (e.g., **Accounting, Sales, IT**) may be **physically scattered** across different locations.
+- VLANs allow **logical grouping** of these users, ensuring **efficient communication and security**.
+
+### 🔧 **How VLANs Work**
+
+Network administrators must:
+
+1. **Enable VLAN trunking** – Allows switches to carry **VLAN traffic** across the network.
+2. **Assign switch ports** to the correct VLAN – Ensures that devices connect to their **designated VLAN**.
+
+Once set up, **switching technology handles communication** within the VLAN while **enforcing network separation**.
+
+### 🔥 **VLANs and Network Segmentation**
+
+VLANs are used for **network segmentation**, which:
+
+- **Separates systems** into different networks **based on function**.
+- **Reduces security risk** by preventing **unrelated systems from communicating**.
+- Helps **contain threats** (e.g., a compromised device in one VLAN can’t easily access others).
+
+### ⚡ **Micro-Segmentation: The Next Level**
+
+- **Micro-segmentation** takes **network segmentation to the extreme** by creating **very small, dynamic segments**.
+- These segments can be **modified frequently** to meet changing business needs.
+- **Temporary VLANs** can be created for **short-term communication** and removed afterward.
+
+By leveraging VLANs and micro-segmentation, organizations **enhance security, improve network performance, and limit attack surfaces**. 🚀
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
