@@ -2435,6 +2435,45 @@ Traditional **network-based trust models** are being replaced by **Zero Trust**,
 
 By properly implementing **security zones**, **firewalls**, and **Zero Trust principles**, organizations can **protect their networks** against **unauthorized access and cyber threats**.
 
+## 🔐 Routers and Switches
+
+Modern networks rely on **routers, switches, and bridges** to efficiently transmit data over both **short** and **long distances**.
+
+### 🔌 **Switches: The Foundation of Local Networks**
+
+**Switches** are devices that connect multiple **wired devices** within a local network. They:
+
+- Operate at **Layer 2 (Data Link Layer)** of the OSI model.
+- Use **MAC addresses** to forward data to the correct device.
+- Can vary in size from **small (8 ports)** to **large (500+ ports)**.
+
+🔹 **Wired Network Setup**:
+
+- Switch **ports** are connected to **network cables**.
+- Cables run through **conduits** to different parts of a building.
+- Endpoints connect via **wall-mounted faceplates** to avoid damage.
+
+🔹 **Wireless Networks**:
+
+- **Access Points (APs)** create **Wi-Fi** networks.
+- APs **wirelessly connect** mobile devices while maintaining a **wired connection** to the switch.
+
+### 🌍 **Routers: Connecting Networks**
+
+**Routers** operate at **Layer 3 (Network Layer)** and serve as:
+
+- **Traffic controllers**, directing data between networks.
+- **Aggregators** of network traffic from **multiple sources**.
+- **Security enforcers**, using **Access Control Lists (ACLs)** to limit network access.
+
+🔹 **Stateless Inspection**:
+
+- Routers use **ACLs** to allow or block network traffic.
+- ACLs apply **static rules** without tracking connection history.
+- Firewalls enhance this with **stateful inspection** (covered next).
+
+By combining **switches for local networking** and **routers for broader connectivity**, organizations ensure **efficient, secure, and scalable** communication networks.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
