@@ -2825,6 +2825,60 @@ This is all part of a **defense-in-depth** strategy:
 
 > 📌 Summary: Isolate smart devices like you would internet-facing servers—**assume they're risky**, and **limit what they can access**.
 
+# ☁️ Cloud Computing
+
+## ☁️ What Is the Cloud?
+
+Cloud computing has revolutionized IT by **delivering computing services over a network**, typically the internet. Let’s break it down clearly.
+
+### 🧠 Simple Definition
+
+> Cloud computing is **any service that delivers computing resources to a remote customer over a network**.
+
+- Example 1: Checking your Gmail — Google runs it in the cloud.
+- Example 2: Launching a server in AWS — it's a virtual server running in Amazon’s data center.
+- Example 3: Automating emails in Salesforce — your code runs in their cloud infrastructure.
+
+You don’t have to manage the hardware or worry about the infrastructure — **the complexity is abstracted away**.
+
+### 📜 NIST Formal Definition
+
+> _"Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources... that can be rapidly provisioned and released with minimal management effort or service provider interaction."_ — **NIST SP 800-145**
+
+### 🔍 Let’s Unpack That
+
+- **Ubiquitous & Convenient**
+  - Cloud services are available from anywhere with internet access.
+- **On-Demand**
+
+  - Spin up or shut down resources whenever needed (self-service model).
+
+- **Network Access**
+
+  - Usually via the internet, though **private clouds** exist too.
+
+- **Shared Resources**
+
+  - Computing power is pooled and shared among users — leading to better efficiency and scalability.
+
+- **Configurable & Scalable**
+
+  - You can tailor services to your exact needs (e.g. more RAM, storage, etc.) and scale up or down quickly.
+
+- **Minimal Management Effort**
+  - No need to call tech support or rack a server — it’s mostly automated.
+
+### 💡 Why It Matters
+
+- Reduces costs
+- Increases agility
+- Scales with your business
+- Requires less IT overhead
+
+Cloud computing isn’t a single technology — it’s a delivery model that encompasses **storage, servers, networks, software, and more**.
+
+Let me know if you'd like to dive into types of cloud services (like IaaS, PaaS, SaaS) next!
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
