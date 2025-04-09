@@ -3104,6 +3104,78 @@ Vendors are an essential part of IT operations—but they also introduce risk. S
 
 Explore **ISO/IEC 27036**, particularly **Part 4**, for detailed guidance on managing the **security of cloud service provider relationships**.
 
+## 📄 Vendor Agreements
+
+Formal vendor agreements ensure mutual understanding, define service expectations, and protect both parties—especially from a **security and compliance** standpoint.
+
+### 🤝 Common Types of Agreements
+
+#### **Non-Disclosure Agreement (NDA)**
+
+- Ensures confidentiality of information exchanged between organizations.
+- Usually the **first agreement** signed during early partnership discussions.
+
+#### **Service-Level Requirement (SLR)**
+
+- Outlines **customer expectations** regarding vendor performance.
+- May include:
+  - System response time
+  - Availability
+  - Data retention and backup policies
+  - Support timelines
+
+#### **Service-Level Agreement (SLA)**
+
+- A **contractual agreement** that formalizes the SLRs.
+- Includes **penalties** for not meeting defined service standards.
+
+#### **Memorandum of Understanding (MOU)**
+
+- Informal document for **non-binding agreements**.
+- Often used **internally** between business units or when legal disputes are unlikely.
+
+#### **Business Partnership Agreement (BPA)**
+
+- Defines responsibilities and expectations when two organizations **jointly offer a service or product**.
+- Includes details like revenue sharing and project roles.
+
+#### **Interconnection Security Agreement (ISA)**
+
+- Required when two entities **interconnect systems or share data**.
+- Specifies:
+  - Encryption protocols
+  - Data transfer standards
+  - Security responsibilities
+
+#### **Master Service Agreement (MSA)**
+
+- An **umbrella contract** that governs overall vendor-customer relationship.
+- Used for multiple future projects.
+- Each project uses a **Statement of Work (SOW)** to define scope and deliverables under the MSA terms.
+
+### 🔐 Security and Compliance Considerations
+
+- Include **minimum security standards** (e.g., "Data must be encrypted using AES-256").
+- Document:
+  - **Data handling procedures**
+  - **Compliance requirements**
+  - **Access controls**
+
+### 🕵️‍♂️ Monitoring and Audits
+
+- Agreements should allow the **customer or third parties** to:
+  - Conduct **on-site visits**
+  - Review **security policies and practices**
+  - Evaluate **documents and system configurations**
+
+### ✅ Summary
+
+Well-structured vendor agreements:
+
+- Ensure **mutual accountability**
+- Prevent **misunderstandings**
+- Protect the organization from **security gaps** and **compliance issues**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
