@@ -2743,7 +2743,51 @@ IoT now plays a role in:
 
 IoT is transforming our digital world—but without proper **security design**, **regular updates**, and **network segmentation**, it can **open new doors for attackers**. Security professionals must treat **IoT** devices as **first-class citizens in risk assessments**.
 
-Want me to list best practices for securing IoT devices next?
+## 🔒 Securing IoT Devices
+
+Embedded smart devices—whether in homes or industrial settings—**must** be secured properly to avoid becoming a gateway for attackers. Due to their limited interfaces and varying update methods, IoT devices are uniquely vulnerable.
+
+### 🧰 Best Practices for IoT Security
+
+1. **🔁 Change Default Credentials Immediately**
+
+   - Many IoT devices ship with **default admin usernames and passwords**.
+   - These credentials are **publicly known** and targeted by **automated botnets**.
+   - Tip: Use **strong, unique passwords** and **disable remote admin access** if not needed.
+
+2. **🔄 Keep Firmware Updated**
+
+   - Firmware vulnerabilities are often exploited **before users patch**.
+   - Options for updates:
+     - 🔧 **Manual**: Check the vendor’s site periodically.
+     - ⚙️ **Automatic**: Enable if the device supports it.
+   - Know how _each device_ handles updates—and **set a routine**.
+
+3. **📛 Watch Out for Real-World Risks**
+   - Example: **Foscam Baby Monitor Hack**
+     - Hackers exploited an unpatched vulnerability to yell into the device at night.
+     - Preventable with a **simple firmware update**.
+
+### 🏭 For Industrial IoT and Critical Systems
+
+- **📋 Use Firmware Version Control**
+
+  - Maintain a formal record of **firmware versions** in use.
+  - Update **only after** risk analysis and change control approval.
+
+- **🧱 Apply Security Wrappers**
+  - If patching is not possible:
+    - Use a **wrapper system** (like a mini firewall).
+    - It acts as a **gatekeeper**, filtering unsafe traffic **before it hits the device**.
+
+### 🧱 Embrace Layered Security
+
+Use **diversity and redundancy**:
+
+- 🔐 Combine multiple safeguards (firewalls, segmentation, strong authentication, and patching).
+- 🛡️ No single point of failure = stronger security posture.
+
+IoT devices add convenience—but without a **strong security foundation**, they increase exposure. Whether it’s a smart doorbell or a SCADA system, **treat IoT with the same rigor as any other endpoint**.
 
 ---
 
