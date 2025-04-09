@@ -3050,6 +3050,60 @@ CASBs add an **extra layer of protection** to **cloud service usage** and operat
 
 MSSPs can offer powerful capabilities—but **due diligence, clear expectations, and regular evaluation** are key to a secure and successful partnership.
 
+## 🔐 Manage Vendor Relationships
+
+Vendors are an essential part of IT operations—but they also introduce risk. Security professionals must manage vendor relationships to protect their organization's **confidentiality**, **integrity**, and **availability** of systems and data.
+
+### 🔍 Vendor Security Expectations
+
+- Vendors should follow **security policies and procedures** at least as strict as your own.
+- **Data handled by vendors** must be protected as if it were handled internally.
+- Poor vendor practices can become the **weakest link** in your security chain.
+
+### ☁️ Cloud Vendor Considerations
+
+- Cloud vendor relationships often involve **vendor lock-in**—making transitions difficult.
+- Conduct **due diligence**:
+  - Evaluate **financial stability**
+  - Investigate **reputation and reliability**
+  - Confirm **security controls** and compliance
+
+### 🔄 Vendor Management Lifecycle
+
+#### 1. Vendor Selection
+
+- Can involve a **formal RFP process** or an **informal evaluation**.
+- **Security team** should:
+  - Contribute to requirement definitions
+  - Evaluate vendors' **risk management programs**
+
+#### 2. Onboarding
+
+- Ensure all contract terms are clear and security expectations are set.
+- Establish:
+  - **Encryption protocols** for data in transit and at rest
+  - **Security incident notification procedures**
+  - **Access control policies**
+
+#### 3. Ongoing Maintenance
+
+- Perform **continuous monitoring** of vendor practices.
+- Use tools like:
+  - **Site visits**
+  - **Security assessments**
+  - **Third-party audit reports**
+- If a vendor never reports an incident, consider that a **potential red flag**.
+
+#### 4. Offboarding
+
+- Ensure proper **data destruction** by the vendor.
+- End access permissions and finalize **contractual closure**.
+- May lead back to the beginning of the lifecycle with **new vendor selection**.
+
+### 📘 Recommended Reference
+
+Explore **ISO/IEC 27036**, particularly **Part 4**, for detailed guidance on managing the **security of cloud service provider relationships**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
