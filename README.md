@@ -2570,6 +2570,65 @@ You can also choose:
 
 Firewalls remain one of the **core elements of network security**, offering powerful protection when properly configured. 🔒
 
+## 🔐 VPNs and VPN Concentrators
+
+### 🌐 What is a VPN?
+
+A **Virtual Private Network (VPN)** is a secure, encrypted tunnel between two points over an untrusted network (like the internet). It serves two main purposes:
+
+- **Site-to-site VPNs**: Connect remote offices/branches to headquarters securely.
+- **Remote access VPNs**: Allow employees to securely connect to company resources from anywhere.
+
+### 🔒 How VPNs Work
+
+- Data is **encrypted** before leaving one system and **decrypted** at the other end.
+- Prevents eavesdropping and protects data confidentiality over public networks.
+
+### 🧠 VPN Endpoints
+
+VPNs need a **receiving endpoint**. Options include:
+
+- Firewalls
+- Routers
+- Servers
+- **VPN Concentrators** (dedicated hardware for high-volume VPN connections)
+
+💡 **VPN Concentrators** are ideal for handling **high-bandwidth**, **high-connection** environments due to their optimized encryption hardware.
+
+### 🔧 VPN Protocols
+
+- **IPSec**:
+  - Operates at **network layer**
+  - Used for **site-to-site VPNs**
+  - Often combined with **L2TP** for Layer 2 tunneling
+- **SSL/TLS VPN**:
+  - Operates at **application layer**
+  - Uses **port 443** (works through most firewalls)
+  - Popular for **remote access**
+- **HTML5 VPN**:
+  - Web-based
+  - Uses the browser for access without installing a client
+  - Runs in a **proxy mode**
+
+### 🚦 Tunneling Options
+
+- **Full Tunnel**:
+  - **All** traffic (internet + intranet) is routed through the VPN
+  - Most secure
+- **Split Tunnel**:
+  - Only **corporate traffic** goes through VPN
+  - Internet traffic uses local ISP
+  - Saves bandwidth, but **less secure** and may give users a **false sense of security**
+
+⚠️ **Security professionals generally discourage split tunneling**.
+
+### 📲 Always-On VPN
+
+- Devices automatically connect to the VPN at startup.
+- Enforces **consistent encryption**, **removes user error**, and **ensures compliance**.
+
+Using VPNs smartly improves data security and user flexibility — but they must be **implemented with care** to avoid performance bottlenecks and security gaps.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
