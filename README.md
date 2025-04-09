@@ -2825,8 +2825,6 @@ This is all part of a **defense-in-depth** strategy:
 
 > 📌 Summary: Isolate smart devices like you would internet-facing servers—**assume they're risky**, and **limit what they can access**.
 
-Let me know if you want a diagram or checklist for this setup.
-
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
