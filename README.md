@@ -2881,7 +2881,7 @@ Cloud computing isn’t a single technology — it’s a delivery model that enc
 
 Cloud computing is commonly divided into three **service models**, each offering different levels of control and responsibility:
 
-## 💻 Software as a Service (SaaS)
+### 💻 Software as a Service (SaaS)
 
 In **SaaS**, the provider delivers a **fully functional application** to end users over the internet.
 
@@ -2898,9 +2898,7 @@ In **SaaS**, the provider delivers a **fully functional application** to end use
 
 **Customer Responsibility:** Manage **data** and **user access**.
 
----
-
-## 🖥 Infrastructure as a Service (IaaS)
+### 🖥 Infrastructure as a Service (IaaS)
 
 With **IaaS**, providers offer **fundamental computing resources** like virtual machines, storage, and networking.
 
@@ -2915,9 +2913,7 @@ With **IaaS**, providers offer **fundamental computing resources** like virtual 
 
 **Customer Responsibility:** OS, patches, apps, data, firewall rules, etc.
 
----
-
-## 🧱 Platform as a Service (PaaS)
+### 🧱 Platform as a Service (PaaS)
 
 In **PaaS**, the cloud vendor provides a **runtime environment** for applications.
 
@@ -2934,7 +2930,7 @@ In **PaaS**, the cloud vendor provides a **runtime environment** for application
 
 ---
 
-## 🔐 Shared Responsibility Model
+### 🔐 Shared Responsibility Model
 
 Security responsibilities differ based on the service category:
 
@@ -2946,6 +2942,60 @@ Security responsibilities differ based on the service category:
 | Network & Infrastructure | ❌ Vendor   | ❌ Vendor   | ❌ Vendor   |
 
 Understanding **who is responsible for what** is essential for protecting cloud-based systems.
+
+## ☁️ Cloud Deployment Models
+
+Cloud computing offers **five deployment models**, each suited for different business needs and risk profiles. Here’s a breakdown of each:
+
+### 🏢 Private Cloud
+
+- **Used exclusively** by one organization.
+- May be **hosted on-premises** or by a third party.
+- Offers **greater control, security, and customization**.
+- Ideal for organizations with **sensitive data** or regulatory requirements.
+
+**Example:** A healthcare company running its own virtualized servers in a private data center.
+
+### 🌐 Public Cloud
+
+- Resources are **owned and operated by third-party providers** (e.g., AWS, Azure, Google Cloud).
+- Uses a **multi-tenancy** model – customers share infrastructure.
+- Highly **scalable**, **cost-effective**, and **easy to deploy**.
+
+**Example:** A startup using Google Cloud for app hosting and storage.
+
+### 🔄 Hybrid Cloud
+
+- Combines **private and public clouds**.
+- Allows data and applications to **move between environments**.
+- Often used for **balancing performance, cost, and security**.
+
+**Example:** A business runs customer-facing apps in the public cloud but keeps sensitive data in a private cloud.
+
+### 🌍 Multi-Cloud
+
+- Uses **services from multiple public cloud providers**.
+- Helps **avoid vendor lock-in** and improves **resilience**.
+- Increases **complexity** due to different APIs, tools, and security models.
+
+**Example:** A company uses AWS for compute power and Azure for AI services.
+
+### 👥 Community Cloud
+
+- Shared by **organizations with common goals or compliance needs**.
+- Offers **shared infrastructure**, typically governed collectively.
+- Less common, but useful in sectors like **education or government**.
+
+**Example:** Multiple universities collaborating on a shared research cloud.
+
+### 🛡 Shared Responsibility Model Reminder
+
+In **public and hybrid/multi-cloud** scenarios, remember:
+
+- **Cloud provider**: Physical security, infrastructure, hypervisor, etc.
+- **Customer**: Data, access control, and application security.
+
+Each deployment model fits different risk tolerances, budgets, and operational needs. No model is **inherently better**—it’s about **choosing what works best** for your organization's goals and compliance landscape.
 
 ---
 
