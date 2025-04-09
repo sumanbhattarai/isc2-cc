@@ -2877,7 +2877,75 @@ You don’t have to manage the hardware or worry about the infrastructure — **
 
 Cloud computing isn’t a single technology — it’s a delivery model that encompasses **storage, servers, networks, software, and more**.
 
-Let me know if you'd like to dive into types of cloud services (like IaaS, PaaS, SaaS) next!
+## ☁️ Cloud Service Categories
+
+Cloud computing is commonly divided into three **service models**, each offering different levels of control and responsibility:
+
+## 💻 Software as a Service (SaaS)
+
+In **SaaS**, the provider delivers a **fully functional application** to end users over the internet.
+
+- **Users don’t manage or control** the underlying infrastructure.
+- **Accessed via web browsers**, with minimal setup or configuration.
+
+**Examples:**
+
+- Google Workspace (Gmail, Docs)
+- Microsoft Office 365
+- Dropbox, Box
+- Salesforce
+- Online expense or payroll platforms
+
+**Customer Responsibility:** Manage **data** and **user access**.
+
+---
+
+## 🖥 Infrastructure as a Service (IaaS)
+
+With **IaaS**, providers offer **fundamental computing resources** like virtual machines, storage, and networking.
+
+- Customers configure and manage their own **OS, applications, and data**.
+- Offers the most flexibility and control.
+
+**Examples:**
+
+- Amazon Web Services (AWS)
+- Microsoft Azure
+- Google Compute Engine
+
+**Customer Responsibility:** OS, patches, apps, data, firewall rules, etc.
+
+---
+
+## 🧱 Platform as a Service (PaaS)
+
+In **PaaS**, the cloud vendor provides a **runtime environment** for applications.
+
+- Customers run their own **code** without managing the underlying servers or OS.
+- Simplifies deployment and scalability for developers.
+
+**Examples:**
+
+- Google App Engine
+- Microsoft Azure App Service
+- Heroku
+
+**Customer Responsibility:** Code and data; vendor handles platform and OS.
+
+---
+
+## 🔐 Shared Responsibility Model
+
+Security responsibilities differ based on the service category:
+
+| Responsibility Area      | SaaS        | PaaS        | IaaS        |
+| ------------------------ | ----------- | ----------- | ----------- |
+| Application Code         | ❌ Vendor   | ✅ Customer | ✅ Customer |
+| Data                     | ✅ Customer | ✅ Customer | ✅ Customer |
+| OS & Middleware          | ❌ Vendor   | ❌ Vendor   | ✅ Customer |
+| Network & Infrastructure | ❌ Vendor   | ❌ Vendor   | ❌ Vendor   |
+
+Understanding **who is responsible for what** is essential for protecting cloud-based systems.
 
 ---
 
