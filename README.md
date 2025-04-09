@@ -2997,6 +2997,59 @@ In **public and hybrid/multi-cloud** scenarios, remember:
 
 Each deployment model fits different risk tolerances, budgets, and operational needs. No model is **inherently better**—it’s about **choosing what works best** for your organization's goals and compliance landscape.
 
+## 🔐 Managed Security Service Providers
+
+Organizations often outsource technology operations to **Managed Service Providers (MSPs)**, and when those services are security-focused, they’re called **Managed Security Service Providers (MSSPs)**.
+
+### What is an MSSP?
+
+- MSSPs are **third-party vendors** that deliver **security services** to client organizations.
+- Services range from **comprehensive security management** to **specific security functions**.
+- MSSPs must be **monitored closely** to ensure they meet security objectives and uphold trust.
+
+### Common MSSP Services
+
+#### 🔎 Security Monitoring
+
+- **Log analysis**, **SIEM management**, and **alerting**.
+- Helps detect suspicious activity across systems.
+
+#### 🌐 Network & Firewall Management
+
+- Configuration and monitoring of **firewalls**, **IDS/IPS**, and **network segmentation**.
+
+#### 👥 Identity and Access Management (IAM)
+
+- Managing **authentication**, **authorization**, and **user provisioning**.
+
+#### 🧰 Security as a Service (SECaaS)
+
+- A term often used when MSSP services are delivered **via the cloud**.
+- Example: Cloud-based antivirus, email filtering, or web security platforms.
+
+### ☁️ Cloud Access Security Brokers (CASBs)
+
+CASBs add an **extra layer of protection** to **cloud service usage** and operate in two ways:
+
+#### Network-based CASBs
+
+- Act as a **middleman** between the user and cloud provider.
+- **Intercepts requests** and blocks them if they violate policies.
+
+#### API-based CASBs
+
+- Use **cloud APIs** to monitor cloud activity **after the fact**.
+- Useful for **visibility and enforcement**, but may **lack real-time blocking**.
+
+### 📝 Best Practices When Using MSSPs
+
+- Develop a **written agreement** that:
+  - Clearly outlines **roles and responsibilities**.
+  - Defines **service level agreements (SLAs)**.
+  - Details **incident notification and response** procedures.
+
+MSSPs can offer powerful capabilities—but **due diligence, clear expectations, and regular evaluation** are key to a secure and successful partnership.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
