@@ -2689,6 +2689,62 @@ Using VPNs smartly improves data security and user flexibility — but they must
 
 Network Access Control not only strengthens authentication but also ensures endpoint health and proper segmentation — keeping threats isolated and the network secure.
 
+## 🌐 Internet of Things (IoT)
+
+The **Internet of Things (IoT)** refers to the ever-growing network of **network-connected**, **computer-controlled** devices embedded into our homes, vehicles, infrastructure, and more. From **smart thermostats** to **medical sensors** and **industrial drones**, these devices expand functionality but also increase security risks.
+
+### 🧠 What Makes a Device “Smart”?
+
+A **smart device** typically has:
+
+- **Embedded computer system**
+- **Wireless/network connectivity**
+- **Remote control/automation features**
+
+Examples:  
+Smart TVs, garage doors, sprinkler systems, cars, fitness wearables, smart meters, etc.
+
+### ⚠️ IoT Security Challenges
+
+1. **Difficult Software Updates**
+
+   - Many smart devices lack screens or UIs.
+   - Users can’t easily patch or update.
+   - Devices may run outdated OS (e.g., Windows 95!).
+
+2. **Shared Network Access**
+
+   - IoT devices often connect to the same **Wi-Fi** as your laptop/phone.
+   - A compromised smart device can **act as a pivot point** for attackers.
+
+3. **Cloud Dependencies**
+   - Many IoT devices connect back to the **cloud** for control.
+   - Creates **invisible backdoors** that may **bypass firewalls**.
+
+### 🚨 Real-World Attack Example
+
+**2015 Jeep Hack**
+
+- Researchers remotely **hijacked a Jeep** using its in-car network.
+- They changed **radio stations**, blasted **AC**, and even **disabled acceleration**.
+- Connection made over the **vehicle’s cellular link** — attackers were **10 miles away**.
+
+### 🌍 Beyond the Home
+
+IoT now plays a role in:
+
+- **Healthcare**: Smart medical monitors, implants
+- **Transportation**: Connected cars, aircraft, drones
+- **Utilities**: Smart grids, meters, and sensors
+- **Surveillance**: Motion-triggered audio/video monitoring
+- **Industry**: SCADA, factory automation
+
+### 🛡️ Final Note
+
+IoT is transforming our digital world—but without proper **security design**, **regular updates**, and **network segmentation**, it can **open new doors for attackers**. Security professionals must treat **IoT** devices as **first-class citizens in risk assessments**.
+
+Want me to list best practices for securing IoT devices next?
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
