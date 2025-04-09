@@ -2514,6 +2514,62 @@ VLANs are used for **network segmentation**, which:
 
 By leveraging VLANs and micro-segmentation, organizations **enhance security, improve network performance, and limit attack surfaces**. 🚀
 
+## 🔐 Firewalls
+
+### 🛡️ **What Is a Firewall?**
+
+A **firewall** acts like a **security guard** for a network. It analyzes **inbound and outbound traffic** and **enforces rules** based on the organization’s security policy.
+
+Firewalls are usually positioned at the **network perimeter**, connecting:
+
+- The **internet** (untrusted)
+- The **internal network** (trusted)
+- The **DMZ** (semi-trusted zone for public-facing systems like web servers)
+
+### 🔄 **Types of Packet Inspection**
+
+- **Stateless inspection**: Older method; each packet is analyzed **independently**.
+- **Stateful inspection** (modern): Tracks the **state of connections** and allows traffic based on **ongoing sessions**, improving efficiency and security.
+
+### 🧾 **Firewall Rule Components**
+
+When evaluating traffic, firewalls use rules based on:
+
+- **Source IP** (e.g. `Any`)
+- **Destination IP** (e.g. `10.15.100.1`)
+- **Destination port and protocol** (e.g. `TCP port 80`)
+- **Action** (Allow or Deny)
+
+🛑 **Implicit Deny Principle**: Any traffic **not explicitly allowed** is **denied by default**.
+
+### 🔥 **Next-Generation Firewalls (NGFW)**
+
+NGFWs add context-awareness:
+
+- **User identity**
+- **Application type**
+- **Time of day**
+- **Deep packet inspection (DPI)**
+
+They can also:
+
+- Perform **Network Address Translation (NAT)**
+- Enforce **URL filtering/content filtering**
+- Act as **Web Application Firewalls (WAFs)** to protect against **XSS**, **SQLi**, etc.
+
+### 🧱 **Firewall Deployment Options**
+
+- **Network firewall**: Physical device regulating network traffic.
+- **Host-based firewall**: Software on individual systems.
+- **Both** are often used for **defense-in-depth**.
+
+You can also choose:
+
+- **Open-source** (e.g. `pfSense`) or **proprietary** (e.g. `Cisco ASA`, `Fortinet`)
+- **Physical appliances** or **virtual appliances** (for cloud/virtualized environments)
+
+Firewalls remain one of the **core elements of network security**, offering powerful protection when properly configured. 🔒
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
