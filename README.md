@@ -2789,6 +2789,44 @@ Use **diversity and redundancy**:
 
 IoT devices add convenience—but without a **strong security foundation**, they increase exposure. Whether it’s a smart doorbell or a SCADA system, **treat IoT with the same rigor as any other endpoint**.
 
+## 🛡️ Network Security for Smart Devices
+
+Smart and embedded devices often lack strong built-in security, so protecting them at the **network level** is essential. A **layered defense strategy** using segmentation and filtering can minimize risk to both the devices and the rest of your infrastructure.
+
+### 🌐 Network Segmentation: The Front Line Defense
+
+- **What it is**: Dividing the network into isolated zones to separate **untrusted or high-risk devices**.
+- **How it works**:
+  - Smart devices (e.g., IoT sensors, industrial controllers) are placed on a **dedicated network**.
+  - That network is connected to the rest of the infrastructure via a **firewall**.
+  - Access from the smart device network to critical systems is **strictly limited or blocked**.
+
+> 💡 This approach mirrors a **DMZ** (Demilitarized Zone) setup used for public-facing servers.
+
+### 🔥 Use Application Firewalls for Extra Protection
+
+- Many smart devices come with **web interfaces** that are vulnerable to:
+  - SQL injection
+  - Cross-site scripting (XSS)
+  - Buffer overflows
+- **Application firewalls**:
+  - Sit between users and smart devices.
+  - Analyze **inbound traffic** for known attack patterns.
+  - Block malicious requests **before they reach the embedded system**.
+
+### 🧱 Combine with Other Controls
+
+This is all part of a **defense-in-depth** strategy:
+
+- 🔐 Segmentation limits the blast radius of any compromise.
+- 🧰 Firewalls filter malicious traffic.
+- 🔄 Patch management and credential hardening protect the devices themselves.
+- 🎯 Monitoring and logging help detect threats early.
+
+> 📌 Summary: Isolate smart devices like you would internet-facing servers—**assume they're risky**, and **limit what they can access**.
+
+Let me know if you want a diagram or checklist for this setup.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
