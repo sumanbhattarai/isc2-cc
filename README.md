@@ -2629,6 +2629,66 @@ VPNs need a **receiving endpoint**. Options include:
 
 Using VPNs smartly improves data security and user flexibility — but they must be **implemented with care** to avoid performance bottlenecks and security gaps.
 
+## 🔐 Network Access Control (NAC)
+
+**Network Access Control (NAC)** enforces policies that **restrict network access** to only **authorized** and **compliant** users/devices. It ensures users connect only to appropriate resources based on their identity and security posture.
+
+### 🧱 Core Function of NAC
+
+- **Intercepts network traffic** from devices (wired/wireless).
+- **Authenticates** users and devices before granting access.
+- Uses the **802.1X protocol** as the foundation for authentication.
+
+### 🧩 802.1X Authentication Components
+
+1. **Supplicant**
+
+   - The software on the device trying to connect.
+   - Sends authentication credentials.
+
+2. **Authenticator**
+
+   - Usually a **network switch** (wired) or **wireless controller**.
+   - Acts as the middleman; passes credentials to the backend.
+
+3. **Authentication Server**
+   - Often a **RADIUS** server.
+   - Verifies credentials and responds with:
+     - ✅ `RADIUS Accept` – grant access
+     - ❌ `RADIUS Reject` – deny access
+
+### 🎭 Role-Based Access (RBA)
+
+- After authentication, **users are segmented** based on identity.
+- Example:
+  - **Students** → VLAN 20
+  - **Faculty** → VLAN 10
+- Enforced via **dynamic VLAN assignment** by the authenticator.
+
+### 🩺 Posture Checking (Health Check)
+
+- Evaluates the **security status** of the connecting device.
+- Typical checks:
+  - Antivirus installed and updated?
+  - Host firewall active?
+  - OS and apps fully patched?
+- **Fail?** → Redirect to **quarantine VLAN** for remediation.
+- **Pass after fix?** → Rejoin appropriate VLAN.
+
+📌 **Posture assessment methods**:
+
+- **Agent-based**: Local software installed.
+- **Agentless**: External scan and assessment.
+
+### ⚙️ NAC Deployment Modes
+
+- **In-band NAC**:  
+  NAC device **directly** enforces policy.
+- **Out-of-band NAC**:  
+  NAC **instructs** switches/APs to enforce access decisions.
+
+Network Access Control not only strengthens authentication but also ensures endpoint health and proper segmentation — keeping threats isolated and the network secure.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
