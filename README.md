@@ -3284,6 +3284,94 @@ Key distribution is difficult:
 - **Asymmetric = Key pair** (RSA is the example)
 - If a question asks which key to use for **confidentiality**, encrypt with the **recipient’s public key**.
 
+## 🔐 Hash Functions
+
+Hash functions are critical to cryptographic systems, especially for digital signatures and certificates.
+
+### 💡 What Is a Hash Function?
+
+A **hash function** is a **one-way function** that transforms **variable-length input** into a **fixed-length, unique output** known as a **hash value** or **message digest**.
+
+### 🔍 Key Characteristics
+
+#### ➤ One-Way
+
+- Irreversible: You cannot determine the original input from a hash value.
+
+#### ➤ Fixed-Length Output
+
+- No matter the size of the input (one word or a book), the output is always the same fixed length depending on the algorithm.
+
+#### ➤ Unique Output (Collision Resistance)
+
+- It should be computationally infeasible to find two different inputs that produce the same hash output.
+
+### 🚫 How Hash Functions Can Fail
+
+1. **Reversibility** – If a hash can be reversed, it's insecure.
+2. **Collision Attacks** – If two different inputs produce the same hash, it breaks integrity protections.
+
+### 🧮 Common Hash Functions
+
+#### 🔹 MD5
+
+- **Length:** 128-bit
+- **Status:** ❌ Not secure
+- **Notes:** Known collisions, deprecated in secure environments.
+
+#### 🔹 SHA-1
+
+- **Length:** 160-bit
+- **Status:** ❌ Not secure
+- **Notes:** Replaced by SHA-2 due to vulnerabilities.
+
+#### 🔹 SHA-2 Family
+
+- **Lengths:** 224, 256, 384, 512 bits
+- **Status:** ✅ Still widely used
+- **Notes:** Theoretical risks due to similarities with SHA-1
+
+#### 🔹 SHA-3 (Keccak)
+
+- **Customizable output length**
+- **Status:** ✅ Secure
+- **Notes:** Based on different math than SHA-1 and SHA-2
+
+#### 🔹 RIPEMD
+
+- **Lengths:** 128, 160, 256, 320 bits
+- **Status:**
+  - 128-bit: ❌ Not secure
+  - 160-bit: ✅ Still used (e.g., in Bitcoin)
+
+### 🔒 HMAC: Hash-Based Message Authentication Code
+
+- Combines a **symmetric key** with a hash to ensure both:
+  - **Authentication**
+  - **Message Integrity**
+
+```txt
+Sender: message + secret key → HMAC
+Receiver: same process → compare HMACs
+```
+
+### 🧪 Hash Behavior Example
+
+Even a tiny change in the input text causes a **completely different hash**:
+
+- "This is a message" → `a1b2c3...`
+- "This is a message." → `d4e5f6...`
+
+You can't tell the size or nature of the change by comparing hash values.
+
+### 🛡️ Uses of Hashes
+
+- Digital signatures
+- Digital certificates
+- File integrity checks
+- Password hashing
+- Blockchain transactions
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
