@@ -3673,6 +3673,78 @@ Impersonation attacks are **social engineering tactics** that involve pretending
 
 > 🎓 Regular awareness training is the best defense against impersonation attacks.
 
+## 🧠 Security Awareness Training
+
+Security awareness training is essential because even the most robust technical controls can be **undermined by human error**. A single accidental or intentional misstep can expose an organization to significant risk. Security education equips users with knowledge and habits to protect against such threats.
+
+### 🎓 Components of Security Education
+
+#### 🛡️ Security Training
+
+- **In-depth instruction** that imparts necessary knowledge.
+- Delivered through:
+  - Classroom sessions
+  - Online courses
+  - New employee orientations
+  - Vendor-sponsored programs
+
+#### 🔁 Security Awareness
+
+- **Ongoing reinforcement** of previously learned lessons.
+- Delivered via:
+  - Posters
+  - Videos
+  - Email reminders
+  - Digital signage
+- Keeps security **top-of-mind** without requiring formal learning time.
+
+### 📦 Delivery Methods and Examples
+
+#### SANS Institute – EndUser Security Awareness Training
+
+- Customizable online training on wide security topics.
+- Organizations can assign tailored modules based on employee roles or compliance requirements.
+
+#### Cofense PhishMe
+
+- **Simulated phishing attacks** sent to users.
+- Those who fall for the simulation are redirected to training materials.
+- Backend reporting helps measure training effectiveness and track improvement over time.
+
+#### Other Techniques
+
+- **Gamification**: Makes training engaging and interactive.
+- **Capture the Flag (CTF)**: Challenges users with realistic scenarios to practice defending against threats.
+- **Phishing Simulations**: Regularly test and educate users through fake phishing attempts.
+
+### 🧑‍💼 Role-Based Training
+
+Different roles require different training content:
+
+| Role                 | Training Focus                               |
+| -------------------- | -------------------------------------------- |
+| General Employees    | Phishing, password hygiene, secure browsing  |
+| HR Staff             | Handling PII (personally identifiable info)  |
+| Finance & Accounting | Invoice fraud, wire transfer scams           |
+| IT & Security Teams  | Secure configuration, system hardening, logs |
+| Developers           | Secure coding practices, OWASP Top 10        |
+| Customer Support     | Social engineering awareness                 |
+
+### 🗓️ Training Frequency
+
+- **Initial Training**: Upon hire or job role change.
+- **Annual Refresher**: Reinforce existing material and update with new threats.
+- **Ongoing Awareness**: Posters, newsletters, and in-the-moment reminders year-round.
+
+> 💡 Tip: Keep the program flexible and evolving to respond to new threat landscapes and business changes.
+
+### 🛠️ Program Maintenance
+
+- Regularly review and update training materials.
+- Incorporate **new threat intelligence**, changing compliance requirements, and lessons learned from incidents.
+
+> 🔄 **Effective training is not a one-time event — it’s an ongoing process of engagement, education, and evaluation.**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
