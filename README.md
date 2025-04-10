@@ -3598,6 +3598,81 @@ The best protection against social engineering is **user education**.
 
 > ⚠️ **Wariness is a virtue.** Encourage a healthy level of suspicion in security-sensitive environments.
 
+## 🕵️ Impersonation Attacks
+
+Impersonation attacks are **social engineering tactics** that involve pretending to be someone else — usually someone trusted — to trick individuals into sharing information or performing harmful actions.
+
+### 📬 Spam and Phishing
+
+#### 🗑️ Spam (Unsolicited Commercial Email or UCE)
+
+- Mass-sent unwanted messages for marketing or fraud.
+- Illegal under **CAN-SPAM Act**, but hard to trace offenders.
+
+#### 🎣 Phishing
+
+- A type of spam meant to **steal sensitive information**, like passwords or credit card details.
+- Usually involves fake links to **legitimate-looking login pages**.
+
+**Example:**  
+"You’ve reached your mailbox storage limit. Click here to upgrade."  
+(But the link actually leads to a phishing page.)
+
+> 🔁 **Credential Reuse Danger:**  
+> If users reuse passwords across multiple platforms, one stolen login can lead to several account breaches.
+
+### 🎯 Targeted Phishing Variants
+
+#### 🎯 Spear Phishing
+
+- Tailored attacks targeting **specific individuals or small groups**.
+- Use company jargon and names to appear legitimate.
+
+#### 📄 Invoice Scams
+
+- Fake invoices sent to finance departments hoping for unverified payments.
+
+#### 🐋 Whaling
+
+- Spear phishing that targets **high-level executives**.
+- Often disguised as legal threats or confidential notices.
+
+### 🧪 Advanced Impersonation Techniques
+
+#### 🌐 Pharming
+
+- Fake websites mimic real ones to capture credentials.
+- May involve:
+  - **Typosquatting**: Using look-alike domains (e.g., go0gle.com)
+  - **DNS poisoning**: Redirecting users to malicious sites automatically
+
+#### 📞 Vishing (Voice Phishing)
+
+- Attackers **call** targets pretending to be IT/helpdesk or vendors.
+- May ask for passwords, or to install “security tools.”
+
+#### 💬 Smishing (SMS Phishing)
+
+- Spam or phishing via text or messaging apps (SMS, iMessage).
+- Originated as SPIM (Spam over IM).
+
+### 👻 Spoofing
+
+- **Faking identity** in emails, phone calls, or SMS.
+- Email spoofing: Attackers send messages from fake "trusted" addresses.
+- Caller ID and SMS spoofing also possible with simple software.
+
+### 🛡️ Defense: Education is Key
+
+- **Phishing only needs one victim to succeed.**
+- Teach users to:
+  - Verify requests before acting
+  - Be skeptical of **urgent or emotional messages**
+  - Check URLs carefully
+  - Report suspicious communications immediately
+
+> 🎓 Regular awareness training is the best defense against impersonation attacks.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
