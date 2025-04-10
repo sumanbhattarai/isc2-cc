@@ -3372,6 +3372,70 @@ You can't tell the size or nature of the change by comparing hash values.
 - Password hashing
 - Blockchain transactions
 
+## 🔐 The Data Lifecycle
+
+The **data lifecycle** represents the journey that data takes within an organization, from initial creation to final destruction. While not every piece of data passes through every stage, this model provides a helpful framework for understanding data management and protection.
+
+### 🟢 Create
+
+- Data is **generated or modified**.
+- Can happen on-premises or in the cloud.
+- Examples: entering data into a form, capturing sensor data, updating a record.
+
+### 💾 Store
+
+- Data is placed into **storage systems**.
+- Includes databases, file systems, cloud storage.
+- Key consideration: **data at rest** security.
+
+### 🖥️ Use
+
+- Users or systems **access, read, and process** the data.
+- Most vulnerable to **unauthorized access**.
+- Requires access controls and monitoring.
+
+### 🔗 Share
+
+- Data is **shared** with other users, systems, or third parties.
+- Methods include links, shared folders, API access.
+- Involves **data in transit** security (e.g., encryption like HTTPS).
+
+### 🗄️ Archive
+
+- Data is **moved to long-term storage**.
+- Not actively used, but can be restored.
+- Common in regulatory compliance and historical records.
+
+### 🔥 Destroy
+
+- Data is **securely disposed of** when no longer needed.
+- Prevents reconstruction of sensitive information.
+
+### 🧨 Data Destruction Techniques (NIST SP 800-88)
+
+| Technique   | Description                                                           | Reusability |
+| ----------- | --------------------------------------------------------------------- | ----------- |
+| **Clear**   | Overwrites data using basic write commands. Good for casual reuse.    | ✅ Yes      |
+| **Purge**   | Stronger than clear. Uses cryptographic wiping, degaussing, etc.      | ✅ Yes      |
+| **Destroy** | Physically destroys the media (shred, incinerate, melt). Most secure. | ❌ No       |
+
+> 🧾 For paper records:
+
+- **Shredding**: Use a crosscut shredder.
+- **Pulping**: Breaks paper into pulp using chemicals.
+- **Incineration**: Burns paper (less eco-friendly).
+
+### 🛠️ Outsourced Options
+
+- Third-party **data destruction services** are available.
+- Must ensure they follow compliant, verifiable sanitization processes.
+
+### ⚠️ Important Notes
+
+- Data may **skip stages** (e.g., created and used in memory, then discarded).
+- Not all data reaches **archive** or **destroy** stages.
+- Still, this model helps ensure comprehensive **data governance** and **security planning**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
