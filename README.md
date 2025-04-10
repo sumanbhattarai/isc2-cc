@@ -3227,6 +3227,63 @@ Encryption protects **moving data** across networks, including:
   - **Data in transit** (network communications)
 - Decryption requires the **correct key**
 
+## 🔐 Symmetric vs. Asymmetric Cryptography
+
+Cryptographic algorithms fall into two major categories based on how they handle encryption and decryption keys: **symmetric** and **asymmetric**.
+
+### 🔁 Symmetric Cryptography (Shared Secret)
+
+- **Same key** used for both encryption and decryption.
+- Also called **shared secret encryption**.
+- Best for **speed** and **efficiency**, often used for bulk data encryption.
+
+#### ✅ Example
+
+If Alice encrypts a message using the key `apple`, Bob must use the same key `apple` to decrypt it.
+
+#### 🔐 Challenge
+
+Key distribution is difficult:
+
+- For **N** users, you need `N(N-1)/2` unique keys for private communication.
+  - 2 users → 1 key
+  - 3 users → 3 keys
+  - 10 users → 45 keys
+
+#### 🔑 Common Algorithm
+
+- **AES (Advanced Encryption Standard)** – widely used symmetric encryption algorithm
+
+---
+
+### 🔁 Asymmetric Cryptography (Public Key)
+
+- **Two different keys**: one for encryption and one for decryption
+- Also called **public key encryption**
+- Uses a **key pair**:
+  - **Public key**: freely shared
+  - **Private key**: kept secret
+
+#### ✅ How it works
+
+- Alice wants to send Bob a private message.
+- She encrypts it using **Bob’s public key**.
+- Only **Bob’s private key** (from the same key pair) can decrypt it.
+
+> ❗ Important: The keys must be from the **same pair** for encryption/decryption to work.
+
+#### 🔑 Common Algorithm
+
+- **RSA (Rivest-Shamir-Adleman)** – most common asymmetric encryption algorithm
+
+---
+
+### 🧠 Exam Tips
+
+- **Symmetric = One key** (AES is the example)
+- **Asymmetric = Key pair** (RSA is the example)
+- If a question asks which key to use for **confidentiality**, encrypt with the **recipient’s public key**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
