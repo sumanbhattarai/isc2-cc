@@ -3436,6 +3436,60 @@ The **data lifecycle** represents the journey that data takes within an organiza
 - Not all data reaches **archive** or **destroy** stages.
 - Still, this model helps ensure comprehensive **data governance** and **security planning**.
 
+## 🗂️ Data Classification
+
+Data classification is a critical practice that helps organizations **identify, manage, and secure data** based on its sensitivity and importance.
+
+### 🎯 Purpose
+
+- Helps determine appropriate **storage, handling, and access** controls.
+- Influences **data security policies**, such as encryption and disposal requirements.
+
+### 🧩 Common Classification Levels
+
+#### Military Example:
+
+- **Top Secret**
+- **Secret**
+- **Confidential**
+- **Unclassified**
+
+#### Business Example:
+
+- **Highly Sensitive** – e.g., trade secrets, PII, financial data
+- **Sensitive** – e.g., internal reports
+- **Internal** – e.g., employee communications
+- **Public** – e.g., marketing materials
+
+> 📌 **Tip**: Classifications are based on both **sensitivity** and **criticality** of the information.
+
+### 🏷️ Labeling Requirements
+
+- Classified information must be **clearly labeled**.
+- Ensures users handle data properly.
+- Labels can be physical (printed) or digital (metadata or headers).
+
+### 📦 Regulated Data Types
+
+| Type                                          | Description                                                    |
+| --------------------------------------------- | -------------------------------------------------------------- |
+| **PII** (Personally Identifiable Information) | Data that can identify an individual (e.g., name, SSN, email). |
+| **PHI** (Protected Health Information)        | Health records protected under HIPAA.                          |
+| **PCI** (Payment Card Information)            | Credit/debit card data protected under PCI-DSS.                |
+
+### 🧹 Secure Disposal Practices
+
+- **Important**: Simply deleting files ≠ secure deletion.
+- Risks of **data remnants**: old data recoverable unless securely wiped.
+
+#### Wiping Techniques:
+
+- Use **secure erase tools** to overwrite data.
+- Apply NIST-recommended sanitization methods.
+- Physical destruction when needed (e.g., shredding, degaussing).
+
+> 🔐 Proper classification and labeling ensure that sensitive information is always treated with the care it requires—whether it's being stored, shared, or destroyed.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
