@@ -3537,6 +3537,67 @@ Logging and monitoring are essential tools for **incident response, auditing, an
 - SIEMs offer **real-time analysis** and **incident detection** by unifying logs.
 - Effective monitoring enhances your organization's **security posture** and **response readiness**.
 
+# 👥 Social Awareness and Training
+
+## 🎭 Social Engineering
+
+Social engineering is a form of manipulation where attackers exploit **human psychology** rather than technical vulnerabilities to compromise security.
+
+### 🎯 Definition
+
+Social engineering attacks trick people into:
+
+- Disclosing sensitive information
+- Granting unauthorized access
+- Performing actions that compromise security
+
+It’s essentially **running a con** — digitally or in person.
+
+### 🧠 Psychological Principles Behind Social Engineering
+
+#### 🧑‍⚖️ Authority
+
+- People defer to perceived authority figures.
+- Example: A fake executive demands access or issues instructions with confidence and tone of authority.
+
+#### 😨 Intimidation
+
+- Threats, aggressive tone, or fear of consequences.
+- Example: “If you don’t reset this password right now, the CEO will fire you.”
+
+#### 🧑‍🤝‍🧑 Consensus (Social Proof)
+
+- People follow group behavior.
+- Example: “Everyone else approved this install, you’re the last one.”
+
+#### ⏳ Scarcity
+
+- Urgency created by limited availability.
+- Example: “This is the last upgraded router — do you want it or should I move on?”
+
+#### ⏱️ Urgency
+
+- Rushes the target into action without thinking.
+- Example: “The system will go down if this isn’t fixed in 10 minutes!”
+
+#### 😊 Familiarity / Liking
+
+- Builds trust through friendliness and flattery.
+- Example: “Hey, I think we met at last month’s IT mixer!”
+
+### 🛡️ Defense: Security Awareness
+
+The best protection against social engineering is **user education**.
+
+#### Teach users to:
+
+- **Verify** identities before granting access or information
+- Be **skeptical of urgent or pushy requests**
+- **Report** suspicious behavior
+- Understand that **manipulation tactics** like the six above are commonly used by attackers
+
+> ⚠️ **Wariness is a virtue.** Encourage a healthy level of suspicion in security-sensitive environments.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
