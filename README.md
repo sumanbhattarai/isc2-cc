@@ -3490,6 +3490,53 @@ Data classification is a critical practice that helps organizations **identify, 
 
 > 🔐 Proper classification and labeling ensure that sensitive information is always treated with the care it requires—whether it's being stored, shared, or destroyed.
 
+## 📝 Logging and Monitoring
+
+Logging and monitoring are essential tools for **incident response, auditing, and threat detection**. When configured properly, logs can provide critical insights into what happened, when, and who was involved.
+
+### 🎯 Goals of Logging
+
+- **Accountability**: Identify _who_ performed an action (e.g. user, IP, location).
+- **Traceability**: Link related events across systems and time.
+- **Auditability**: Maintain reliable records for investigations and compliance.
+
+### 🤖 The Role of SIEM
+
+**Security Information and Event Management (SIEM)** systems help organizations collect, store, and analyze log data from various sources.
+
+#### SIEM Capabilities
+
+1. **Centralized Log Collection**
+
+   - Aggregates logs from:
+     - Operating systems
+     - Firewalls
+     - Applications
+     - Network devices
+   - Ensures logs are **secure**, tamper-proof, and accessible.
+
+2. **Log Correlation**
+   - Uses AI and rule-based engines to **detect patterns** of malicious activity.
+   - Helps identify **security incidents** that may be missed when data is siloed.
+
+### 🧩 Example: Putting Puzzle Pieces Together
+
+| System     | Observation                     |
+| ---------- | ------------------------------- |
+| IDS        | Detects attack signature        |
+| Firewall   | Notes suspicious connection     |
+| Web Server | Logs possible SQL injection     |
+| DB Server  | Flags unusual data access       |
+| Router     | Logs outbound data exfiltration |
+
+➡️ **SIEM** connects the dots and flags a **coordinated attack**.
+
+### 🔄 Summary
+
+- Logging provides **visibility**, but sheer volume requires **automated tools**.
+- SIEMs offer **real-time analysis** and **incident detection** by unifying logs.
+- Effective monitoring enhances your organization's **security posture** and **response readiness**.
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
