@@ -3176,6 +3176,57 @@ Well-structured vendor agreements:
 - Prevent **misunderstandings**
 - Protect the organization from **security gaps** and **compliance issues**
 
+# 🔐 Data Security
+
+## 🔐 Understanding Encryption
+
+Encryption is a core security control that protects **confidentiality** by transforming readable data into an unreadable format using mathematical algorithms and secret keys.
+
+### 📜 Plain Text vs Ciphertext
+
+- **Plain Text**: Original readable data.
+- **Encryption Process**: Applies an **algorithm** + **encryption key** to the plain text.
+- **Ciphertext**: The result—an unreadable, scrambled version of the data.
+
+To **decrypt** the ciphertext, an authorized user must have:
+
+- The **decryption algorithm**
+- The **decryption key**
+
+If the **key** is unknown, the data remains protected and inaccessible.
+
+### 🧱 Key Components
+
+- **Encryption Algorithm**: Mathematical formula used to scramble data.
+- **Encryption Key**: Secret value (like a password) required to encrypt or decrypt.
+
+### 📂 Data at Rest
+
+Encryption protects **stored data**, such as:
+
+- Individual files
+- Full disks (e.g. BitLocker, FileVault)
+- Mobile device contents
+
+Even if a file is stolen, the data stays safe unless the attacker has the key.
+
+### 🌐 Data in Transit
+
+Encryption protects **moving data** across networks, including:
+
+- **HTTPS** (vs HTTP) encrypts web traffic
+- **VPNs** secure entire connections
+- **Encrypted emails** prevent message interception
+- **Mobile app communication** to servers
+
+### ✅ Summary for Exam
+
+- Encryption transforms **plain text → ciphertext**
+- Used to protect:
+  - **Data at rest** (stored files, disks, devices)
+  - **Data in transit** (network communications)
+- Decryption requires the **correct key**
+
 ---
 
 ✨ **Stay vigilant, stay secure, and ace your (ISC)² CC Exam!** 🚀
