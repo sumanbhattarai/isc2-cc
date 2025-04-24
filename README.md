@@ -3,33 +3,20 @@
 
 # 📖 Table of Contents
 
-- [🔐 (ISC)²: Overview and Ethical Code in Cybersecurity](#-isc-overview-and-ethical-code-in-cybersecurity)
-- [⚖️ CIA Triad: The Three Pillars of Cybersecurity](#️-cia-triad-the-three-pillars-of-cybersecurity)
-- [🛡️ Security Fundamentals: Access Control, Authentication, Privacy, and Password Management](#️-security-fundamentals-access-control-authentication-privacy-and-password-management)
-- [⚠️ Risk Analysis and Management](#️-risk-analysis-and-management)
-- [📜 Security Governance and Legal Regulations](#-security-governance-and-legal-regulations)
-- [📈 Business Continuity](#-business-continuity)
-- [🏹 Incident Response](#-incident-response)
-- [💥 Disaster Recovery](#-disaster-recovery)
-- [🏢 Physical Access Controls](#-physical-access-controls)
-- [🖥️ Logical Access Control](#️-logical-access-control)
-- [🌐 Computer Networks](#-computer-networks)
-- [🛑 Network Threats](#-network-threats)
-- [🕵️‍♂️ Threat Identification and Prevention](#-threat-identification-and-prevention)
-- [🏢 Network Security Infrastructure](#-network-security-infrastructure)
-
-# 🔐 (ISC)²: Overview and Ethical Code in Cybersecurity
-
-**🔍 What is (ISC)²?**
-
-(ISC)² (**International Information System Security Certification Consortium**) is a non-profit organization that provides cybersecurity certifications and professional development resources. It is best known for its **Certified Information Systems Security Professional (CISSP)** certification, along with other certifications like **CC, SSCP, CCSP, CSSLP, CISSP-ISSAP, CISSP-ISSEP, and CISSP-ISSMP**. (ISC)² focuses on improving cybersecurity standards and promoting ethical practices in the field.
-
-**⚖️ Code of Ethics Canons (Priority Order)**
-
-1️⃣ **Protect society**, the common good, necessary public trust, and confidence.  
-2️⃣ **Act honorably**, honestly, justly, responsibly, and legally.  
-3️⃣ **Provide diligent and competent service** to principals (clients, employers, or organizations).  
-4️⃣ **Advance and protect the profession**.
+- [🔐 Chapter 1: (ISC)² Overview and Ethical Code in Cybersecurity](./01-isc-overview/README.md)
+- [⚖️ Chapter 2: CIA Triad – The Three Pillars of Cybersecurity](./02-cia-triad/README.md)
+- [🛡️ Chapter 3: Security Fundamentals – Access Control, Authentication, Privacy, and Password Management](./03-security-fundamentals/README.md)
+- [⚠️ Chapter 4: Risk Analysis and Management](./04-risk-analysis/README.md)
+- [📜 Chapter 5: Security Governance and Legal Regulations](./05-security-governance/README.md)
+- [📈 Chapter 6: Business Continuity](./06-business-continuity/README.md)
+- [🏹 Chapter 7: Incident Response](./07-incident-response/README.md)
+- [💥 Chapter 8: Disaster Recovery](./08-disaster-recovery/README.md)
+- [🏢 Chapter 9: Physical Access Controls](./09-physical-access-controls/README.md)
+- [🖥️ Chapter 10: Logical Access Control](./10-logical-access-control/README.md)
+- [🌐 Chapter 11: Computer Networks](./11-computer-networks/README.md)
+- [🛑 Chapter 12: Network Threats](./12-network-threats/README.md)
+- [🕵️‍♂️ Chapter 13: Threat Identification and Prevention](./13-threat-identification/README.md)
+- [🏢 Chapter 14: Network Security Infrastructure](./14-network-security-infrastructure/README.md)
 
 # ⚖️ CIA Triad: The Three Pillars of Cybersecurity
 
