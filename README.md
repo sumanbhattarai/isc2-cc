@@ -1,5 +1,5 @@
 > **Note: 🎯 Key Insights for Success - (ISC)² CC Exam Cheatsheet**  
-> This cheatsheet provides a collection of essential tips, strategies, and key concepts designed to guide you through the (ISC)² Certified in Cybersecurity (CC) exam. By following these helpful pointers, you can enhance your preparation and increase your chances of passing the exam.
+> This cheatsheet provides a collection of essential tips, strategies, and key concepts designed to guide you through out the (ISC)² Certified in Cybersecurity (CC) exam. By following these helpful pointers, you can enhance your preparation and increase your chances of passing the exam.
 
 # 📖 Table of Contents
 
